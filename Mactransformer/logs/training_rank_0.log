@@ -1,0 +1,1604 @@
+2025-08-10 06:44:21,857 - Rank 0 - Starting training on rank 0
+2025-08-10 06:58:59,368 - Rank 0 - Starting training
+2025-08-10 06:59:20,020 - Rank 0 - No checkpoint found at checkpoints/macformer_checkpoint.pth, starting from scratch
+2025-08-10 07:01:53,030 - Rank 0 - Train Loss: 1.6610, Train Accuracy: 0.4847
+2025-08-10 07:02:01,462 - Rank 0 - Validation Loss: 1.3295, Validation Accuracy: 0.5535
+2025-08-10 07:04:16,200 - Rank 0 - Starting training
+2025-08-10 07:04:37,657 - Rank 0 - No checkpoint found at checkpoints/macformer_checkpoint.pth, starting from scratch
+2025-08-10 07:06:58,020 - Rank 0 - Train Loss: 1.6610, Train Accuracy: 0.4847
+2025-08-10 07:07:08,161 - Rank 0 - Validation Loss: 1.3297, Validation Accuracy: 0.5535
+2025-08-10 07:07:08,272 - Rank 0 - Saved best model with val_loss 1.3297 to checkpoints/macformer_best_model.pth
+2025-08-10 07:09:22,888 - Rank 0 - Train Loss: 1.2895, Train Accuracy: 0.5608
+2025-08-10 07:09:36,074 - Rank 0 - Validation Loss: 1.2070, Validation Accuracy: 0.5803
+2025-08-10 07:09:36,222 - Rank 0 - Saved best model with val_loss 1.2070 to checkpoints/macformer_best_model.pth
+2025-08-10 07:12:04,863 - Rank 0 - Train Loss: 1.1882, Train Accuracy: 0.5855
+2025-08-10 07:12:16,922 - Rank 0 - Validation Loss: 1.1399, Validation Accuracy: 0.5988
+2025-08-10 07:12:17,092 - Rank 0 - Saved best model with val_loss 1.1399 to checkpoints/macformer_best_model.pth
+2025-08-10 07:12:17,195 - Rank 0 - Saved checkpoint at epoch 3 to checkpoints/macformer_checkpoint_epoch_3.pth
+2025-08-10 07:14:45,591 - Rank 0 - Train Loss: 1.1247, Train Accuracy: 0.6026
+2025-08-10 07:14:57,879 - Rank 0 - Validation Loss: 1.0848, Validation Accuracy: 0.6135
+2025-08-10 07:14:58,009 - Rank 0 - Saved best model with val_loss 1.0848 to checkpoints/macformer_best_model.pth
+2025-08-10 07:17:26,316 - Rank 0 - Train Loss: 1.0743, Train Accuracy: 0.6158
+2025-08-10 07:17:38,648 - Rank 0 - Validation Loss: 1.0250, Validation Accuracy: 0.6306
+2025-08-10 07:17:38,853 - Rank 0 - Saved best model with val_loss 1.0250 to checkpoints/macformer_best_model.pth
+2025-08-10 07:20:10,869 - Rank 0 - Train Loss: 1.0323, Train Accuracy: 0.6278
+2025-08-10 07:20:23,568 - Rank 0 - Validation Loss: 0.9907, Validation Accuracy: 0.6408
+2025-08-10 07:20:23,696 - Rank 0 - Saved best model with val_loss 0.9907 to checkpoints/macformer_best_model.pth
+2025-08-10 07:20:23,809 - Rank 0 - Saved checkpoint at epoch 6 to checkpoints/macformer_checkpoint_epoch_6.pth
+2025-08-10 07:23:00,473 - Rank 0 - Train Loss: 0.9988, Train Accuracy: 0.6372
+2025-08-10 07:23:15,206 - Rank 0 - Validation Loss: 0.9473, Validation Accuracy: 0.6536
+2025-08-10 07:23:15,354 - Rank 0 - Saved best model with val_loss 0.9473 to checkpoints/macformer_best_model.pth
+2025-08-10 07:26:16,576 - Rank 0 - Train Loss: 0.9659, Train Accuracy: 0.6465
+2025-08-10 07:26:31,026 - Rank 0 - Validation Loss: 0.9172, Validation Accuracy: 0.6641
+2025-08-10 07:26:31,187 - Rank 0 - Saved best model with val_loss 0.9172 to checkpoints/macformer_best_model.pth
+2025-08-10 07:29:30,751 - Rank 0 - Train Loss: 0.9398, Train Accuracy: 0.6547
+2025-08-10 07:29:41,898 - Rank 0 - Validation Loss: 0.8844, Validation Accuracy: 0.6740
+2025-08-10 07:29:42,073 - Rank 0 - Saved best model with val_loss 0.8844 to checkpoints/macformer_best_model.pth
+2025-08-10 07:29:42,191 - Rank 0 - Saved checkpoint at epoch 9 to checkpoints/macformer_checkpoint_epoch_9.pth
+2025-08-10 07:32:29,072 - Rank 0 - Train Loss: 0.9142, Train Accuracy: 0.6627
+2025-08-10 07:32:39,858 - Rank 0 - Validation Loss: 0.8883, Validation Accuracy: 0.6726
+2025-08-10 07:34:47,487 - Rank 0 - Train Loss: 0.8923, Train Accuracy: 0.6697
+2025-08-10 07:34:58,618 - Rank 0 - Validation Loss: 0.8537, Validation Accuracy: 0.6850
+2025-08-10 07:34:58,750 - Rank 0 - Saved best model with val_loss 0.8537 to checkpoints/macformer_best_model.pth
+2025-08-10 07:37:04,036 - Rank 0 - Train Loss: 0.8751, Train Accuracy: 0.6749
+2025-08-10 07:37:14,988 - Rank 0 - Validation Loss: 0.8204, Validation Accuracy: 0.6942
+2025-08-10 07:37:15,155 - Rank 0 - Saved best model with val_loss 0.8204 to checkpoints/macformer_best_model.pth
+2025-08-10 07:37:15,262 - Rank 0 - Saved checkpoint at epoch 12 to checkpoints/macformer_checkpoint_epoch_12.pth
+2025-08-10 07:39:20,762 - Rank 0 - Train Loss: 0.8601, Train Accuracy: 0.6804
+2025-08-10 07:39:30,914 - Rank 0 - Validation Loss: 0.8367, Validation Accuracy: 0.6924
+2025-08-10 07:41:37,015 - Rank 0 - Train Loss: 0.8407, Train Accuracy: 0.6864
+2025-08-10 07:41:47,387 - Rank 0 - Validation Loss: 0.7867, Validation Accuracy: 0.7063
+2025-08-10 07:41:47,518 - Rank 0 - Saved best model with val_loss 0.7867 to checkpoints/macformer_best_model.pth
+2025-08-10 07:43:52,431 - Rank 0 - Train Loss: 0.8217, Train Accuracy: 0.6924
+2025-08-10 07:44:02,587 - Rank 0 - Validation Loss: 0.7628, Validation Accuracy: 0.7138
+2025-08-10 07:44:02,751 - Rank 0 - Saved best model with val_loss 0.7628 to checkpoints/macformer_best_model.pth
+2025-08-10 07:44:02,870 - Rank 0 - Saved checkpoint at epoch 15 to checkpoints/macformer_checkpoint_epoch_15.pth
+2025-08-10 07:46:15,978 - Rank 0 - Train Loss: 0.8084, Train Accuracy: 0.6970
+2025-08-10 07:46:27,114 - Rank 0 - Validation Loss: 0.7618, Validation Accuracy: 0.7156
+2025-08-10 07:46:27,303 - Rank 0 - Saved best model with val_loss 0.7618 to checkpoints/macformer_best_model.pth
+2025-08-10 07:49:41,669 - Rank 0 - Train Loss: 0.7938, Train Accuracy: 0.7019
+2025-08-10 07:49:50,921 - Rank 0 - Validation Loss: 0.7428, Validation Accuracy: 0.7212
+2025-08-10 07:49:51,127 - Rank 0 - Saved best model with val_loss 0.7428 to checkpoints/macformer_best_model.pth
+2025-08-10 07:53:30,813 - Rank 0 - Train Loss: 0.7830, Train Accuracy: 0.7056
+2025-08-10 07:53:39,910 - Rank 0 - Validation Loss: 0.7214, Validation Accuracy: 0.7276
+2025-08-10 07:53:40,070 - Rank 0 - Saved best model with val_loss 0.7214 to checkpoints/macformer_best_model.pth
+2025-08-10 07:53:40,183 - Rank 0 - Saved checkpoint at epoch 18 to checkpoints/macformer_checkpoint_epoch_18.pth
+2025-08-10 07:56:56,606 - Rank 0 - Train Loss: 0.7698, Train Accuracy: 0.7097
+2025-08-10 07:57:05,672 - Rank 0 - Validation Loss: 0.7114, Validation Accuracy: 0.7312
+2025-08-10 07:57:05,842 - Rank 0 - Saved best model with val_loss 0.7114 to checkpoints/macformer_best_model.pth
+2025-08-10 07:59:17,734 - Rank 0 - Train Loss: 0.7592, Train Accuracy: 0.7136
+2025-08-10 07:59:27,364 - Rank 0 - Validation Loss: 0.6931, Validation Accuracy: 0.7370
+2025-08-10 07:59:27,525 - Rank 0 - Saved best model with val_loss 0.6931 to checkpoints/macformer_best_model.pth
+2025-08-10 08:01:23,777 - Rank 0 - Train Loss: 0.7480, Train Accuracy: 0.7171
+2025-08-10 08:01:32,446 - Rank 0 - Validation Loss: 0.6961, Validation Accuracy: 0.7358
+2025-08-10 08:01:32,561 - Rank 0 - Saved checkpoint at epoch 21 to checkpoints/macformer_checkpoint_epoch_21.pth
+2025-08-10 08:03:31,364 - Rank 0 - Train Loss: 0.7378, Train Accuracy: 0.7205
+2025-08-10 08:03:40,607 - Rank 0 - Validation Loss: 0.6811, Validation Accuracy: 0.7404
+2025-08-10 08:03:40,806 - Rank 0 - Saved best model with val_loss 0.6811 to checkpoints/macformer_best_model.pth
+2025-08-10 08:05:38,115 - Rank 0 - Train Loss: 0.7257, Train Accuracy: 0.7250
+2025-08-10 08:05:47,030 - Rank 0 - Validation Loss: 0.6709, Validation Accuracy: 0.7440
+2025-08-10 08:05:47,196 - Rank 0 - Saved best model with val_loss 0.6709 to checkpoints/macformer_best_model.pth
+2025-08-10 08:07:45,493 - Rank 0 - Train Loss: 0.7193, Train Accuracy: 0.7264
+2025-08-10 08:07:54,702 - Rank 0 - Validation Loss: 0.6680, Validation Accuracy: 0.7459
+2025-08-10 08:07:54,848 - Rank 0 - Saved best model with val_loss 0.6680 to checkpoints/macformer_best_model.pth
+2025-08-10 08:07:54,954 - Rank 0 - Saved checkpoint at epoch 24 to checkpoints/macformer_checkpoint_epoch_24.pth
+2025-08-10 08:09:53,369 - Rank 0 - Train Loss: 0.7116, Train Accuracy: 0.7291
+2025-08-10 08:10:02,115 - Rank 0 - Validation Loss: 0.6681, Validation Accuracy: 0.7466
+2025-08-10 08:12:00,388 - Rank 0 - Train Loss: 0.6995, Train Accuracy: 0.7330
+2025-08-10 08:12:09,831 - Rank 0 - Validation Loss: 0.6356, Validation Accuracy: 0.7566
+2025-08-10 08:12:09,960 - Rank 0 - Saved best model with val_loss 0.6356 to checkpoints/macformer_best_model.pth
+2025-08-10 08:14:02,772 - Rank 0 - Train Loss: 0.6911, Train Accuracy: 0.7360
+2025-08-10 08:14:11,799 - Rank 0 - Validation Loss: 0.6315, Validation Accuracy: 0.7575
+2025-08-10 08:14:11,958 - Rank 0 - Saved best model with val_loss 0.6315 to checkpoints/macformer_best_model.pth
+2025-08-10 08:14:12,065 - Rank 0 - Saved checkpoint at epoch 27 to checkpoints/macformer_checkpoint_epoch_27.pth
+2025-08-10 08:16:09,801 - Rank 0 - Train Loss: 0.6855, Train Accuracy: 0.7381
+2025-08-10 08:16:18,336 - Rank 0 - Validation Loss: 0.6273, Validation Accuracy: 0.7591
+2025-08-10 08:16:18,520 - Rank 0 - Saved best model with val_loss 0.6273 to checkpoints/macformer_best_model.pth
+2025-08-10 08:18:15,462 - Rank 0 - Train Loss: 0.6756, Train Accuracy: 0.7411
+2025-08-10 08:18:24,300 - Rank 0 - Validation Loss: 0.6196, Validation Accuracy: 0.7615
+2025-08-10 08:18:24,437 - Rank 0 - Saved best model with val_loss 0.6196 to checkpoints/macformer_best_model.pth
+2025-08-10 08:20:23,299 - Rank 0 - Train Loss: 0.6708, Train Accuracy: 0.7428
+2025-08-10 08:20:32,370 - Rank 0 - Validation Loss: 0.6085, Validation Accuracy: 0.7652
+2025-08-10 08:20:32,502 - Rank 0 - Saved best model with val_loss 0.6085 to checkpoints/macformer_best_model.pth
+2025-08-10 08:20:32,606 - Rank 0 - Saved checkpoint at epoch 30 to checkpoints/macformer_checkpoint_epoch_30.pth
+2025-08-10 08:22:30,468 - Rank 0 - Train Loss: 0.6608, Train Accuracy: 0.7462
+2025-08-10 08:22:39,681 - Rank 0 - Validation Loss: 0.6046, Validation Accuracy: 0.7660
+2025-08-10 08:22:39,813 - Rank 0 - Saved best model with val_loss 0.6046 to checkpoints/macformer_best_model.pth
+2025-08-10 08:24:42,081 - Rank 0 - Train Loss: 0.6560, Train Accuracy: 0.7475
+2025-08-10 08:24:52,993 - Rank 0 - Validation Loss: 0.5951, Validation Accuracy: 0.7693
+2025-08-10 08:24:53,123 - Rank 0 - Saved best model with val_loss 0.5951 to checkpoints/macformer_best_model.pth
+2025-08-10 08:26:58,281 - Rank 0 - Train Loss: 0.6491, Train Accuracy: 0.7498
+2025-08-10 08:27:08,821 - Rank 0 - Validation Loss: 0.5932, Validation Accuracy: 0.7698
+2025-08-10 08:27:08,964 - Rank 0 - Saved best model with val_loss 0.5932 to checkpoints/macformer_best_model.pth
+2025-08-10 08:27:09,075 - Rank 0 - Saved checkpoint at epoch 33 to checkpoints/macformer_checkpoint_epoch_33.pth
+2025-08-10 08:29:10,473 - Rank 0 - Train Loss: 0.6427, Train Accuracy: 0.7522
+2025-08-10 08:29:21,360 - Rank 0 - Validation Loss: 0.5825, Validation Accuracy: 0.7737
+2025-08-10 08:29:21,516 - Rank 0 - Saved best model with val_loss 0.5825 to checkpoints/macformer_best_model.pth
+2025-08-10 08:31:23,819 - Rank 0 - Train Loss: 0.6379, Train Accuracy: 0.7534
+2025-08-10 08:31:35,261 - Rank 0 - Validation Loss: 0.5855, Validation Accuracy: 0.7721
+2025-08-10 08:33:40,665 - Rank 0 - Train Loss: 0.6278, Train Accuracy: 0.7572
+2025-08-10 08:33:51,447 - Rank 0 - Validation Loss: 0.5590, Validation Accuracy: 0.7819
+2025-08-10 08:33:51,609 - Rank 0 - Saved best model with val_loss 0.5590 to checkpoints/macformer_best_model.pth
+2025-08-10 08:33:51,718 - Rank 0 - Saved checkpoint at epoch 36 to checkpoints/macformer_checkpoint_epoch_36.pth
+2025-08-10 08:35:56,410 - Rank 0 - Train Loss: 0.6286, Train Accuracy: 0.7568
+2025-08-10 08:36:08,027 - Rank 0 - Validation Loss: 0.5600, Validation Accuracy: 0.7811
+2025-08-10 08:38:12,973 - Rank 0 - Train Loss: 0.6196, Train Accuracy: 0.7596
+2025-08-10 08:38:23,881 - Rank 0 - Validation Loss: 0.5654, Validation Accuracy: 0.7780
+2025-08-10 08:40:28,421 - Rank 0 - Train Loss: 0.6150, Train Accuracy: 0.7615
+2025-08-10 08:40:39,164 - Rank 0 - Validation Loss: 0.5504, Validation Accuracy: 0.7842
+2025-08-10 08:40:39,300 - Rank 0 - Saved best model with val_loss 0.5504 to checkpoints/macformer_best_model.pth
+2025-08-10 08:40:39,408 - Rank 0 - Saved checkpoint at epoch 39 to checkpoints/macformer_checkpoint_epoch_39.pth
+2025-08-10 08:42:46,380 - Rank 0 - Train Loss: 0.6080, Train Accuracy: 0.7640
+2025-08-10 08:42:55,473 - Rank 0 - Validation Loss: 0.5445, Validation Accuracy: 0.7860
+2025-08-10 08:42:55,598 - Rank 0 - Saved best model with val_loss 0.5445 to checkpoints/macformer_best_model.pth
+2025-08-10 08:44:49,459 - Rank 0 - Train Loss: 0.6027, Train Accuracy: 0.7654
+2025-08-10 08:44:57,911 - Rank 0 - Validation Loss: 0.5460, Validation Accuracy: 0.7857
+2025-08-10 08:46:56,893 - Rank 0 - Train Loss: 0.5996, Train Accuracy: 0.7662
+2025-08-10 08:47:06,321 - Rank 0 - Validation Loss: 0.5384, Validation Accuracy: 0.7881
+2025-08-10 08:47:06,463 - Rank 0 - Saved best model with val_loss 0.5384 to checkpoints/macformer_best_model.pth
+2025-08-10 08:47:06,572 - Rank 0 - Saved checkpoint at epoch 42 to checkpoints/macformer_checkpoint_epoch_42.pth
+2025-08-10 08:49:05,236 - Rank 0 - Train Loss: 0.5942, Train Accuracy: 0.7686
+2025-08-10 08:49:15,601 - Rank 0 - Validation Loss: 0.5330, Validation Accuracy: 0.7902
+2025-08-10 08:49:15,779 - Rank 0 - Saved best model with val_loss 0.5330 to checkpoints/macformer_best_model.pth
+2025-08-10 08:51:20,025 - Rank 0 - Train Loss: 0.5872, Train Accuracy: 0.7708
+2025-08-10 08:51:30,199 - Rank 0 - Validation Loss: 0.5284, Validation Accuracy: 0.7915
+2025-08-10 08:51:30,329 - Rank 0 - Saved best model with val_loss 0.5284 to checkpoints/macformer_best_model.pth
+2025-08-10 08:53:43,381 - Rank 0 - Train Loss: 0.5833, Train Accuracy: 0.7726
+2025-08-10 08:53:55,087 - Rank 0 - Validation Loss: 0.5289, Validation Accuracy: 0.7913
+2025-08-10 08:53:55,203 - Rank 0 - Saved checkpoint at epoch 45 to checkpoints/macformer_checkpoint_epoch_45.pth
+2025-08-10 08:55:59,322 - Rank 0 - Train Loss: 0.5770, Train Accuracy: 0.7742
+2025-08-10 08:56:10,508 - Rank 0 - Validation Loss: 0.5279, Validation Accuracy: 0.7913
+2025-08-10 08:56:10,681 - Rank 0 - Saved best model with val_loss 0.5279 to checkpoints/macformer_best_model.pth
+2025-08-10 08:58:40,944 - Rank 0 - Train Loss: 0.5749, Train Accuracy: 0.7750
+2025-08-10 08:58:50,094 - Rank 0 - Validation Loss: 0.5121, Validation Accuracy: 0.7974
+2025-08-10 08:58:50,310 - Rank 0 - Saved best model with val_loss 0.5121 to checkpoints/macformer_best_model.pth
+2025-08-10 09:00:58,797 - Rank 0 - Train Loss: 0.5713, Train Accuracy: 0.7761
+2025-08-10 09:01:09,366 - Rank 0 - Validation Loss: 0.5085, Validation Accuracy: 0.7982
+2025-08-10 09:01:09,498 - Rank 0 - Saved best model with val_loss 0.5085 to checkpoints/macformer_best_model.pth
+2025-08-10 09:01:09,604 - Rank 0 - Saved checkpoint at epoch 48 to checkpoints/macformer_checkpoint_epoch_48.pth
+2025-08-10 09:03:15,079 - Rank 0 - Train Loss: 0.5671, Train Accuracy: 0.7772
+2025-08-10 09:03:25,727 - Rank 0 - Validation Loss: 0.5027, Validation Accuracy: 0.8007
+2025-08-10 09:03:25,866 - Rank 0 - Saved best model with val_loss 0.5027 to checkpoints/macformer_best_model.pth
+2025-08-10 09:05:28,241 - Rank 0 - Train Loss: 0.5636, Train Accuracy: 0.7784
+2025-08-10 09:05:38,730 - Rank 0 - Validation Loss: 0.5000, Validation Accuracy: 0.8018
+2025-08-10 09:05:38,862 - Rank 0 - Saved best model with val_loss 0.5000 to checkpoints/macformer_best_model.pth
+2025-08-10 09:07:43,352 - Rank 0 - Train Loss: 0.5600, Train Accuracy: 0.7794
+2025-08-10 09:07:54,028 - Rank 0 - Validation Loss: 0.4993, Validation Accuracy: 0.8017
+2025-08-10 09:07:54,169 - Rank 0 - Saved best model with val_loss 0.4993 to checkpoints/macformer_best_model.pth
+2025-08-10 09:07:54,277 - Rank 0 - Saved checkpoint at epoch 51 to checkpoints/macformer_checkpoint_epoch_51.pth
+2025-08-10 09:09:56,971 - Rank 0 - Train Loss: 0.5553, Train Accuracy: 0.7813
+2025-08-10 09:10:07,017 - Rank 0 - Validation Loss: 0.4941, Validation Accuracy: 0.8036
+2025-08-10 09:10:07,214 - Rank 0 - Saved best model with val_loss 0.4941 to checkpoints/macformer_best_model.pth
+2025-08-10 09:12:11,774 - Rank 0 - Train Loss: 0.5534, Train Accuracy: 0.7823
+2025-08-10 09:12:21,647 - Rank 0 - Validation Loss: 0.4963, Validation Accuracy: 0.8026
+2025-08-10 09:14:23,060 - Rank 0 - Train Loss: 0.5485, Train Accuracy: 0.7840
+2025-08-10 09:14:33,102 - Rank 0 - Validation Loss: 0.4932, Validation Accuracy: 0.8037
+2025-08-10 09:14:33,294 - Rank 0 - Saved best model with val_loss 0.4932 to checkpoints/macformer_best_model.pth
+2025-08-10 09:14:33,414 - Rank 0 - Saved checkpoint at epoch 54 to checkpoints/macformer_checkpoint_epoch_54.pth
+2025-08-10 09:16:36,990 - Rank 0 - Train Loss: 0.5458, Train Accuracy: 0.7844
+2025-08-10 09:16:47,009 - Rank 0 - Validation Loss: 0.4926, Validation Accuracy: 0.8037
+2025-08-10 09:16:47,209 - Rank 0 - Saved best model with val_loss 0.4926 to checkpoints/macformer_best_model.pth
+2025-08-10 09:18:52,874 - Rank 0 - Train Loss: 0.5417, Train Accuracy: 0.7861
+2025-08-10 09:19:03,378 - Rank 0 - Validation Loss: 0.4780, Validation Accuracy: 0.8092
+2025-08-10 09:19:03,514 - Rank 0 - Saved best model with val_loss 0.4780 to checkpoints/macformer_best_model.pth
+2025-08-10 09:21:09,090 - Rank 0 - Train Loss: 0.5381, Train Accuracy: 0.7875
+2025-08-10 09:21:19,483 - Rank 0 - Validation Loss: 0.4836, Validation Accuracy: 0.8073
+2025-08-10 09:21:19,597 - Rank 0 - Saved checkpoint at epoch 57 to checkpoints/macformer_checkpoint_epoch_57.pth
+2025-08-10 09:23:53,615 - Rank 0 - Train Loss: 0.5354, Train Accuracy: 0.7884
+2025-08-10 09:24:02,842 - Rank 0 - Validation Loss: 0.4786, Validation Accuracy: 0.8088
+2025-08-10 09:26:40,636 - Rank 0 - Train Loss: 0.5327, Train Accuracy: 0.7892
+2025-08-10 09:26:49,635 - Rank 0 - Validation Loss: 0.4747, Validation Accuracy: 0.8099
+2025-08-10 09:26:49,875 - Rank 0 - Saved best model with val_loss 0.4747 to checkpoints/macformer_best_model.pth
+2025-08-10 09:29:28,175 - Rank 0 - Train Loss: 0.5314, Train Accuracy: 0.7898
+2025-08-10 09:29:37,146 - Rank 0 - Validation Loss: 0.4934, Validation Accuracy: 0.8031
+2025-08-10 09:29:37,266 - Rank 0 - Saved checkpoint at epoch 60 to checkpoints/macformer_checkpoint_epoch_60.pth
+2025-08-10 09:32:01,671 - Rank 0 - Train Loss: 0.5259, Train Accuracy: 0.7915
+2025-08-10 09:32:09,582 - Rank 0 - Validation Loss: 0.4668, Validation Accuracy: 0.8128
+2025-08-10 09:32:09,751 - Rank 0 - Saved best model with val_loss 0.4668 to checkpoints/macformer_best_model.pth
+2025-08-10 09:34:08,767 - Rank 0 - Train Loss: 0.5205, Train Accuracy: 0.7936
+2025-08-10 09:34:16,912 - Rank 0 - Validation Loss: 0.4773, Validation Accuracy: 0.8087
+2025-08-10 09:36:15,398 - Rank 0 - Train Loss: 0.5217, Train Accuracy: 0.7930
+2025-08-10 09:36:24,127 - Rank 0 - Validation Loss: 0.4573, Validation Accuracy: 0.8165
+2025-08-10 09:36:24,302 - Rank 0 - Saved best model with val_loss 0.4573 to checkpoints/macformer_best_model.pth
+2025-08-10 09:36:24,410 - Rank 0 - Saved checkpoint at epoch 63 to checkpoints/macformer_checkpoint_epoch_63.pth
+2025-08-10 09:38:23,811 - Rank 0 - Train Loss: 0.5158, Train Accuracy: 0.7946
+2025-08-10 09:38:32,838 - Rank 0 - Validation Loss: 0.4642, Validation Accuracy: 0.8137
+2025-08-10 09:40:32,457 - Rank 0 - Train Loss: 0.5142, Train Accuracy: 0.7952
+2025-08-10 09:40:41,345 - Rank 0 - Validation Loss: 0.4548, Validation Accuracy: 0.8172
+2025-08-10 09:40:41,513 - Rank 0 - Saved best model with val_loss 0.4548 to checkpoints/macformer_best_model.pth
+2025-08-10 09:42:32,247 - Rank 0 - Train Loss: 0.5088, Train Accuracy: 0.7973
+2025-08-10 09:42:40,746 - Rank 0 - Validation Loss: 0.4495, Validation Accuracy: 0.8191
+2025-08-10 09:42:40,880 - Rank 0 - Saved best model with val_loss 0.4495 to checkpoints/macformer_best_model.pth
+2025-08-10 09:42:40,993 - Rank 0 - Saved checkpoint at epoch 66 to checkpoints/macformer_checkpoint_epoch_66.pth
+2025-08-10 09:44:38,833 - Rank 0 - Train Loss: 0.5073, Train Accuracy: 0.7978
+2025-08-10 09:44:47,590 - Rank 0 - Validation Loss: 0.4486, Validation Accuracy: 0.8193
+2025-08-10 09:44:47,728 - Rank 0 - Saved best model with val_loss 0.4486 to checkpoints/macformer_best_model.pth
+2025-08-10 09:46:46,369 - Rank 0 - Train Loss: 0.5053, Train Accuracy: 0.7985
+2025-08-10 09:46:55,500 - Rank 0 - Validation Loss: 0.4494, Validation Accuracy: 0.8187
+2025-08-10 09:48:54,748 - Rank 0 - Train Loss: 0.5039, Train Accuracy: 0.7991
+2025-08-10 09:49:03,662 - Rank 0 - Validation Loss: 0.4459, Validation Accuracy: 0.8202
+2025-08-10 09:49:03,824 - Rank 0 - Saved best model with val_loss 0.4459 to checkpoints/macformer_best_model.pth
+2025-08-10 09:49:03,933 - Rank 0 - Saved checkpoint at epoch 69 to checkpoints/macformer_checkpoint_epoch_69.pth
+2025-08-10 09:51:01,610 - Rank 0 - Train Loss: 0.5000, Train Accuracy: 0.8005
+2025-08-10 09:51:09,084 - Rank 0 - Validation Loss: 0.4463, Validation Accuracy: 0.8195
+2025-08-10 09:53:07,557 - Rank 0 - Train Loss: 0.4966, Train Accuracy: 0.8014
+2025-08-10 09:53:16,456 - Rank 0 - Validation Loss: 0.4421, Validation Accuracy: 0.8213
+2025-08-10 09:53:16,625 - Rank 0 - Saved best model with val_loss 0.4421 to checkpoints/macformer_best_model.pth
+2025-08-10 09:55:15,958 - Rank 0 - Train Loss: 0.4966, Train Accuracy: 0.8015
+2025-08-10 09:55:24,339 - Rank 0 - Validation Loss: 0.4379, Validation Accuracy: 0.8231
+2025-08-10 09:55:24,472 - Rank 0 - Saved best model with val_loss 0.4379 to checkpoints/macformer_best_model.pth
+2025-08-10 09:55:24,580 - Rank 0 - Saved checkpoint at epoch 72 to checkpoints/macformer_checkpoint_epoch_72.pth
+2025-08-10 09:57:18,200 - Rank 0 - Train Loss: 0.4936, Train Accuracy: 0.8025
+2025-08-10 09:57:27,003 - Rank 0 - Validation Loss: 0.4359, Validation Accuracy: 0.8234
+2025-08-10 09:57:27,132 - Rank 0 - Saved best model with val_loss 0.4359 to checkpoints/macformer_best_model.pth
+2025-08-10 09:59:26,431 - Rank 0 - Train Loss: 0.4896, Train Accuracy: 0.8042
+2025-08-10 09:59:35,397 - Rank 0 - Validation Loss: 0.4350, Validation Accuracy: 0.8241
+2025-08-10 09:59:35,572 - Rank 0 - Saved best model with val_loss 0.4350 to checkpoints/macformer_best_model.pth
+2025-08-10 10:01:32,963 - Rank 0 - Train Loss: 0.4873, Train Accuracy: 0.8051
+2025-08-10 10:01:41,734 - Rank 0 - Validation Loss: 0.4302, Validation Accuracy: 0.8257
+2025-08-10 10:01:41,921 - Rank 0 - Saved best model with val_loss 0.4302 to checkpoints/macformer_best_model.pth
+2025-08-10 10:01:42,047 - Rank 0 - Saved checkpoint at epoch 75 to checkpoints/macformer_checkpoint_epoch_75.pth
+2025-08-10 10:03:40,777 - Rank 0 - Train Loss: 0.4850, Train Accuracy: 0.8055
+2025-08-10 10:03:50,033 - Rank 0 - Validation Loss: 0.4365, Validation Accuracy: 0.8230
+2025-08-10 10:05:48,883 - Rank 0 - Train Loss: 0.4837, Train Accuracy: 0.8061
+2025-08-10 10:05:57,721 - Rank 0 - Validation Loss: 0.4250, Validation Accuracy: 0.8268
+2025-08-10 10:05:57,861 - Rank 0 - Saved best model with val_loss 0.4250 to checkpoints/macformer_best_model.pth
+2025-08-10 10:07:57,171 - Rank 0 - Train Loss: 0.4795, Train Accuracy: 0.8075
+2025-08-10 10:08:05,962 - Rank 0 - Validation Loss: 0.4262, Validation Accuracy: 0.8263
+2025-08-10 10:08:06,072 - Rank 0 - Saved checkpoint at epoch 78 to checkpoints/macformer_checkpoint_epoch_78.pth
+2025-08-10 10:10:02,978 - Rank 0 - Train Loss: 0.4797, Train Accuracy: 0.8075
+2025-08-10 10:10:11,605 - Rank 0 - Validation Loss: 0.4234, Validation Accuracy: 0.8277
+2025-08-10 10:10:11,783 - Rank 0 - Saved best model with val_loss 0.4234 to checkpoints/macformer_best_model.pth
+2025-08-10 10:12:05,169 - Rank 0 - Train Loss: 0.4765, Train Accuracy: 0.8087
+2025-08-10 10:12:14,183 - Rank 0 - Validation Loss: 0.4294, Validation Accuracy: 0.8252
+2025-08-10 10:14:16,084 - Rank 0 - Train Loss: 0.4741, Train Accuracy: 0.8095
+2025-08-10 10:14:25,376 - Rank 0 - Validation Loss: 0.4198, Validation Accuracy: 0.8286
+2025-08-10 10:14:25,505 - Rank 0 - Saved best model with val_loss 0.4198 to checkpoints/macformer_best_model.pth
+2025-08-10 10:14:25,614 - Rank 0 - Saved checkpoint at epoch 81 to checkpoints/macformer_checkpoint_epoch_81.pth
+2025-08-10 10:16:23,204 - Rank 0 - Train Loss: 0.4716, Train Accuracy: 0.8106
+2025-08-10 10:16:31,897 - Rank 0 - Validation Loss: 0.4180, Validation Accuracy: 0.8294
+2025-08-10 10:16:32,047 - Rank 0 - Saved best model with val_loss 0.4180 to checkpoints/macformer_best_model.pth
+2025-08-10 10:18:30,598 - Rank 0 - Train Loss: 0.4707, Train Accuracy: 0.8103
+2025-08-10 10:18:39,415 - Rank 0 - Validation Loss: 0.4128, Validation Accuracy: 0.8314
+2025-08-10 10:18:39,582 - Rank 0 - Saved best model with val_loss 0.4128 to checkpoints/macformer_best_model.pth
+2025-08-10 10:20:38,139 - Rank 0 - Train Loss: 0.4688, Train Accuracy: 0.8113
+2025-08-10 10:20:47,107 - Rank 0 - Validation Loss: 0.4126, Validation Accuracy: 0.8316
+2025-08-10 10:20:47,275 - Rank 0 - Saved best model with val_loss 0.4126 to checkpoints/macformer_best_model.pth
+2025-08-10 10:20:47,382 - Rank 0 - Saved checkpoint at epoch 84 to checkpoints/macformer_checkpoint_epoch_84.pth
+2025-08-10 10:22:46,554 - Rank 0 - Train Loss: 0.4637, Train Accuracy: 0.8127
+2025-08-10 10:22:55,239 - Rank 0 - Validation Loss: 0.4116, Validation Accuracy: 0.8320
+2025-08-10 10:22:55,413 - Rank 0 - Saved best model with val_loss 0.4116 to checkpoints/macformer_best_model.pth
+2025-08-10 10:24:49,751 - Rank 0 - Train Loss: 0.4644, Train Accuracy: 0.8128
+2025-08-10 10:24:59,194 - Rank 0 - Validation Loss: 0.4090, Validation Accuracy: 0.8327
+2025-08-10 10:24:59,347 - Rank 0 - Saved best model with val_loss 0.4090 to checkpoints/macformer_best_model.pth
+2025-08-10 10:26:57,104 - Rank 0 - Train Loss: 0.4614, Train Accuracy: 0.8140
+2025-08-10 10:27:05,191 - Rank 0 - Validation Loss: 0.4097, Validation Accuracy: 0.8322
+2025-08-10 10:27:05,310 - Rank 0 - Saved checkpoint at epoch 87 to checkpoints/macformer_checkpoint_epoch_87.pth
+2025-08-10 10:29:05,361 - Rank 0 - Train Loss: 0.4589, Train Accuracy: 0.8145
+2025-08-10 10:29:14,178 - Rank 0 - Validation Loss: 0.4064, Validation Accuracy: 0.8340
+2025-08-10 10:29:14,344 - Rank 0 - Saved best model with val_loss 0.4064 to checkpoints/macformer_best_model.pth
+2025-08-10 10:31:13,904 - Rank 0 - Train Loss: 0.4578, Train Accuracy: 0.8153
+2025-08-10 10:31:22,314 - Rank 0 - Validation Loss: 0.4051, Validation Accuracy: 0.8339
+2025-08-10 10:31:22,458 - Rank 0 - Saved best model with val_loss 0.4051 to checkpoints/macformer_best_model.pth
+2025-08-10 10:33:21,542 - Rank 0 - Train Loss: 0.4555, Train Accuracy: 0.8159
+2025-08-10 10:33:30,361 - Rank 0 - Validation Loss: 0.4047, Validation Accuracy: 0.8339
+2025-08-10 10:33:30,496 - Rank 0 - Saved best model with val_loss 0.4047 to checkpoints/macformer_best_model.pth
+2025-08-10 10:33:30,604 - Rank 0 - Saved checkpoint at epoch 90 to checkpoints/macformer_checkpoint_epoch_90.pth
+2025-08-10 10:35:28,568 - Rank 0 - Train Loss: 0.4532, Train Accuracy: 0.8167
+2025-08-10 10:35:36,863 - Rank 0 - Validation Loss: 0.4017, Validation Accuracy: 0.8350
+2025-08-10 10:35:37,031 - Rank 0 - Saved best model with val_loss 0.4017 to checkpoints/macformer_best_model.pth
+2025-08-10 10:37:36,512 - Rank 0 - Train Loss: 0.4510, Train Accuracy: 0.8175
+2025-08-10 10:37:45,137 - Rank 0 - Validation Loss: 0.3980, Validation Accuracy: 0.8366
+2025-08-10 10:37:45,350 - Rank 0 - Saved best model with val_loss 0.3980 to checkpoints/macformer_best_model.pth
+2025-08-10 10:39:44,278 - Rank 0 - Train Loss: 0.4514, Train Accuracy: 0.8173
+2025-08-10 10:39:50,496 - Rank 0 - Validation Loss: 0.3961, Validation Accuracy: 0.8368
+2025-08-10 10:39:50,657 - Rank 0 - Saved best model with val_loss 0.3961 to checkpoints/macformer_best_model.pth
+2025-08-10 10:39:50,769 - Rank 0 - Saved checkpoint at epoch 93 to checkpoints/macformer_checkpoint_epoch_93.pth
+2025-08-10 10:42:26,086 - Rank 0 - Train Loss: 0.4479, Train Accuracy: 0.8186
+2025-08-10 10:42:35,118 - Rank 0 - Validation Loss: 0.3988, Validation Accuracy: 0.8356
+2025-08-10 10:45:14,419 - Rank 0 - Train Loss: 0.4474, Train Accuracy: 0.8188
+2025-08-10 10:45:23,405 - Rank 0 - Validation Loss: 0.3957, Validation Accuracy: 0.8369
+2025-08-10 10:45:23,562 - Rank 0 - Saved best model with val_loss 0.3957 to checkpoints/macformer_best_model.pth
+2025-08-10 10:48:05,797 - Rank 0 - Train Loss: 0.4457, Train Accuracy: 0.8192
+2025-08-10 10:48:14,177 - Rank 0 - Validation Loss: 0.3919, Validation Accuracy: 0.8384
+2025-08-10 10:48:14,358 - Rank 0 - Saved best model with val_loss 0.3919 to checkpoints/macformer_best_model.pth
+2025-08-10 10:48:14,472 - Rank 0 - Saved checkpoint at epoch 96 to checkpoints/macformer_checkpoint_epoch_96.pth
+2025-08-10 10:50:25,575 - Rank 0 - Train Loss: 0.4454, Train Accuracy: 0.8195
+2025-08-10 10:50:35,081 - Rank 0 - Validation Loss: 0.3901, Validation Accuracy: 0.8391
+2025-08-10 10:50:35,255 - Rank 0 - Saved best model with val_loss 0.3901 to checkpoints/macformer_best_model.pth
+2025-08-10 10:52:32,242 - Rank 0 - Train Loss: 0.4418, Train Accuracy: 0.8206
+2025-08-10 10:52:41,667 - Rank 0 - Validation Loss: 0.3924, Validation Accuracy: 0.8381
+2025-08-10 10:54:33,234 - Rank 0 - Train Loss: 0.4399, Train Accuracy: 0.8217
+2025-08-10 10:54:41,632 - Rank 0 - Validation Loss: 0.3915, Validation Accuracy: 0.8385
+2025-08-10 10:54:41,766 - Rank 0 - Saved checkpoint at epoch 99 to checkpoints/macformer_checkpoint_epoch_99.pth
+2025-08-10 10:56:39,710 - Rank 0 - Train Loss: 0.4379, Train Accuracy: 0.8221
+2025-08-10 10:56:47,867 - Rank 0 - Validation Loss: 0.3890, Validation Accuracy: 0.8392
+2025-08-10 10:56:48,069 - Rank 0 - Saved best model with val_loss 0.3890 to checkpoints/macformer_best_model.pth
+2025-08-10 10:58:47,813 - Rank 0 - Train Loss: 0.4362, Train Accuracy: 0.8227
+2025-08-10 10:58:56,764 - Rank 0 - Validation Loss: 0.3879, Validation Accuracy: 0.8399
+2025-08-10 10:58:56,942 - Rank 0 - Saved best model with val_loss 0.3879 to checkpoints/macformer_best_model.pth
+2025-08-10 11:00:55,946 - Rank 0 - Train Loss: 0.4329, Train Accuracy: 0.8238
+2025-08-10 11:01:05,046 - Rank 0 - Validation Loss: 0.3851, Validation Accuracy: 0.8407
+2025-08-10 11:01:05,219 - Rank 0 - Saved best model with val_loss 0.3851 to checkpoints/macformer_best_model.pth
+2025-08-10 11:01:05,330 - Rank 0 - Saved checkpoint at epoch 102 to checkpoints/macformer_checkpoint_epoch_102.pth
+2025-08-10 11:03:03,705 - Rank 0 - Train Loss: 0.4298, Train Accuracy: 0.8246
+2025-08-10 11:03:12,597 - Rank 0 - Validation Loss: 0.3931, Validation Accuracy: 0.8376
+2025-08-10 11:05:10,818 - Rank 0 - Train Loss: 0.4329, Train Accuracy: 0.8237
+2025-08-10 11:05:18,714 - Rank 0 - Validation Loss: 0.3823, Validation Accuracy: 0.8416
+2025-08-10 11:05:18,921 - Rank 0 - Saved best model with val_loss 0.3823 to checkpoints/macformer_best_model.pth
+2025-08-10 11:07:17,188 - Rank 0 - Train Loss: 0.4309, Train Accuracy: 0.8244
+2025-08-10 11:07:25,917 - Rank 0 - Validation Loss: 0.3798, Validation Accuracy: 0.8424
+2025-08-10 11:07:26,048 - Rank 0 - Saved best model with val_loss 0.3798 to checkpoints/macformer_best_model.pth
+2025-08-10 11:07:26,156 - Rank 0 - Saved checkpoint at epoch 105 to checkpoints/macformer_checkpoint_epoch_105.pth
+2025-08-10 11:09:16,416 - Rank 0 - Train Loss: 0.4295, Train Accuracy: 0.8247
+2025-08-10 11:09:25,199 - Rank 0 - Validation Loss: 0.3840, Validation Accuracy: 0.8408
+2025-08-10 11:11:23,658 - Rank 0 - Train Loss: 0.4262, Train Accuracy: 0.8260
+2025-08-10 11:11:32,773 - Rank 0 - Validation Loss: 0.3759, Validation Accuracy: 0.8436
+2025-08-10 11:11:32,932 - Rank 0 - Saved best model with val_loss 0.3759 to checkpoints/macformer_best_model.pth
+2025-08-10 11:13:30,970 - Rank 0 - Train Loss: 0.4259, Train Accuracy: 0.8262
+2025-08-10 11:13:39,302 - Rank 0 - Validation Loss: 0.3757, Validation Accuracy: 0.8441
+2025-08-10 11:13:39,488 - Rank 0 - Saved best model with val_loss 0.3757 to checkpoints/macformer_best_model.pth
+2025-08-10 11:13:39,614 - Rank 0 - Saved checkpoint at epoch 108 to checkpoints/macformer_checkpoint_epoch_108.pth
+2025-08-10 11:15:38,296 - Rank 0 - Train Loss: 0.4237, Train Accuracy: 0.8269
+2025-08-10 11:15:46,652 - Rank 0 - Validation Loss: 0.3758, Validation Accuracy: 0.8440
+2025-08-10 11:17:46,059 - Rank 0 - Train Loss: 0.4224, Train Accuracy: 0.8273
+2025-08-10 11:17:55,127 - Rank 0 - Validation Loss: 0.3759, Validation Accuracy: 0.8438
+2025-08-10 11:19:52,940 - Rank 0 - Train Loss: 0.4206, Train Accuracy: 0.8283
+2025-08-10 11:20:01,659 - Rank 0 - Validation Loss: 0.3725, Validation Accuracy: 0.8450
+2025-08-10 11:20:01,812 - Rank 0 - Saved best model with val_loss 0.3725 to checkpoints/macformer_best_model.pth
+2025-08-10 11:20:01,920 - Rank 0 - Saved checkpoint at epoch 111 to checkpoints/macformer_checkpoint_epoch_111.pth
+2025-08-10 11:22:01,428 - Rank 0 - Train Loss: 0.4190, Train Accuracy: 0.8286
+2025-08-10 11:22:09,331 - Rank 0 - Validation Loss: 0.3705, Validation Accuracy: 0.8454
+2025-08-10 11:22:09,474 - Rank 0 - Saved best model with val_loss 0.3705 to checkpoints/macformer_best_model.pth
+2025-08-10 11:23:59,946 - Rank 0 - Train Loss: 0.4188, Train Accuracy: 0.8289
+2025-08-10 11:24:08,941 - Rank 0 - Validation Loss: 0.3739, Validation Accuracy: 0.8442
+2025-08-10 11:26:07,494 - Rank 0 - Train Loss: 0.4176, Train Accuracy: 0.8290
+2025-08-10 11:26:15,522 - Rank 0 - Validation Loss: 0.3674, Validation Accuracy: 0.8467
+2025-08-10 11:26:15,716 - Rank 0 - Saved best model with val_loss 0.3674 to checkpoints/macformer_best_model.pth
+2025-08-10 11:26:15,821 - Rank 0 - Saved checkpoint at epoch 114 to checkpoints/macformer_checkpoint_epoch_114.pth
+2025-08-10 11:28:20,811 - Rank 0 - Train Loss: 0.4139, Train Accuracy: 0.8306
+2025-08-10 11:28:33,913 - Rank 0 - Validation Loss: 0.3674, Validation Accuracy: 0.8469
+2025-08-10 11:31:19,147 - Rank 0 - Train Loss: 0.4134, Train Accuracy: 0.8306
+2025-08-10 11:31:31,888 - Rank 0 - Validation Loss: 0.3678, Validation Accuracy: 0.8464
+2025-08-10 11:34:09,316 - Rank 0 - Train Loss: 0.4126, Train Accuracy: 0.8309
+2025-08-10 11:34:22,533 - Rank 0 - Validation Loss: 0.3686, Validation Accuracy: 0.8461
+2025-08-10 11:34:22,647 - Rank 0 - Saved checkpoint at epoch 117 to checkpoints/macformer_checkpoint_epoch_117.pth
+2025-08-10 11:37:02,026 - Rank 0 - Train Loss: 0.4118, Train Accuracy: 0.8315
+2025-08-10 11:37:15,520 - Rank 0 - Validation Loss: 0.3649, Validation Accuracy: 0.8477
+2025-08-10 11:37:15,687 - Rank 0 - Saved best model with val_loss 0.3649 to checkpoints/macformer_best_model.pth
+2025-08-10 11:39:22,951 - Rank 0 - Train Loss: 0.4076, Train Accuracy: 0.8326
+2025-08-10 11:39:32,166 - Rank 0 - Validation Loss: 0.3629, Validation Accuracy: 0.8485
+2025-08-10 11:39:32,328 - Rank 0 - Saved best model with val_loss 0.3629 to checkpoints/macformer_best_model.pth
+2025-08-10 11:41:30,256 - Rank 0 - Train Loss: 0.4098, Train Accuracy: 0.8316
+2025-08-10 11:41:39,376 - Rank 0 - Validation Loss: 0.3649, Validation Accuracy: 0.8477
+2025-08-10 11:41:39,493 - Rank 0 - Saved checkpoint at epoch 120 to checkpoints/macformer_checkpoint_epoch_120.pth
+2025-08-10 11:43:38,517 - Rank 0 - Train Loss: 0.4079, Train Accuracy: 0.8325
+2025-08-10 11:43:47,098 - Rank 0 - Validation Loss: 0.3629, Validation Accuracy: 0.8482
+2025-08-10 11:43:47,230 - Rank 0 - Saved best model with val_loss 0.3629 to checkpoints/macformer_best_model.pth
+2025-08-10 11:45:45,409 - Rank 0 - Train Loss: 0.4049, Train Accuracy: 0.8336
+2025-08-10 11:45:54,772 - Rank 0 - Validation Loss: 0.3645, Validation Accuracy: 0.8473
+2025-08-10 11:47:51,843 - Rank 0 - Train Loss: 0.4044, Train Accuracy: 0.8337
+2025-08-10 11:48:00,855 - Rank 0 - Validation Loss: 0.3604, Validation Accuracy: 0.8491
+2025-08-10 11:48:01,012 - Rank 0 - Saved best model with val_loss 0.3604 to checkpoints/macformer_best_model.pth
+2025-08-10 11:48:01,118 - Rank 0 - Saved checkpoint at epoch 123 to checkpoints/macformer_checkpoint_epoch_123.pth
+2025-08-10 11:50:02,574 - Rank 0 - Train Loss: 0.4029, Train Accuracy: 0.8347
+2025-08-10 11:50:11,493 - Rank 0 - Validation Loss: 0.3587, Validation Accuracy: 0.8495
+2025-08-10 11:50:11,660 - Rank 0 - Saved best model with val_loss 0.3587 to checkpoints/macformer_best_model.pth
+2025-08-10 11:52:15,857 - Rank 0 - Train Loss: 0.4034, Train Accuracy: 0.8342
+2025-08-10 11:52:24,996 - Rank 0 - Validation Loss: 0.3610, Validation Accuracy: 0.8491
+2025-08-10 11:54:17,727 - Rank 0 - Train Loss: 0.4003, Train Accuracy: 0.8352
+2025-08-10 11:54:26,341 - Rank 0 - Validation Loss: 0.3575, Validation Accuracy: 0.8502
+2025-08-10 11:54:26,495 - Rank 0 - Saved best model with val_loss 0.3575 to checkpoints/macformer_best_model.pth
+2025-08-10 11:54:26,604 - Rank 0 - Saved checkpoint at epoch 126 to checkpoints/macformer_checkpoint_epoch_126.pth
+2025-08-10 11:56:25,714 - Rank 0 - Train Loss: 0.3998, Train Accuracy: 0.8353
+2025-08-10 11:56:34,786 - Rank 0 - Validation Loss: 0.3581, Validation Accuracy: 0.8499
+2025-08-10 11:58:33,453 - Rank 0 - Train Loss: 0.3971, Train Accuracy: 0.8364
+2025-08-10 11:58:42,494 - Rank 0 - Validation Loss: 0.3556, Validation Accuracy: 0.8506
+2025-08-10 11:58:42,671 - Rank 0 - Saved best model with val_loss 0.3556 to checkpoints/macformer_best_model.pth
+2025-08-10 12:00:40,646 - Rank 0 - Train Loss: 0.3956, Train Accuracy: 0.8367
+2025-08-10 12:00:50,044 - Rank 0 - Validation Loss: 0.3525, Validation Accuracy: 0.8520
+2025-08-10 12:00:50,198 - Rank 0 - Saved best model with val_loss 0.3525 to checkpoints/macformer_best_model.pth
+2025-08-10 12:00:50,302 - Rank 0 - Saved checkpoint at epoch 129 to checkpoints/macformer_checkpoint_epoch_129.pth
+2025-08-10 12:02:47,801 - Rank 0 - Train Loss: 0.3984, Train Accuracy: 0.8360
+2025-08-10 12:02:56,411 - Rank 0 - Validation Loss: 0.3528, Validation Accuracy: 0.8516
+2025-08-10 12:04:54,848 - Rank 0 - Train Loss: 0.3950, Train Accuracy: 0.8370
+2025-08-10 12:05:03,794 - Rank 0 - Validation Loss: 0.3523, Validation Accuracy: 0.8519
+2025-08-10 12:05:03,997 - Rank 0 - Saved best model with val_loss 0.3523 to checkpoints/macformer_best_model.pth
+2025-08-10 12:07:00,161 - Rank 0 - Train Loss: 0.3941, Train Accuracy: 0.8374
+2025-08-10 12:07:08,855 - Rank 0 - Validation Loss: 0.3494, Validation Accuracy: 0.8527
+2025-08-10 12:07:09,003 - Rank 0 - Saved best model with val_loss 0.3494 to checkpoints/macformer_best_model.pth
+2025-08-10 12:07:09,116 - Rank 0 - Saved checkpoint at epoch 132 to checkpoints/macformer_checkpoint_epoch_132.pth
+2025-08-10 12:09:01,054 - Rank 0 - Train Loss: 0.3925, Train Accuracy: 0.8381
+2025-08-10 12:09:10,495 - Rank 0 - Validation Loss: 0.3491, Validation Accuracy: 0.8530
+2025-08-10 12:09:10,647 - Rank 0 - Saved best model with val_loss 0.3491 to checkpoints/macformer_best_model.pth
+2025-08-10 12:11:06,108 - Rank 0 - Train Loss: 0.3906, Train Accuracy: 0.8385
+2025-08-10 12:11:15,357 - Rank 0 - Validation Loss: 0.3488, Validation Accuracy: 0.8531
+2025-08-10 12:11:15,526 - Rank 0 - Saved best model with val_loss 0.3488 to checkpoints/macformer_best_model.pth
+2025-08-10 12:13:13,330 - Rank 0 - Train Loss: 0.3906, Train Accuracy: 0.8384
+2025-08-10 12:13:21,942 - Rank 0 - Validation Loss: 0.3479, Validation Accuracy: 0.8534
+2025-08-10 12:13:22,075 - Rank 0 - Saved best model with val_loss 0.3479 to checkpoints/macformer_best_model.pth
+2025-08-10 12:13:22,180 - Rank 0 - Saved checkpoint at epoch 135 to checkpoints/macformer_checkpoint_epoch_135.pth
+2025-08-10 12:15:19,961 - Rank 0 - Train Loss: 0.3907, Train Accuracy: 0.8388
+2025-08-10 12:15:29,005 - Rank 0 - Validation Loss: 0.3499, Validation Accuracy: 0.8527
+2025-08-10 12:17:26,283 - Rank 0 - Train Loss: 0.3885, Train Accuracy: 0.8395
+2025-08-10 12:17:35,302 - Rank 0 - Validation Loss: 0.3451, Validation Accuracy: 0.8545
+2025-08-10 12:17:35,454 - Rank 0 - Saved best model with val_loss 0.3451 to checkpoints/macformer_best_model.pth
+2025-08-10 12:19:32,285 - Rank 0 - Train Loss: 0.3869, Train Accuracy: 0.8400
+2025-08-10 12:19:40,971 - Rank 0 - Validation Loss: 0.3471, Validation Accuracy: 0.8533
+2025-08-10 12:19:41,082 - Rank 0 - Saved checkpoint at epoch 138 to checkpoints/macformer_checkpoint_epoch_138.pth
+2025-08-10 12:21:36,143 - Rank 0 - Train Loss: 0.3858, Train Accuracy: 0.8403
+2025-08-10 12:21:45,056 - Rank 0 - Validation Loss: 0.3459, Validation Accuracy: 0.8540
+2025-08-10 12:23:41,793 - Rank 0 - Train Loss: 0.3848, Train Accuracy: 0.8406
+2025-08-10 12:23:51,089 - Rank 0 - Validation Loss: 0.3447, Validation Accuracy: 0.8548
+2025-08-10 12:23:51,260 - Rank 0 - Saved best model with val_loss 0.3447 to checkpoints/macformer_best_model.pth
+2025-08-10 12:25:48,173 - Rank 0 - Train Loss: 0.3837, Train Accuracy: 0.8409
+2025-08-10 12:25:56,941 - Rank 0 - Validation Loss: 0.3438, Validation Accuracy: 0.8546
+2025-08-10 12:25:57,106 - Rank 0 - Saved best model with val_loss 0.3438 to checkpoints/macformer_best_model.pth
+2025-08-10 12:25:57,215 - Rank 0 - Saved checkpoint at epoch 141 to checkpoints/macformer_checkpoint_epoch_141.pth
+2025-08-10 12:27:55,180 - Rank 0 - Train Loss: 0.3824, Train Accuracy: 0.8417
+2025-08-10 12:28:04,242 - Rank 0 - Validation Loss: 0.3450, Validation Accuracy: 0.8538
+2025-08-10 12:30:01,881 - Rank 0 - Train Loss: 0.3805, Train Accuracy: 0.8423
+2025-08-10 12:30:09,952 - Rank 0 - Validation Loss: 0.3423, Validation Accuracy: 0.8553
+2025-08-10 12:30:10,128 - Rank 0 - Saved best model with val_loss 0.3423 to checkpoints/macformer_best_model.pth
+2025-08-10 12:32:08,559 - Rank 0 - Train Loss: 0.3798, Train Accuracy: 0.8420
+2025-08-10 12:32:17,246 - Rank 0 - Validation Loss: 0.3420, Validation Accuracy: 0.8554
+2025-08-10 12:32:17,404 - Rank 0 - Saved best model with val_loss 0.3420 to checkpoints/macformer_best_model.pth
+2025-08-10 12:32:17,510 - Rank 0 - Saved checkpoint at epoch 144 to checkpoints/macformer_checkpoint_epoch_144.pth
+2025-08-10 12:34:15,829 - Rank 0 - Train Loss: 0.3787, Train Accuracy: 0.8429
+2025-08-10 12:34:24,385 - Rank 0 - Validation Loss: 0.3377, Validation Accuracy: 0.8569
+2025-08-10 12:34:24,605 - Rank 0 - Saved best model with val_loss 0.3377 to checkpoints/macformer_best_model.pth
+2025-08-10 12:36:16,468 - Rank 0 - Train Loss: 0.3789, Train Accuracy: 0.8425
+2025-08-10 12:36:25,513 - Rank 0 - Validation Loss: 0.3387, Validation Accuracy: 0.8564
+2025-08-10 12:38:23,005 - Rank 0 - Train Loss: 0.3761, Train Accuracy: 0.8437
+2025-08-10 12:38:31,371 - Rank 0 - Validation Loss: 0.3370, Validation Accuracy: 0.8569
+2025-08-10 12:38:31,512 - Rank 0 - Saved best model with val_loss 0.3370 to checkpoints/macformer_best_model.pth
+2025-08-10 12:38:31,618 - Rank 0 - Saved checkpoint at epoch 147 to checkpoints/macformer_checkpoint_epoch_147.pth
+2025-08-10 12:40:29,590 - Rank 0 - Train Loss: 0.3773, Train Accuracy: 0.8434
+2025-08-10 12:40:38,674 - Rank 0 - Validation Loss: 0.3431, Validation Accuracy: 0.8549
+2025-08-10 12:42:37,093 - Rank 0 - Train Loss: 0.3756, Train Accuracy: 0.8438
+2025-08-10 12:42:45,789 - Rank 0 - Validation Loss: 0.3352, Validation Accuracy: 0.8578
+2025-08-10 12:42:45,940 - Rank 0 - Saved best model with val_loss 0.3352 to checkpoints/macformer_best_model.pth
+2025-08-10 12:44:44,515 - Rank 0 - Train Loss: 0.3755, Train Accuracy: 0.8439
+2025-08-10 12:44:53,338 - Rank 0 - Validation Loss: 0.3345, Validation Accuracy: 0.8583
+2025-08-10 12:44:53,510 - Rank 0 - Saved best model with val_loss 0.3345 to checkpoints/macformer_best_model.pth
+2025-08-10 12:44:53,629 - Rank 0 - Saved checkpoint at epoch 150 to checkpoints/macformer_checkpoint_epoch_150.pth
+2025-08-10 12:46:51,325 - Rank 0 - Train Loss: 0.3757, Train Accuracy: 0.8436
+2025-08-10 12:46:59,901 - Rank 0 - Validation Loss: 0.3342, Validation Accuracy: 0.8581
+2025-08-10 12:47:00,071 - Rank 0 - Saved best model with val_loss 0.3342 to checkpoints/macformer_best_model.pth
+2025-08-10 12:48:58,512 - Rank 0 - Train Loss: 0.3730, Train Accuracy: 0.8447
+2025-08-10 12:49:07,755 - Rank 0 - Validation Loss: 0.3342, Validation Accuracy: 0.8582
+2025-08-10 12:51:00,494 - Rank 0 - Train Loss: 0.3713, Train Accuracy: 0.8450
+2025-08-10 12:51:09,369 - Rank 0 - Validation Loss: 0.3339, Validation Accuracy: 0.8583
+2025-08-10 12:51:09,519 - Rank 0 - Saved best model with val_loss 0.3339 to checkpoints/macformer_best_model.pth
+2025-08-10 12:51:09,622 - Rank 0 - Saved checkpoint at epoch 153 to checkpoints/macformer_checkpoint_epoch_153.pth
+2025-08-10 12:53:13,008 - Rank 0 - Train Loss: 0.3715, Train Accuracy: 0.8453
+2025-08-10 12:53:24,248 - Rank 0 - Validation Loss: 0.3323, Validation Accuracy: 0.8588
+2025-08-10 12:53:24,409 - Rank 0 - Saved best model with val_loss 0.3323 to checkpoints/macformer_best_model.pth
+2025-08-10 12:55:37,288 - Rank 0 - Train Loss: 0.3701, Train Accuracy: 0.8456
+2025-08-10 12:55:48,568 - Rank 0 - Validation Loss: 0.3309, Validation Accuracy: 0.8596
+2025-08-10 12:55:48,735 - Rank 0 - Saved best model with val_loss 0.3309 to checkpoints/macformer_best_model.pth
+2025-08-10 12:58:02,153 - Rank 0 - Train Loss: 0.3671, Train Accuracy: 0.8466
+2025-08-10 12:58:13,499 - Rank 0 - Validation Loss: 0.3302, Validation Accuracy: 0.8596
+2025-08-10 12:58:13,671 - Rank 0 - Saved best model with val_loss 0.3302 to checkpoints/macformer_best_model.pth
+2025-08-10 12:58:13,774 - Rank 0 - Saved checkpoint at epoch 156 to checkpoints/macformer_checkpoint_epoch_156.pth
+2025-08-10 13:00:26,738 - Rank 0 - Train Loss: 0.3668, Train Accuracy: 0.8469
+2025-08-10 13:00:37,963 - Rank 0 - Validation Loss: 0.3301, Validation Accuracy: 0.8595
+2025-08-10 13:00:38,142 - Rank 0 - Saved best model with val_loss 0.3301 to checkpoints/macformer_best_model.pth
+2025-08-10 13:02:49,792 - Rank 0 - Train Loss: 0.3661, Train Accuracy: 0.8470
+2025-08-10 13:02:56,713 - Rank 0 - Validation Loss: 0.3284, Validation Accuracy: 0.8601
+2025-08-10 13:02:56,947 - Rank 0 - Saved best model with val_loss 0.3284 to checkpoints/macformer_best_model.pth
+2025-08-10 13:04:47,704 - Rank 0 - Train Loss: 0.3648, Train Accuracy: 0.8476
+2025-08-10 13:04:55,227 - Rank 0 - Validation Loss: 0.3281, Validation Accuracy: 0.8603
+2025-08-10 13:04:55,416 - Rank 0 - Saved best model with val_loss 0.3281 to checkpoints/macformer_best_model.pth
+2025-08-10 13:04:55,523 - Rank 0 - Saved checkpoint at epoch 159 to checkpoints/macformer_checkpoint_epoch_159.pth
+2025-08-10 13:06:52,626 - Rank 0 - Train Loss: 0.3661, Train Accuracy: 0.8472
+2025-08-10 13:06:59,664 - Rank 0 - Validation Loss: 0.3276, Validation Accuracy: 0.8604
+2025-08-10 13:06:59,844 - Rank 0 - Saved best model with val_loss 0.3276 to checkpoints/macformer_best_model.pth
+2025-08-10 13:08:58,433 - Rank 0 - Train Loss: 0.3652, Train Accuracy: 0.8477
+2025-08-10 13:09:06,153 - Rank 0 - Validation Loss: 0.3261, Validation Accuracy: 0.8608
+2025-08-10 13:09:06,309 - Rank 0 - Saved best model with val_loss 0.3261 to checkpoints/macformer_best_model.pth
+2025-08-10 13:11:03,017 - Rank 0 - Train Loss: 0.3617, Train Accuracy: 0.8487
+2025-08-10 13:11:10,413 - Rank 0 - Validation Loss: 0.3261, Validation Accuracy: 0.8610
+2025-08-10 13:11:10,591 - Rank 0 - Saved best model with val_loss 0.3261 to checkpoints/macformer_best_model.pth
+2025-08-10 13:11:10,695 - Rank 0 - Saved checkpoint at epoch 162 to checkpoints/macformer_checkpoint_epoch_162.pth
+2025-08-10 13:13:08,006 - Rank 0 - Train Loss: 0.3629, Train Accuracy: 0.8483
+2025-08-10 13:13:15,647 - Rank 0 - Validation Loss: 0.3247, Validation Accuracy: 0.8616
+2025-08-10 13:13:15,834 - Rank 0 - Saved best model with val_loss 0.3247 to checkpoints/macformer_best_model.pth
+2025-08-10 13:15:12,975 - Rank 0 - Train Loss: 0.3605, Train Accuracy: 0.8491
+2025-08-10 13:15:20,099 - Rank 0 - Validation Loss: 0.3264, Validation Accuracy: 0.8609
+2025-08-10 13:17:17,873 - Rank 0 - Train Loss: 0.3613, Train Accuracy: 0.8486
+2025-08-10 13:17:25,456 - Rank 0 - Validation Loss: 0.3256, Validation Accuracy: 0.8612
+2025-08-10 13:17:25,572 - Rank 0 - Saved checkpoint at epoch 165 to checkpoints/macformer_checkpoint_epoch_165.pth
+2025-08-10 13:19:16,499 - Rank 0 - Train Loss: 0.3594, Train Accuracy: 0.8497
+2025-08-10 13:19:23,833 - Rank 0 - Validation Loss: 0.3277, Validation Accuracy: 0.8604
+2025-08-10 13:21:22,151 - Rank 0 - Train Loss: 0.3593, Train Accuracy: 0.8492
+2025-08-10 13:21:29,364 - Rank 0 - Validation Loss: 0.3225, Validation Accuracy: 0.8621
+2025-08-10 13:21:29,544 - Rank 0 - Saved best model with val_loss 0.3225 to checkpoints/macformer_best_model.pth
+2025-08-10 13:23:26,595 - Rank 0 - Train Loss: 0.3580, Train Accuracy: 0.8500
+2025-08-10 13:23:33,999 - Rank 0 - Validation Loss: 0.3228, Validation Accuracy: 0.8624
+2025-08-10 13:23:34,115 - Rank 0 - Saved checkpoint at epoch 168 to checkpoints/macformer_checkpoint_epoch_168.pth
+2025-08-10 13:25:33,410 - Rank 0 - Train Loss: 0.3572, Train Accuracy: 0.8503
+2025-08-10 13:25:41,065 - Rank 0 - Validation Loss: 0.3204, Validation Accuracy: 0.8631
+2025-08-10 13:25:41,235 - Rank 0 - Saved best model with val_loss 0.3204 to checkpoints/macformer_best_model.pth
+2025-08-10 13:27:39,863 - Rank 0 - Train Loss: 0.3570, Train Accuracy: 0.8502
+2025-08-10 13:27:47,719 - Rank 0 - Validation Loss: 0.3194, Validation Accuracy: 0.8634
+2025-08-10 13:27:47,887 - Rank 0 - Saved best model with val_loss 0.3194 to checkpoints/macformer_best_model.pth
+2025-08-10 13:29:44,435 - Rank 0 - Train Loss: 0.3550, Train Accuracy: 0.8509
+2025-08-10 13:29:52,064 - Rank 0 - Validation Loss: 0.3197, Validation Accuracy: 0.8632
+2025-08-10 13:29:52,175 - Rank 0 - Saved checkpoint at epoch 171 to checkpoints/macformer_checkpoint_epoch_171.pth
+2025-08-10 13:31:43,464 - Rank 0 - Train Loss: 0.3545, Train Accuracy: 0.8513
+2025-08-10 13:31:50,924 - Rank 0 - Validation Loss: 0.3192, Validation Accuracy: 0.8634
+2025-08-10 13:31:51,136 - Rank 0 - Saved best model with val_loss 0.3192 to checkpoints/macformer_best_model.pth
+2025-08-10 13:33:50,987 - Rank 0 - Train Loss: 0.3545, Train Accuracy: 0.8511
+2025-08-10 13:34:02,093 - Rank 0 - Validation Loss: 0.3188, Validation Accuracy: 0.8637
+2025-08-10 13:34:02,272 - Rank 0 - Saved best model with val_loss 0.3188 to checkpoints/macformer_best_model.pth
+2025-08-10 13:36:15,600 - Rank 0 - Train Loss: 0.3535, Train Accuracy: 0.8515
+2025-08-10 13:36:23,703 - Rank 0 - Validation Loss: 0.3168, Validation Accuracy: 0.8644
+2025-08-10 13:36:23,887 - Rank 0 - Saved best model with val_loss 0.3168 to checkpoints/macformer_best_model.pth
+2025-08-10 13:36:23,996 - Rank 0 - Saved checkpoint at epoch 174 to checkpoints/macformer_checkpoint_epoch_174.pth
+2025-08-10 13:38:32,600 - Rank 0 - Train Loss: 0.3529, Train Accuracy: 0.8516
+2025-08-10 13:38:43,667 - Rank 0 - Validation Loss: 0.3168, Validation Accuracy: 0.8643
+2025-08-10 13:40:55,988 - Rank 0 - Train Loss: 0.3521, Train Accuracy: 0.8517
+2025-08-10 13:41:07,108 - Rank 0 - Validation Loss: 0.3176, Validation Accuracy: 0.8641
+2025-08-10 13:43:19,918 - Rank 0 - Train Loss: 0.3499, Train Accuracy: 0.8529
+2025-08-10 13:43:31,092 - Rank 0 - Validation Loss: 0.3152, Validation Accuracy: 0.8649
+2025-08-10 13:43:31,262 - Rank 0 - Saved best model with val_loss 0.3152 to checkpoints/macformer_best_model.pth
+2025-08-10 13:43:31,367 - Rank 0 - Saved checkpoint at epoch 177 to checkpoints/macformer_checkpoint_epoch_177.pth
+2025-08-10 13:45:43,955 - Rank 0 - Train Loss: 0.3495, Train Accuracy: 0.8531
+2025-08-10 13:45:55,129 - Rank 0 - Validation Loss: 0.3152, Validation Accuracy: 0.8648
+2025-08-10 13:47:59,689 - Rank 0 - Train Loss: 0.3494, Train Accuracy: 0.8534
+2025-08-10 13:48:07,148 - Rank 0 - Validation Loss: 0.3139, Validation Accuracy: 0.8654
+2025-08-10 13:48:07,371 - Rank 0 - Saved best model with val_loss 0.3139 to checkpoints/macformer_best_model.pth
+2025-08-10 13:50:04,436 - Rank 0 - Train Loss: 0.3493, Train Accuracy: 0.8529
+2025-08-10 13:50:11,450 - Rank 0 - Validation Loss: 0.3151, Validation Accuracy: 0.8645
+2025-08-10 13:50:11,562 - Rank 0 - Saved checkpoint at epoch 180 to checkpoints/macformer_checkpoint_epoch_180.pth
+2025-08-10 13:52:08,526 - Rank 0 - Train Loss: 0.3476, Train Accuracy: 0.8535
+2025-08-10 13:52:15,883 - Rank 0 - Validation Loss: 0.3123, Validation Accuracy: 0.8657
+2025-08-10 13:52:16,051 - Rank 0 - Saved best model with val_loss 0.3123 to checkpoints/macformer_best_model.pth
+2025-08-10 13:54:13,573 - Rank 0 - Train Loss: 0.3469, Train Accuracy: 0.8538
+2025-08-10 13:54:20,675 - Rank 0 - Validation Loss: 0.3155, Validation Accuracy: 0.8649
+2025-08-10 13:56:18,772 - Rank 0 - Train Loss: 0.3466, Train Accuracy: 0.8538
+2025-08-10 13:56:27,794 - Rank 0 - Validation Loss: 0.3134, Validation Accuracy: 0.8655
+2025-08-10 13:56:27,907 - Rank 0 - Saved checkpoint at epoch 183 to checkpoints/macformer_checkpoint_epoch_183.pth
+2025-08-10 13:58:39,445 - Rank 0 - Train Loss: 0.3456, Train Accuracy: 0.8544
+2025-08-10 13:58:50,922 - Rank 0 - Validation Loss: 0.3126, Validation Accuracy: 0.8655
+2025-08-10 14:01:03,775 - Rank 0 - Train Loss: 0.3454, Train Accuracy: 0.8544
+2025-08-10 14:01:14,888 - Rank 0 - Validation Loss: 0.3128, Validation Accuracy: 0.8657
+2025-08-10 14:03:28,002 - Rank 0 - Train Loss: 0.3452, Train Accuracy: 0.8542
+2025-08-10 14:03:39,627 - Rank 0 - Validation Loss: 0.3115, Validation Accuracy: 0.8663
+2025-08-10 14:03:39,795 - Rank 0 - Saved best model with val_loss 0.3115 to checkpoints/macformer_best_model.pth
+2025-08-10 14:03:39,900 - Rank 0 - Saved checkpoint at epoch 186 to checkpoints/macformer_checkpoint_epoch_186.pth
+2025-08-10 14:05:53,093 - Rank 0 - Train Loss: 0.3433, Train Accuracy: 0.8553
+2025-08-10 14:06:04,325 - Rank 0 - Validation Loss: 0.3082, Validation Accuracy: 0.8672
+2025-08-10 14:06:04,513 - Rank 0 - Saved best model with val_loss 0.3082 to checkpoints/macformer_best_model.pth
+2025-08-10 14:08:05,745 - Rank 0 - Train Loss: 0.3418, Train Accuracy: 0.8555
+2025-08-10 14:08:13,309 - Rank 0 - Validation Loss: 0.3097, Validation Accuracy: 0.8667
+2025-08-10 14:10:11,053 - Rank 0 - Train Loss: 0.3399, Train Accuracy: 0.8566
+2025-08-10 14:10:18,495 - Rank 0 - Validation Loss: 0.3107, Validation Accuracy: 0.8664
+2025-08-10 14:10:18,614 - Rank 0 - Saved checkpoint at epoch 189 to checkpoints/macformer_checkpoint_epoch_189.pth
+2025-08-10 14:12:16,429 - Rank 0 - Train Loss: 0.3400, Train Accuracy: 0.8565
+2025-08-10 14:12:23,440 - Rank 0 - Validation Loss: 0.3092, Validation Accuracy: 0.8669
+2025-08-10 14:14:14,290 - Rank 0 - Train Loss: 0.3415, Train Accuracy: 0.8557
+2025-08-10 14:14:21,970 - Rank 0 - Validation Loss: 0.3093, Validation Accuracy: 0.8667
+2025-08-10 14:16:32,236 - Rank 0 - Train Loss: 0.3393, Train Accuracy: 0.8564
+2025-08-10 14:16:43,956 - Rank 0 - Validation Loss: 0.3067, Validation Accuracy: 0.8680
+2025-08-10 14:16:44,095 - Rank 0 - Saved best model with val_loss 0.3067 to checkpoints/macformer_best_model.pth
+2025-08-10 14:16:44,197 - Rank 0 - Saved checkpoint at epoch 192 to checkpoints/macformer_checkpoint_epoch_192.pth
+2025-08-10 14:18:56,500 - Rank 0 - Train Loss: 0.3392, Train Accuracy: 0.8567
+2025-08-10 14:19:08,205 - Rank 0 - Validation Loss: 0.3075, Validation Accuracy: 0.8675
+2025-08-10 14:21:20,914 - Rank 0 - Train Loss: 0.3380, Train Accuracy: 0.8569
+2025-08-10 14:21:31,838 - Rank 0 - Validation Loss: 0.3079, Validation Accuracy: 0.8672
+2025-08-10 14:23:44,316 - Rank 0 - Train Loss: 0.3380, Train Accuracy: 0.8569
+2025-08-10 14:23:55,583 - Rank 0 - Validation Loss: 0.3058, Validation Accuracy: 0.8681
+2025-08-10 14:23:55,734 - Rank 0 - Saved best model with val_loss 0.3058 to checkpoints/macformer_best_model.pth
+2025-08-10 14:23:55,834 - Rank 0 - Saved checkpoint at epoch 195 to checkpoints/macformer_checkpoint_epoch_195.pth
+2025-08-10 14:25:52,683 - Rank 0 - Train Loss: 0.3382, Train Accuracy: 0.8570
+2025-08-10 14:26:01,241 - Rank 0 - Validation Loss: 0.3059, Validation Accuracy: 0.8682
+2025-08-10 14:27:56,640 - Rank 0 - Train Loss: 0.3358, Train Accuracy: 0.8578
+2025-08-10 14:28:05,302 - Rank 0 - Validation Loss: 0.3042, Validation Accuracy: 0.8689
+2025-08-10 14:28:05,473 - Rank 0 - Saved best model with val_loss 0.3042 to checkpoints/macformer_best_model.pth
+2025-08-10 14:30:00,582 - Rank 0 - Train Loss: 0.3340, Train Accuracy: 0.8584
+2025-08-10 14:30:09,602 - Rank 0 - Validation Loss: 0.3047, Validation Accuracy: 0.8684
+2025-08-10 14:30:09,712 - Rank 0 - Saved checkpoint at epoch 198 to checkpoints/macformer_checkpoint_epoch_198.pth
+2025-08-10 14:32:08,467 - Rank 0 - Train Loss: 0.3346, Train Accuracy: 0.8583
+2025-08-10 14:32:17,347 - Rank 0 - Validation Loss: 0.3029, Validation Accuracy: 0.8692
+2025-08-10 14:32:17,484 - Rank 0 - Saved best model with val_loss 0.3029 to checkpoints/macformer_best_model.pth
+2025-08-10 14:34:15,007 - Rank 0 - Train Loss: 0.3345, Train Accuracy: 0.8581
+2025-08-10 14:34:24,035 - Rank 0 - Validation Loss: 0.3031, Validation Accuracy: 0.8689
+2025-08-10 14:36:22,701 - Rank 0 - Train Loss: 0.3336, Train Accuracy: 0.8586
+2025-08-10 14:36:31,066 - Rank 0 - Validation Loss: 0.3041, Validation Accuracy: 0.8686
+2025-08-10 14:36:31,184 - Rank 0 - Saved checkpoint at epoch 201 to checkpoints/macformer_checkpoint_epoch_201.pth
+2025-08-10 14:38:30,160 - Rank 0 - Train Loss: 0.3330, Train Accuracy: 0.8586
+2025-08-10 14:38:38,306 - Rank 0 - Validation Loss: 0.3029, Validation Accuracy: 0.8688
+2025-08-10 14:40:37,764 - Rank 0 - Train Loss: 0.3353, Train Accuracy: 0.8579
+2025-08-10 14:40:46,554 - Rank 0 - Validation Loss: 0.3047, Validation Accuracy: 0.8684
+2025-08-10 14:42:38,394 - Rank 0 - Train Loss: 0.3312, Train Accuracy: 0.8594
+2025-08-10 14:42:46,953 - Rank 0 - Validation Loss: 0.3019, Validation Accuracy: 0.8694
+2025-08-10 14:42:47,120 - Rank 0 - Saved best model with val_loss 0.3019 to checkpoints/macformer_best_model.pth
+2025-08-10 14:42:47,230 - Rank 0 - Saved checkpoint at epoch 204 to checkpoints/macformer_checkpoint_epoch_204.pth
+2025-08-10 14:44:45,219 - Rank 0 - Train Loss: 0.3314, Train Accuracy: 0.8594
+2025-08-10 14:44:54,277 - Rank 0 - Validation Loss: 0.3047, Validation Accuracy: 0.8682
+2025-08-10 14:46:51,993 - Rank 0 - Train Loss: 0.3304, Train Accuracy: 0.8598
+2025-08-10 14:47:00,496 - Rank 0 - Validation Loss: 0.3008, Validation Accuracy: 0.8699
+2025-08-10 14:47:00,626 - Rank 0 - Saved best model with val_loss 0.3008 to checkpoints/macformer_best_model.pth
+2025-08-10 14:48:58,425 - Rank 0 - Train Loss: 0.3292, Train Accuracy: 0.8601
+2025-08-10 14:49:07,629 - Rank 0 - Validation Loss: 0.3009, Validation Accuracy: 0.8697
+2025-08-10 14:49:07,739 - Rank 0 - Saved checkpoint at epoch 207 to checkpoints/macformer_checkpoint_epoch_207.pth
+2025-08-10 14:51:06,296 - Rank 0 - Train Loss: 0.3295, Train Accuracy: 0.8599
+2025-08-10 14:51:14,938 - Rank 0 - Validation Loss: 0.2998, Validation Accuracy: 0.8699
+2025-08-10 14:51:15,066 - Rank 0 - Saved best model with val_loss 0.2998 to checkpoints/macformer_best_model.pth
+2025-08-10 14:53:13,684 - Rank 0 - Train Loss: 0.3284, Train Accuracy: 0.8604
+2025-08-10 14:53:22,702 - Rank 0 - Validation Loss: 0.2988, Validation Accuracy: 0.8705
+2025-08-10 14:53:22,832 - Rank 0 - Saved best model with val_loss 0.2988 to checkpoints/macformer_best_model.pth
+2025-08-10 14:55:21,232 - Rank 0 - Train Loss: 0.3272, Train Accuracy: 0.8611
+2025-08-10 14:55:30,226 - Rank 0 - Validation Loss: 0.2991, Validation Accuracy: 0.8704
+2025-08-10 14:55:30,335 - Rank 0 - Saved checkpoint at epoch 210 to checkpoints/macformer_checkpoint_epoch_210.pth
+2025-08-10 14:57:22,569 - Rank 0 - Train Loss: 0.3273, Train Accuracy: 0.8609
+2025-08-10 14:57:31,538 - Rank 0 - Validation Loss: 0.2985, Validation Accuracy: 0.8704
+2025-08-10 14:57:31,666 - Rank 0 - Saved best model with val_loss 0.2985 to checkpoints/macformer_best_model.pth
+2025-08-10 14:59:27,834 - Rank 0 - Train Loss: 0.3266, Train Accuracy: 0.8609
+2025-08-10 14:59:36,946 - Rank 0 - Validation Loss: 0.2985, Validation Accuracy: 0.8705
+2025-08-10 15:01:35,518 - Rank 0 - Train Loss: 0.3253, Train Accuracy: 0.8613
+2025-08-10 15:01:44,652 - Rank 0 - Validation Loss: 0.2994, Validation Accuracy: 0.8703
+2025-08-10 15:01:44,767 - Rank 0 - Saved checkpoint at epoch 213 to checkpoints/macformer_checkpoint_epoch_213.pth
+2025-08-10 15:03:42,467 - Rank 0 - Train Loss: 0.3247, Train Accuracy: 0.8617
+2025-08-10 15:03:51,410 - Rank 0 - Validation Loss: 0.2970, Validation Accuracy: 0.8710
+2025-08-10 15:03:51,619 - Rank 0 - Saved best model with val_loss 0.2970 to checkpoints/macformer_best_model.pth
+2025-08-10 15:05:51,232 - Rank 0 - Train Loss: 0.3240, Train Accuracy: 0.8618
+2025-08-10 15:06:00,738 - Rank 0 - Validation Loss: 0.2951, Validation Accuracy: 0.8717
+2025-08-10 15:06:00,864 - Rank 0 - Saved best model with val_loss 0.2951 to checkpoints/macformer_best_model.pth
+2025-08-10 15:07:59,659 - Rank 0 - Train Loss: 0.3261, Train Accuracy: 0.8615
+2025-08-10 15:08:08,260 - Rank 0 - Validation Loss: 0.2961, Validation Accuracy: 0.8715
+2025-08-10 15:08:08,392 - Rank 0 - Saved checkpoint at epoch 216 to checkpoints/macformer_checkpoint_epoch_216.pth
+2025-08-10 15:10:05,745 - Rank 0 - Train Loss: 0.3226, Train Accuracy: 0.8621
+2025-08-10 15:10:14,986 - Rank 0 - Validation Loss: 0.2965, Validation Accuracy: 0.8712
+2025-08-10 15:12:10,603 - Rank 0 - Train Loss: 0.3231, Train Accuracy: 0.8623
+2025-08-10 15:12:19,170 - Rank 0 - Validation Loss: 0.2962, Validation Accuracy: 0.8710
+2025-08-10 15:14:18,213 - Rank 0 - Train Loss: 0.3233, Train Accuracy: 0.8622
+2025-08-10 15:14:26,488 - Rank 0 - Validation Loss: 0.2941, Validation Accuracy: 0.8722
+2025-08-10 15:14:26,619 - Rank 0 - Saved best model with val_loss 0.2941 to checkpoints/macformer_best_model.pth
+2025-08-10 15:14:26,725 - Rank 0 - Saved checkpoint at epoch 219 to checkpoints/macformer_checkpoint_epoch_219.pth
+2025-08-10 15:16:23,909 - Rank 0 - Train Loss: 0.3223, Train Accuracy: 0.8626
+2025-08-10 15:16:31,031 - Rank 0 - Validation Loss: 0.2964, Validation Accuracy: 0.8713
+2025-08-10 15:18:30,671 - Rank 0 - Train Loss: 0.3216, Train Accuracy: 0.8624
+2025-08-10 15:18:39,731 - Rank 0 - Validation Loss: 0.2945, Validation Accuracy: 0.8717
+2025-08-10 15:20:42,974 - Rank 0 - Train Loss: 0.3212, Train Accuracy: 0.8630
+2025-08-10 15:20:53,854 - Rank 0 - Validation Loss: 0.2937, Validation Accuracy: 0.8723
+2025-08-10 15:20:53,990 - Rank 0 - Saved best model with val_loss 0.2937 to checkpoints/macformer_best_model.pth
+2025-08-10 15:20:54,095 - Rank 0 - Saved checkpoint at epoch 222 to checkpoints/macformer_checkpoint_epoch_222.pth
+2025-08-10 15:22:58,840 - Rank 0 - Train Loss: 0.3216, Train Accuracy: 0.8626
+2025-08-10 15:23:09,247 - Rank 0 - Validation Loss: 0.2931, Validation Accuracy: 0.8725
+2025-08-10 15:23:09,381 - Rank 0 - Saved best model with val_loss 0.2931 to checkpoints/macformer_best_model.pth
+2025-08-10 15:25:10,685 - Rank 0 - Train Loss: 0.3201, Train Accuracy: 0.8633
+2025-08-10 15:25:21,542 - Rank 0 - Validation Loss: 0.2921, Validation Accuracy: 0.8727
+2025-08-10 15:25:21,728 - Rank 0 - Saved best model with val_loss 0.2921 to checkpoints/macformer_best_model.pth
+2025-08-10 15:27:25,715 - Rank 0 - Train Loss: 0.3193, Train Accuracy: 0.8635
+2025-08-10 15:27:36,759 - Rank 0 - Validation Loss: 0.2932, Validation Accuracy: 0.8726
+2025-08-10 15:27:36,879 - Rank 0 - Saved checkpoint at epoch 225 to checkpoints/macformer_checkpoint_epoch_225.pth
+2025-08-10 15:29:41,584 - Rank 0 - Train Loss: 0.3168, Train Accuracy: 0.8646
+2025-08-10 15:29:52,903 - Rank 0 - Validation Loss: 0.2915, Validation Accuracy: 0.8729
+2025-08-10 15:29:53,072 - Rank 0 - Saved best model with val_loss 0.2915 to checkpoints/macformer_best_model.pth
+2025-08-10 15:31:58,069 - Rank 0 - Train Loss: 0.3173, Train Accuracy: 0.8644
+2025-08-10 15:32:08,234 - Rank 0 - Validation Loss: 0.2942, Validation Accuracy: 0.8719
+2025-08-10 15:34:13,168 - Rank 0 - Train Loss: 0.3164, Train Accuracy: 0.8646
+2025-08-10 15:34:24,409 - Rank 0 - Validation Loss: 0.2908, Validation Accuracy: 0.8737
+2025-08-10 15:34:24,578 - Rank 0 - Saved best model with val_loss 0.2908 to checkpoints/macformer_best_model.pth
+2025-08-10 15:34:24,682 - Rank 0 - Saved checkpoint at epoch 228 to checkpoints/macformer_checkpoint_epoch_228.pth
+2025-08-10 15:36:25,977 - Rank 0 - Train Loss: 0.3166, Train Accuracy: 0.8644
+2025-08-10 15:36:36,030 - Rank 0 - Validation Loss: 0.2918, Validation Accuracy: 0.8726
+2025-08-10 15:38:36,307 - Rank 0 - Train Loss: 0.3165, Train Accuracy: 0.8646
+2025-08-10 15:38:46,529 - Rank 0 - Validation Loss: 0.2920, Validation Accuracy: 0.8727
+2025-08-10 15:40:46,292 - Rank 0 - Train Loss: 0.3164, Train Accuracy: 0.8645
+2025-08-10 15:40:55,199 - Rank 0 - Validation Loss: 0.2909, Validation Accuracy: 0.8731
+2025-08-10 15:40:55,320 - Rank 0 - Saved checkpoint at epoch 231 to checkpoints/macformer_checkpoint_epoch_231.pth
+2025-08-10 15:43:32,127 - Rank 0 - Train Loss: 0.3144, Train Accuracy: 0.8651
+2025-08-10 15:43:40,229 - Rank 0 - Validation Loss: 0.2898, Validation Accuracy: 0.8736
+2025-08-10 15:43:40,365 - Rank 0 - Saved best model with val_loss 0.2898 to checkpoints/macformer_best_model.pth
+2025-08-10 15:46:18,163 - Rank 0 - Train Loss: 0.3141, Train Accuracy: 0.8655
+2025-08-10 15:46:27,054 - Rank 0 - Validation Loss: 0.2891, Validation Accuracy: 0.8739
+2025-08-10 15:46:27,275 - Rank 0 - Saved best model with val_loss 0.2891 to checkpoints/macformer_best_model.pth
+2025-08-10 15:49:04,465 - Rank 0 - Train Loss: 0.3123, Train Accuracy: 0.8659
+2025-08-10 15:49:12,766 - Rank 0 - Validation Loss: 0.2892, Validation Accuracy: 0.8737
+2025-08-10 15:49:12,885 - Rank 0 - Saved checkpoint at epoch 234 to checkpoints/macformer_checkpoint_epoch_234.pth
+2025-08-10 15:51:32,639 - Rank 0 - Train Loss: 0.3141, Train Accuracy: 0.8651
+2025-08-10 15:51:41,026 - Rank 0 - Validation Loss: 0.2868, Validation Accuracy: 0.8748
+2025-08-10 15:51:41,195 - Rank 0 - Saved best model with val_loss 0.2868 to checkpoints/macformer_best_model.pth
+2025-08-10 15:53:31,520 - Rank 0 - Train Loss: 0.3127, Train Accuracy: 0.8657
+2025-08-10 15:53:40,110 - Rank 0 - Validation Loss: 0.2881, Validation Accuracy: 0.8740
+2025-08-10 15:55:30,902 - Rank 0 - Train Loss: 0.3133, Train Accuracy: 0.8658
+2025-08-10 15:55:39,223 - Rank 0 - Validation Loss: 0.2872, Validation Accuracy: 0.8744
+2025-08-10 15:55:39,340 - Rank 0 - Saved checkpoint at epoch 237 to checkpoints/macformer_checkpoint_epoch_237.pth
+2025-08-10 15:57:35,080 - Rank 0 - Train Loss: 0.3121, Train Accuracy: 0.8660
+2025-08-10 15:57:43,646 - Rank 0 - Validation Loss: 0.2876, Validation Accuracy: 0.8744
+2025-08-10 15:59:37,918 - Rank 0 - Train Loss: 0.3128, Train Accuracy: 0.8658
+2025-08-10 15:59:46,415 - Rank 0 - Validation Loss: 0.2861, Validation Accuracy: 0.8748
+2025-08-10 15:59:46,571 - Rank 0 - Saved best model with val_loss 0.2861 to checkpoints/macformer_best_model.pth
+2025-08-10 16:01:41,145 - Rank 0 - Train Loss: 0.3103, Train Accuracy: 0.8668
+2025-08-10 16:01:49,245 - Rank 0 - Validation Loss: 0.2881, Validation Accuracy: 0.8743
+2025-08-10 16:01:49,361 - Rank 0 - Saved checkpoint at epoch 240 to checkpoints/macformer_checkpoint_epoch_240.pth
+2025-08-10 16:03:42,335 - Rank 0 - Train Loss: 0.3092, Train Accuracy: 0.8669
+2025-08-10 16:03:50,110 - Rank 0 - Validation Loss: 0.2847, Validation Accuracy: 0.8753
+2025-08-10 16:03:50,307 - Rank 0 - Saved best model with val_loss 0.2847 to checkpoints/macformer_best_model.pth
+2025-08-10 16:05:45,335 - Rank 0 - Train Loss: 0.3104, Train Accuracy: 0.8665
+2025-08-10 16:05:53,805 - Rank 0 - Validation Loss: 0.2848, Validation Accuracy: 0.8752
+2025-08-10 16:07:46,847 - Rank 0 - Train Loss: 0.3099, Train Accuracy: 0.8669
+2025-08-10 16:07:55,184 - Rank 0 - Validation Loss: 0.2868, Validation Accuracy: 0.8744
+2025-08-10 16:07:55,304 - Rank 0 - Saved checkpoint at epoch 243 to checkpoints/macformer_checkpoint_epoch_243.pth
+2025-08-10 16:09:42,640 - Rank 0 - Train Loss: 0.3072, Train Accuracy: 0.8680
+2025-08-10 16:09:51,286 - Rank 0 - Validation Loss: 0.2842, Validation Accuracy: 0.8753
+2025-08-10 16:09:51,463 - Rank 0 - Saved best model with val_loss 0.2842 to checkpoints/macformer_best_model.pth
+2025-08-10 16:11:44,842 - Rank 0 - Train Loss: 0.3092, Train Accuracy: 0.8669
+2025-08-10 16:11:53,288 - Rank 0 - Validation Loss: 0.2858, Validation Accuracy: 0.8751
+2025-08-10 16:13:47,850 - Rank 0 - Train Loss: 0.3066, Train Accuracy: 0.8680
+2025-08-10 16:13:56,295 - Rank 0 - Validation Loss: 0.2842, Validation Accuracy: 0.8754
+2025-08-10 16:13:56,407 - Rank 0 - Saved checkpoint at epoch 246 to checkpoints/macformer_checkpoint_epoch_246.pth
+2025-08-10 16:15:49,691 - Rank 0 - Train Loss: 0.3066, Train Accuracy: 0.8679
+2025-08-10 16:15:58,462 - Rank 0 - Validation Loss: 0.2839, Validation Accuracy: 0.8757
+2025-08-10 16:15:58,634 - Rank 0 - Saved best model with val_loss 0.2839 to checkpoints/macformer_best_model.pth
+2025-08-10 16:17:52,908 - Rank 0 - Train Loss: 0.3059, Train Accuracy: 0.8685
+2025-08-10 16:18:01,392 - Rank 0 - Validation Loss: 0.2832, Validation Accuracy: 0.8756
+2025-08-10 16:18:01,580 - Rank 0 - Saved best model with val_loss 0.2832 to checkpoints/macformer_best_model.pth
+2025-08-10 16:19:57,214 - Rank 0 - Train Loss: 0.3074, Train Accuracy: 0.8678
+2025-08-10 16:20:05,763 - Rank 0 - Validation Loss: 0.2831, Validation Accuracy: 0.8756
+2025-08-10 16:20:05,898 - Rank 0 - Saved best model with val_loss 0.2831 to checkpoints/macformer_best_model.pth
+2025-08-10 16:20:06,015 - Rank 0 - Saved checkpoint at epoch 249 to checkpoints/macformer_checkpoint_epoch_249.pth
+2025-08-10 16:21:58,436 - Rank 0 - Train Loss: 0.3058, Train Accuracy: 0.8680
+2025-08-10 16:22:06,794 - Rank 0 - Validation Loss: 0.2833, Validation Accuracy: 0.8755
+2025-08-10 16:23:53,410 - Rank 0 - Train Loss: 0.3051, Train Accuracy: 0.8685
+2025-08-10 16:24:01,343 - Rank 0 - Validation Loss: 0.2828, Validation Accuracy: 0.8761
+2025-08-10 16:24:01,514 - Rank 0 - Saved best model with val_loss 0.2828 to checkpoints/macformer_best_model.pth
+2025-08-10 16:25:56,263 - Rank 0 - Train Loss: 0.3053, Train Accuracy: 0.8685
+2025-08-10 16:26:04,990 - Rank 0 - Validation Loss: 0.2828, Validation Accuracy: 0.8762
+2025-08-10 16:26:05,116 - Rank 0 - Saved checkpoint at epoch 252 to checkpoints/macformer_checkpoint_epoch_252.pth
+2025-08-10 16:27:59,739 - Rank 0 - Train Loss: 0.3036, Train Accuracy: 0.8691
+2025-08-10 16:28:08,357 - Rank 0 - Validation Loss: 0.2813, Validation Accuracy: 0.8768
+2025-08-10 16:28:08,491 - Rank 0 - Saved best model with val_loss 0.2813 to checkpoints/macformer_best_model.pth
+2025-08-10 16:30:03,161 - Rank 0 - Train Loss: 0.3024, Train Accuracy: 0.8695
+2025-08-10 16:30:11,430 - Rank 0 - Validation Loss: 0.2825, Validation Accuracy: 0.8761
+2025-08-10 16:32:06,684 - Rank 0 - Train Loss: 0.3033, Train Accuracy: 0.8691
+2025-08-10 16:32:14,992 - Rank 0 - Validation Loss: 0.2813, Validation Accuracy: 0.8765
+2025-08-10 16:32:15,148 - Rank 0 - Saved best model with val_loss 0.2813 to checkpoints/macformer_best_model.pth
+2025-08-10 16:32:15,255 - Rank 0 - Saved checkpoint at epoch 255 to checkpoints/macformer_checkpoint_epoch_255.pth
+2025-08-10 16:34:09,648 - Rank 0 - Train Loss: 0.3006, Train Accuracy: 0.8701
+2025-08-10 16:34:18,012 - Rank 0 - Validation Loss: 0.2796, Validation Accuracy: 0.8772
+2025-08-10 16:34:18,185 - Rank 0 - Saved best model with val_loss 0.2796 to checkpoints/macformer_best_model.pth
+2025-08-10 16:36:11,906 - Rank 0 - Train Loss: 0.3008, Train Accuracy: 0.8702
+2025-08-10 16:36:20,019 - Rank 0 - Validation Loss: 0.2807, Validation Accuracy: 0.8763
+2025-08-10 16:38:09,011 - Rank 0 - Train Loss: 0.3016, Train Accuracy: 0.8696
+2025-08-10 16:38:17,479 - Rank 0 - Validation Loss: 0.2813, Validation Accuracy: 0.8762
+2025-08-10 16:38:17,597 - Rank 0 - Saved checkpoint at epoch 258 to checkpoints/macformer_checkpoint_epoch_258.pth
+2025-08-10 16:40:12,482 - Rank 0 - Train Loss: 0.3014, Train Accuracy: 0.8701
+2025-08-10 16:40:20,832 - Rank 0 - Validation Loss: 0.2793, Validation Accuracy: 0.8767
+2025-08-10 16:40:21,041 - Rank 0 - Saved best model with val_loss 0.2793 to checkpoints/macformer_best_model.pth
+2025-08-10 16:42:16,601 - Rank 0 - Train Loss: 0.3005, Train Accuracy: 0.8703
+2025-08-10 16:42:25,086 - Rank 0 - Validation Loss: 0.2805, Validation Accuracy: 0.8764
+2025-08-10 16:44:20,582 - Rank 0 - Train Loss: 0.3008, Train Accuracy: 0.8702
+2025-08-10 16:44:29,166 - Rank 0 - Validation Loss: 0.2796, Validation Accuracy: 0.8771
+2025-08-10 16:44:29,281 - Rank 0 - Saved checkpoint at epoch 261 to checkpoints/macformer_checkpoint_epoch_261.pth
+2025-08-10 16:46:24,292 - Rank 0 - Train Loss: 0.3010, Train Accuracy: 0.8700
+2025-08-10 16:46:32,652 - Rank 0 - Validation Loss: 0.2797, Validation Accuracy: 0.8769
+2025-08-10 16:48:27,897 - Rank 0 - Train Loss: 0.2993, Train Accuracy: 0.8707
+2025-08-10 16:48:36,514 - Rank 0 - Validation Loss: 0.2801, Validation Accuracy: 0.8766
+2025-08-10 16:50:32,186 - Rank 0 - Train Loss: 0.2990, Train Accuracy: 0.8705
+2025-08-10 16:50:40,469 - Rank 0 - Validation Loss: 0.2783, Validation Accuracy: 0.8776
+2025-08-10 16:50:40,632 - Rank 0 - Saved best model with val_loss 0.2783 to checkpoints/macformer_best_model.pth
+2025-08-10 16:50:40,741 - Rank 0 - Saved checkpoint at epoch 264 to checkpoints/macformer_checkpoint_epoch_264.pth
+2025-08-10 16:52:29,024 - Rank 0 - Train Loss: 0.2986, Train Accuracy: 0.8711
+2025-08-10 16:52:37,630 - Rank 0 - Validation Loss: 0.2789, Validation Accuracy: 0.8773
+2025-08-10 16:54:32,364 - Rank 0 - Train Loss: 0.2983, Train Accuracy: 0.8710
+2025-08-10 16:54:40,786 - Rank 0 - Validation Loss: 0.2779, Validation Accuracy: 0.8773
+2025-08-10 16:54:40,965 - Rank 0 - Saved best model with val_loss 0.2779 to checkpoints/macformer_best_model.pth
+2025-08-10 16:56:36,151 - Rank 0 - Train Loss: 0.2966, Train Accuracy: 0.8716
+2025-08-10 16:56:44,539 - Rank 0 - Validation Loss: 0.2779, Validation Accuracy: 0.8775
+2025-08-10 16:56:44,725 - Rank 0 - Saved best model with val_loss 0.2779 to checkpoints/macformer_best_model.pth
+2025-08-10 16:56:44,844 - Rank 0 - Saved checkpoint at epoch 267 to checkpoints/macformer_checkpoint_epoch_267.pth
+2025-08-10 16:58:39,595 - Rank 0 - Train Loss: 0.2975, Train Accuracy: 0.8715
+2025-08-10 16:58:47,514 - Rank 0 - Validation Loss: 0.2765, Validation Accuracy: 0.8779
+2025-08-10 16:58:47,721 - Rank 0 - Saved best model with val_loss 0.2765 to checkpoints/macformer_best_model.pth
+2025-08-10 17:00:42,708 - Rank 0 - Train Loss: 0.2966, Train Accuracy: 0.8713
+2025-08-10 17:00:51,427 - Rank 0 - Validation Loss: 0.2765, Validation Accuracy: 0.8777
+2025-08-10 17:02:47,103 - Rank 0 - Train Loss: 0.2970, Train Accuracy: 0.8715
+2025-08-10 17:02:55,339 - Rank 0 - Validation Loss: 0.2763, Validation Accuracy: 0.8780
+2025-08-10 17:02:55,494 - Rank 0 - Saved best model with val_loss 0.2763 to checkpoints/macformer_best_model.pth
+2025-08-10 17:02:55,603 - Rank 0 - Saved checkpoint at epoch 270 to checkpoints/macformer_checkpoint_epoch_270.pth
+2025-08-10 17:04:49,164 - Rank 0 - Train Loss: 0.2962, Train Accuracy: 0.8718
+2025-08-10 17:04:57,298 - Rank 0 - Validation Loss: 0.2757, Validation Accuracy: 0.8779
+2025-08-10 17:04:57,449 - Rank 0 - Saved best model with val_loss 0.2757 to checkpoints/macformer_best_model.pth
+2025-08-10 17:06:45,960 - Rank 0 - Train Loss: 0.2952, Train Accuracy: 0.8720
+2025-08-10 17:06:54,240 - Rank 0 - Validation Loss: 0.2758, Validation Accuracy: 0.8782
+2025-08-10 17:08:49,474 - Rank 0 - Train Loss: 0.2958, Train Accuracy: 0.8719
+2025-08-10 17:08:57,746 - Rank 0 - Validation Loss: 0.2749, Validation Accuracy: 0.8784
+2025-08-10 17:08:57,923 - Rank 0 - Saved best model with val_loss 0.2749 to checkpoints/macformer_best_model.pth
+2025-08-10 17:08:58,033 - Rank 0 - Saved checkpoint at epoch 273 to checkpoints/macformer_checkpoint_epoch_273.pth
+2025-08-10 17:10:51,806 - Rank 0 - Train Loss: 0.2944, Train Accuracy: 0.8721
+2025-08-10 17:11:00,351 - Rank 0 - Validation Loss: 0.2745, Validation Accuracy: 0.8786
+2025-08-10 17:11:00,489 - Rank 0 - Saved best model with val_loss 0.2745 to checkpoints/macformer_best_model.pth
+2025-08-10 17:12:56,080 - Rank 0 - Train Loss: 0.2948, Train Accuracy: 0.8721
+2025-08-10 17:13:04,455 - Rank 0 - Validation Loss: 0.2752, Validation Accuracy: 0.8784
+2025-08-10 17:14:59,851 - Rank 0 - Train Loss: 0.2940, Train Accuracy: 0.8723
+2025-08-10 17:15:08,458 - Rank 0 - Validation Loss: 0.2760, Validation Accuracy: 0.8781
+2025-08-10 17:15:08,578 - Rank 0 - Saved checkpoint at epoch 276 to checkpoints/macformer_checkpoint_epoch_276.pth
+2025-08-10 17:17:02,859 - Rank 0 - Train Loss: 0.2954, Train Accuracy: 0.8717
+2025-08-10 17:17:11,399 - Rank 0 - Validation Loss: 0.2742, Validation Accuracy: 0.8791
+2025-08-10 17:17:11,580 - Rank 0 - Saved best model with val_loss 0.2742 to checkpoints/macformer_best_model.pth
+2025-08-10 17:19:05,598 - Rank 0 - Train Loss: 0.2931, Train Accuracy: 0.8729
+2025-08-10 17:19:14,181 - Rank 0 - Validation Loss: 0.2737, Validation Accuracy: 0.8788
+2025-08-10 17:19:14,338 - Rank 0 - Saved best model with val_loss 0.2737 to checkpoints/macformer_best_model.pth
+2025-08-10 17:21:02,964 - Rank 0 - Train Loss: 0.2922, Train Accuracy: 0.8729
+2025-08-10 17:21:11,269 - Rank 0 - Validation Loss: 0.2732, Validation Accuracy: 0.8792
+2025-08-10 17:21:11,439 - Rank 0 - Saved best model with val_loss 0.2732 to checkpoints/macformer_best_model.pth
+2025-08-10 17:21:11,548 - Rank 0 - Saved checkpoint at epoch 279 to checkpoints/macformer_checkpoint_epoch_279.pth
+2025-08-10 17:23:04,945 - Rank 0 - Train Loss: 0.2938, Train Accuracy: 0.8724
+2025-08-10 17:23:13,500 - Rank 0 - Validation Loss: 0.2747, Validation Accuracy: 0.8782
+2025-08-10 17:25:10,212 - Rank 0 - Train Loss: 0.2914, Train Accuracy: 0.8737
+2025-08-10 17:25:18,916 - Rank 0 - Validation Loss: 0.2720, Validation Accuracy: 0.8793
+2025-08-10 17:25:19,442 - Rank 0 - Saved best model with val_loss 0.2720 to checkpoints/macformer_best_model.pth
+2025-08-10 17:27:16,390 - Rank 0 - Train Loss: 0.2916, Train Accuracy: 0.8731
+2025-08-10 17:27:25,108 - Rank 0 - Validation Loss: 0.2717, Validation Accuracy: 0.8796
+2025-08-10 17:27:25,311 - Rank 0 - Saved best model with val_loss 0.2717 to checkpoints/macformer_best_model.pth
+2025-08-10 17:27:25,419 - Rank 0 - Saved checkpoint at epoch 282 to checkpoints/macformer_checkpoint_epoch_282.pth
+2025-08-10 17:29:23,387 - Rank 0 - Train Loss: 0.2907, Train Accuracy: 0.8736
+2025-08-10 17:29:32,415 - Rank 0 - Validation Loss: 0.2737, Validation Accuracy: 0.8789
+2025-08-10 17:31:30,187 - Rank 0 - Train Loss: 0.2896, Train Accuracy: 0.8740
+2025-08-10 17:31:38,930 - Rank 0 - Validation Loss: 0.2743, Validation Accuracy: 0.8786
+2025-08-10 17:33:37,938 - Rank 0 - Train Loss: 0.2896, Train Accuracy: 0.8741
+2025-08-10 17:33:47,052 - Rank 0 - Validation Loss: 0.2724, Validation Accuracy: 0.8794
+2025-08-10 17:33:47,170 - Rank 0 - Saved checkpoint at epoch 285 to checkpoints/macformer_checkpoint_epoch_285.pth
+2025-08-10 17:35:40,247 - Rank 0 - Train Loss: 0.2905, Train Accuracy: 0.8735
+2025-08-10 17:35:48,295 - Rank 0 - Validation Loss: 0.2738, Validation Accuracy: 0.8782
+2025-08-10 17:37:46,367 - Rank 0 - Train Loss: 0.2893, Train Accuracy: 0.8744
+2025-08-10 17:37:55,300 - Rank 0 - Validation Loss: 0.2719, Validation Accuracy: 0.8794
+2025-08-10 17:39:53,875 - Rank 0 - Train Loss: 0.2896, Train Accuracy: 0.8738
+2025-08-10 17:40:03,053 - Rank 0 - Validation Loss: 0.2707, Validation Accuracy: 0.8797
+2025-08-10 17:40:03,232 - Rank 0 - Saved best model with val_loss 0.2707 to checkpoints/macformer_best_model.pth
+2025-08-10 17:40:03,341 - Rank 0 - Saved checkpoint at epoch 288 to checkpoints/macformer_checkpoint_epoch_288.pth
+2025-08-10 17:42:03,252 - Rank 0 - Train Loss: 0.2875, Train Accuracy: 0.8748
+2025-08-10 17:42:12,254 - Rank 0 - Validation Loss: 0.2710, Validation Accuracy: 0.8797
+2025-08-10 17:44:11,113 - Rank 0 - Train Loss: 0.2883, Train Accuracy: 0.8745
+2025-08-10 17:44:20,150 - Rank 0 - Validation Loss: 0.2716, Validation Accuracy: 0.8795
+2025-08-10 17:46:19,977 - Rank 0 - Train Loss: 0.2883, Train Accuracy: 0.8744
+2025-08-10 17:46:28,983 - Rank 0 - Validation Loss: 0.2722, Validation Accuracy: 0.8790
+2025-08-10 17:46:29,097 - Rank 0 - Saved checkpoint at epoch 291 to checkpoints/macformer_checkpoint_epoch_291.pth
+2025-08-10 17:48:28,758 - Rank 0 - Train Loss: 0.2867, Train Accuracy: 0.8750
+2025-08-10 17:48:37,732 - Rank 0 - Validation Loss: 0.2708, Validation Accuracy: 0.8800
+2025-08-10 17:50:30,083 - Rank 0 - Train Loss: 0.2868, Train Accuracy: 0.8750
+2025-08-10 17:50:39,141 - Rank 0 - Validation Loss: 0.2702, Validation Accuracy: 0.8798
+2025-08-10 17:50:39,316 - Rank 0 - Saved best model with val_loss 0.2702 to checkpoints/macformer_best_model.pth
+2025-08-10 17:52:39,340 - Rank 0 - Train Loss: 0.2865, Train Accuracy: 0.8751
+2025-08-10 17:52:48,340 - Rank 0 - Validation Loss: 0.2705, Validation Accuracy: 0.8801
+2025-08-10 17:52:48,448 - Rank 0 - Saved checkpoint at epoch 294 to checkpoints/macformer_checkpoint_epoch_294.pth
+2025-08-10 17:54:47,534 - Rank 0 - Train Loss: 0.2840, Train Accuracy: 0.8759
+2025-08-10 17:54:56,759 - Rank 0 - Validation Loss: 0.2703, Validation Accuracy: 0.8801
+2025-08-10 17:56:54,191 - Rank 0 - Train Loss: 0.2854, Train Accuracy: 0.8753
+2025-08-10 17:57:02,609 - Rank 0 - Validation Loss: 0.2700, Validation Accuracy: 0.8802
+2025-08-10 17:57:02,781 - Rank 0 - Saved best model with val_loss 0.2700 to checkpoints/macformer_best_model.pth
+2025-08-10 17:59:00,719 - Rank 0 - Train Loss: 0.2857, Train Accuracy: 0.8754
+2025-08-10 17:59:09,753 - Rank 0 - Validation Loss: 0.2710, Validation Accuracy: 0.8800
+2025-08-10 17:59:09,866 - Rank 0 - Saved checkpoint at epoch 297 to checkpoints/macformer_checkpoint_epoch_297.pth
+2025-08-10 18:01:08,889 - Rank 0 - Train Loss: 0.2853, Train Accuracy: 0.8752
+2025-08-10 18:01:17,553 - Rank 0 - Validation Loss: 0.2702, Validation Accuracy: 0.8801
+2025-08-10 18:03:15,705 - Rank 0 - Train Loss: 0.2850, Train Accuracy: 0.8757
+2025-08-10 18:03:24,560 - Rank 0 - Validation Loss: 0.2697, Validation Accuracy: 0.8801
+2025-08-10 18:03:24,709 - Rank 0 - Saved best model with val_loss 0.2697 to checkpoints/macformer_best_model.pth
+2025-08-10 18:05:16,927 - Rank 0 - Train Loss: 0.2848, Train Accuracy: 0.8758
+2025-08-10 18:05:26,456 - Rank 0 - Validation Loss: 0.2676, Validation Accuracy: 0.8810
+2025-08-10 18:05:26,636 - Rank 0 - Saved best model with val_loss 0.2676 to checkpoints/macformer_best_model.pth
+2025-08-10 18:05:26,744 - Rank 0 - Saved checkpoint at epoch 300 to checkpoints/macformer_checkpoint_epoch_300.pth
+2025-08-10 18:07:24,956 - Rank 0 - Train Loss: 0.2843, Train Accuracy: 0.8759
+2025-08-10 18:07:34,119 - Rank 0 - Validation Loss: 0.2691, Validation Accuracy: 0.8805
+2025-08-10 18:09:32,930 - Rank 0 - Train Loss: 0.2825, Train Accuracy: 0.8765
+2025-08-10 18:09:41,913 - Rank 0 - Validation Loss: 0.2687, Validation Accuracy: 0.8806
+2025-08-10 18:11:41,330 - Rank 0 - Train Loss: 0.2845, Train Accuracy: 0.8756
+2025-08-10 18:11:50,209 - Rank 0 - Validation Loss: 0.2675, Validation Accuracy: 0.8806
+2025-08-10 18:11:50,382 - Rank 0 - Saved best model with val_loss 0.2675 to checkpoints/macformer_best_model.pth
+2025-08-10 18:11:50,492 - Rank 0 - Saved checkpoint at epoch 303 to checkpoints/macformer_checkpoint_epoch_303.pth
+2025-08-10 18:13:49,085 - Rank 0 - Train Loss: 0.2817, Train Accuracy: 0.8769
+2025-08-10 18:13:58,447 - Rank 0 - Validation Loss: 0.2668, Validation Accuracy: 0.8814
+2025-08-10 18:13:58,605 - Rank 0 - Saved best model with val_loss 0.2668 to checkpoints/macformer_best_model.pth
+2025-08-10 18:15:56,601 - Rank 0 - Train Loss: 0.2828, Train Accuracy: 0.8765
+2025-08-10 18:16:05,422 - Rank 0 - Validation Loss: 0.2670, Validation Accuracy: 0.8814
+2025-08-10 18:18:03,810 - Rank 0 - Train Loss: 0.2807, Train Accuracy: 0.8773
+2025-08-10 18:18:13,629 - Rank 0 - Validation Loss: 0.2668, Validation Accuracy: 0.8812
+2025-08-10 18:18:13,757 - Rank 0 - Saved best model with val_loss 0.2668 to checkpoints/macformer_best_model.pth
+2025-08-10 18:18:13,863 - Rank 0 - Saved checkpoint at epoch 306 to checkpoints/macformer_checkpoint_epoch_306.pth
+2025-08-10 18:20:11,021 - Rank 0 - Train Loss: 0.2821, Train Accuracy: 0.8768
+2025-08-10 18:20:20,761 - Rank 0 - Validation Loss: 0.2690, Validation Accuracy: 0.8804
+2025-08-10 18:22:24,270 - Rank 0 - Train Loss: 0.2820, Train Accuracy: 0.8766
+2025-08-10 18:22:33,693 - Rank 0 - Validation Loss: 0.2672, Validation Accuracy: 0.8810
+2025-08-10 18:24:39,032 - Rank 0 - Train Loss: 0.2815, Train Accuracy: 0.8769
+2025-08-10 18:24:48,613 - Rank 0 - Validation Loss: 0.2668, Validation Accuracy: 0.8811
+2025-08-10 18:24:48,727 - Rank 0 - Saved checkpoint at epoch 309 to checkpoints/macformer_checkpoint_epoch_309.pth
+2025-08-10 18:26:51,432 - Rank 0 - Train Loss: 0.2807, Train Accuracy: 0.8774
+2025-08-10 18:27:01,117 - Rank 0 - Validation Loss: 0.2668, Validation Accuracy: 0.8813
+2025-08-10 18:29:00,777 - Rank 0 - Train Loss: 0.2794, Train Accuracy: 0.8776
+2025-08-10 18:29:09,841 - Rank 0 - Validation Loss: 0.2658, Validation Accuracy: 0.8812
+2025-08-10 18:29:10,007 - Rank 0 - Saved best model with val_loss 0.2658 to checkpoints/macformer_best_model.pth
+2025-08-10 18:31:09,828 - Rank 0 - Train Loss: 0.2803, Train Accuracy: 0.8773
+2025-08-10 18:31:19,151 - Rank 0 - Validation Loss: 0.2657, Validation Accuracy: 0.8815
+2025-08-10 18:31:19,304 - Rank 0 - Saved best model with val_loss 0.2657 to checkpoints/macformer_best_model.pth
+2025-08-10 18:31:19,410 - Rank 0 - Saved checkpoint at epoch 312 to checkpoints/macformer_checkpoint_epoch_312.pth
+2025-08-10 18:33:14,891 - Rank 0 - Train Loss: 0.2792, Train Accuracy: 0.8777
+2025-08-10 18:33:24,801 - Rank 0 - Validation Loss: 0.2662, Validation Accuracy: 0.8811
+2025-08-10 18:35:24,618 - Rank 0 - Train Loss: 0.2788, Train Accuracy: 0.8779
+2025-08-10 18:35:33,752 - Rank 0 - Validation Loss: 0.2648, Validation Accuracy: 0.8821
+2025-08-10 18:35:33,902 - Rank 0 - Saved best model with val_loss 0.2648 to checkpoints/macformer_best_model.pth
+2025-08-10 18:37:34,358 - Rank 0 - Train Loss: 0.2795, Train Accuracy: 0.8775
+2025-08-10 18:37:43,553 - Rank 0 - Validation Loss: 0.2669, Validation Accuracy: 0.8812
+2025-08-10 18:37:43,669 - Rank 0 - Saved checkpoint at epoch 315 to checkpoints/macformer_checkpoint_epoch_315.pth
+2025-08-10 18:39:45,884 - Rank 0 - Train Loss: 0.2774, Train Accuracy: 0.8786
+2025-08-10 18:39:55,582 - Rank 0 - Validation Loss: 0.2649, Validation Accuracy: 0.8818
+2025-08-10 18:41:58,793 - Rank 0 - Train Loss: 0.2788, Train Accuracy: 0.8776
+2025-08-10 18:42:08,130 - Rank 0 - Validation Loss: 0.2659, Validation Accuracy: 0.8811
+2025-08-10 18:44:11,424 - Rank 0 - Train Loss: 0.2766, Train Accuracy: 0.8784
+2025-08-10 18:44:20,642 - Rank 0 - Validation Loss: 0.2633, Validation Accuracy: 0.8824
+2025-08-10 18:44:20,808 - Rank 0 - Saved best model with val_loss 0.2633 to checkpoints/macformer_best_model.pth
+2025-08-10 18:44:20,920 - Rank 0 - Saved checkpoint at epoch 318 to checkpoints/macformer_checkpoint_epoch_318.pth
+2025-08-10 18:46:21,923 - Rank 0 - Train Loss: 0.2775, Train Accuracy: 0.8784
+2025-08-10 18:46:31,525 - Rank 0 - Validation Loss: 0.2643, Validation Accuracy: 0.8820
+2025-08-10 18:48:32,550 - Rank 0 - Train Loss: 0.2769, Train Accuracy: 0.8785
+2025-08-10 18:48:42,828 - Rank 0 - Validation Loss: 0.2622, Validation Accuracy: 0.8828
+2025-08-10 18:48:43,037 - Rank 0 - Saved best model with val_loss 0.2622 to checkpoints/macformer_best_model.pth
+2025-08-10 18:50:44,546 - Rank 0 - Train Loss: 0.2765, Train Accuracy: 0.8785
+2025-08-10 18:50:53,661 - Rank 0 - Validation Loss: 0.2644, Validation Accuracy: 0.8821
+2025-08-10 18:50:53,777 - Rank 0 - Saved checkpoint at epoch 321 to checkpoints/macformer_checkpoint_epoch_321.pth
+2025-08-10 18:52:56,281 - Rank 0 - Train Loss: 0.2756, Train Accuracy: 0.8789
+2025-08-10 18:53:05,481 - Rank 0 - Validation Loss: 0.2643, Validation Accuracy: 0.8822
+2025-08-10 18:55:08,484 - Rank 0 - Train Loss: 0.2771, Train Accuracy: 0.8785
+2025-08-10 18:55:17,502 - Rank 0 - Validation Loss: 0.2626, Validation Accuracy: 0.8828
+2025-08-10 18:57:20,533 - Rank 0 - Train Loss: 0.2761, Train Accuracy: 0.8787
+2025-08-10 18:57:29,572 - Rank 0 - Validation Loss: 0.2631, Validation Accuracy: 0.8825
+2025-08-10 18:57:29,684 - Rank 0 - Saved checkpoint at epoch 324 to checkpoints/macformer_checkpoint_epoch_324.pth
+2025-08-10 18:59:32,358 - Rank 0 - Train Loss: 0.2754, Train Accuracy: 0.8792
+2025-08-10 18:59:42,261 - Rank 0 - Validation Loss: 0.2632, Validation Accuracy: 0.8824
+2025-08-10 19:01:40,246 - Rank 0 - Train Loss: 0.2747, Train Accuracy: 0.8795
+2025-08-10 19:01:49,360 - Rank 0 - Validation Loss: 0.2622, Validation Accuracy: 0.8825
+2025-08-10 19:03:52,481 - Rank 0 - Train Loss: 0.2754, Train Accuracy: 0.8788
+2025-08-10 19:04:02,051 - Rank 0 - Validation Loss: 0.2659, Validation Accuracy: 0.8819
+2025-08-10 19:04:02,159 - Rank 0 - Saved checkpoint at epoch 327 to checkpoints/macformer_checkpoint_epoch_327.pth
+2025-08-10 19:06:04,846 - Rank 0 - Train Loss: 0.2753, Train Accuracy: 0.8793
+2025-08-10 19:06:14,440 - Rank 0 - Validation Loss: 0.2616, Validation Accuracy: 0.8830
+2025-08-10 19:06:14,617 - Rank 0 - Saved best model with val_loss 0.2616 to checkpoints/macformer_best_model.pth
+2025-08-10 19:08:16,964 - Rank 0 - Train Loss: 0.2736, Train Accuracy: 0.8797
+2025-08-10 19:08:26,426 - Rank 0 - Validation Loss: 0.2614, Validation Accuracy: 0.8830
+2025-08-10 19:08:26,555 - Rank 0 - Saved best model with val_loss 0.2614 to checkpoints/macformer_best_model.pth
+2025-08-10 19:10:28,347 - Rank 0 - Train Loss: 0.2741, Train Accuracy: 0.8795
+2025-08-10 19:10:37,758 - Rank 0 - Validation Loss: 0.2617, Validation Accuracy: 0.8831
+2025-08-10 19:10:37,867 - Rank 0 - Saved checkpoint at epoch 330 to checkpoints/macformer_checkpoint_epoch_330.pth
+2025-08-10 19:12:37,944 - Rank 0 - Train Loss: 0.2743, Train Accuracy: 0.8794
+2025-08-10 19:12:47,752 - Rank 0 - Validation Loss: 0.2624, Validation Accuracy: 0.8831
+2025-08-10 19:14:42,166 - Rank 0 - Train Loss: 0.2736, Train Accuracy: 0.8798
+2025-08-10 19:14:51,702 - Rank 0 - Validation Loss: 0.2646, Validation Accuracy: 0.8817
+2025-08-10 19:16:52,870 - Rank 0 - Train Loss: 0.2739, Train Accuracy: 0.8798
+2025-08-10 19:17:02,481 - Rank 0 - Validation Loss: 0.2615, Validation Accuracy: 0.8830
+2025-08-10 19:17:02,596 - Rank 0 - Saved checkpoint at epoch 333 to checkpoints/macformer_checkpoint_epoch_333.pth
+2025-08-10 19:19:00,215 - Rank 0 - Train Loss: 0.2726, Train Accuracy: 0.8802
+2025-08-10 19:19:09,095 - Rank 0 - Validation Loss: 0.2620, Validation Accuracy: 0.8826
+2025-08-10 19:21:07,163 - Rank 0 - Train Loss: 0.2713, Train Accuracy: 0.8803
+2025-08-10 19:21:16,245 - Rank 0 - Validation Loss: 0.2610, Validation Accuracy: 0.8833
+2025-08-10 19:21:16,415 - Rank 0 - Saved best model with val_loss 0.2610 to checkpoints/macformer_best_model.pth
+2025-08-10 19:23:14,286 - Rank 0 - Train Loss: 0.2712, Train Accuracy: 0.8804
+2025-08-10 19:23:22,617 - Rank 0 - Validation Loss: 0.2615, Validation Accuracy: 0.8831
+2025-08-10 19:23:22,724 - Rank 0 - Saved checkpoint at epoch 336 to checkpoints/macformer_checkpoint_epoch_336.pth
+2025-08-10 19:25:20,451 - Rank 0 - Train Loss: 0.2702, Train Accuracy: 0.8809
+2025-08-10 19:25:29,014 - Rank 0 - Validation Loss: 0.2599, Validation Accuracy: 0.8837
+2025-08-10 19:25:29,201 - Rank 0 - Saved best model with val_loss 0.2599 to checkpoints/macformer_best_model.pth
+2025-08-10 19:27:22,461 - Rank 0 - Train Loss: 0.2716, Train Accuracy: 0.8803
+2025-08-10 19:27:31,324 - Rank 0 - Validation Loss: 0.2602, Validation Accuracy: 0.8829
+2025-08-10 19:29:27,886 - Rank 0 - Train Loss: 0.2722, Train Accuracy: 0.8802
+2025-08-10 19:29:36,132 - Rank 0 - Validation Loss: 0.2608, Validation Accuracy: 0.8834
+2025-08-10 19:29:36,248 - Rank 0 - Saved checkpoint at epoch 339 to checkpoints/macformer_checkpoint_epoch_339.pth
+2025-08-10 19:31:36,513 - Rank 0 - Train Loss: 0.2711, Train Accuracy: 0.8807
+2025-08-10 19:31:44,578 - Rank 0 - Validation Loss: 0.2587, Validation Accuracy: 0.8842
+2025-08-10 19:31:44,749 - Rank 0 - Saved best model with val_loss 0.2587 to checkpoints/macformer_best_model.pth
+2025-08-10 19:33:43,648 - Rank 0 - Train Loss: 0.2703, Train Accuracy: 0.8808
+2025-08-10 19:33:52,129 - Rank 0 - Validation Loss: 0.2596, Validation Accuracy: 0.8837
+2025-08-10 19:35:51,724 - Rank 0 - Train Loss: 0.2710, Train Accuracy: 0.8805
+2025-08-10 19:35:59,890 - Rank 0 - Validation Loss: 0.2584, Validation Accuracy: 0.8843
+2025-08-10 19:36:00,060 - Rank 0 - Saved best model with val_loss 0.2584 to checkpoints/macformer_best_model.pth
+2025-08-10 19:36:00,164 - Rank 0 - Saved checkpoint at epoch 342 to checkpoints/macformer_checkpoint_epoch_342.pth
+2025-08-10 19:37:58,773 - Rank 0 - Train Loss: 0.2697, Train Accuracy: 0.8811
+2025-08-10 19:38:06,914 - Rank 0 - Validation Loss: 0.2584, Validation Accuracy: 0.8839
+2025-08-10 19:38:07,050 - Rank 0 - Saved best model with val_loss 0.2584 to checkpoints/macformer_best_model.pth
+2025-08-10 19:40:05,895 - Rank 0 - Train Loss: 0.2714, Train Accuracy: 0.8805
+2025-08-10 19:40:14,428 - Rank 0 - Validation Loss: 0.2597, Validation Accuracy: 0.8841
+2025-08-10 19:42:02,305 - Rank 0 - Train Loss: 0.2691, Train Accuracy: 0.8814
+2025-08-10 19:42:11,426 - Rank 0 - Validation Loss: 0.2587, Validation Accuracy: 0.8839
+2025-08-10 19:42:11,532 - Rank 0 - Saved checkpoint at epoch 345 to checkpoints/macformer_checkpoint_epoch_345.pth
+2025-08-10 19:44:05,111 - Rank 0 - Train Loss: 0.2692, Train Accuracy: 0.8813
+2025-08-10 19:44:14,006 - Rank 0 - Validation Loss: 0.2590, Validation Accuracy: 0.8837
+2025-08-10 19:46:07,518 - Rank 0 - Train Loss: 0.2693, Train Accuracy: 0.8813
+2025-08-10 19:46:16,113 - Rank 0 - Validation Loss: 0.2577, Validation Accuracy: 0.8845
+2025-08-10 19:46:16,271 - Rank 0 - Saved best model with val_loss 0.2577 to checkpoints/macformer_best_model.pth
+2025-08-10 19:48:11,566 - Rank 0 - Train Loss: 0.2686, Train Accuracy: 0.8813
+2025-08-10 19:48:21,056 - Rank 0 - Validation Loss: 0.2583, Validation Accuracy: 0.8841
+2025-08-10 19:48:21,165 - Rank 0 - Saved checkpoint at epoch 348 to checkpoints/macformer_checkpoint_epoch_348.pth
+2025-08-10 19:50:15,310 - Rank 0 - Train Loss: 0.2674, Train Accuracy: 0.8819
+2025-08-10 19:50:24,418 - Rank 0 - Validation Loss: 0.2583, Validation Accuracy: 0.8843
+2025-08-10 19:52:17,472 - Rank 0 - Train Loss: 0.2678, Train Accuracy: 0.8818
+2025-08-10 19:52:26,530 - Rank 0 - Validation Loss: 0.2575, Validation Accuracy: 0.8842
+2025-08-10 19:52:26,698 - Rank 0 - Saved best model with val_loss 0.2575 to checkpoints/macformer_best_model.pth
+2025-08-10 19:54:20,585 - Rank 0 - Train Loss: 0.2667, Train Accuracy: 0.8822
+2025-08-10 19:54:29,864 - Rank 0 - Validation Loss: 0.2587, Validation Accuracy: 0.8842
+2025-08-10 19:54:29,972 - Rank 0 - Saved checkpoint at epoch 351 to checkpoints/macformer_checkpoint_epoch_351.pth
+2025-08-10 19:56:18,713 - Rank 0 - Train Loss: 0.2680, Train Accuracy: 0.8819
+2025-08-10 19:56:27,770 - Rank 0 - Validation Loss: 0.2562, Validation Accuracy: 0.8850
+2025-08-10 19:56:27,919 - Rank 0 - Saved best model with val_loss 0.2562 to checkpoints/macformer_best_model.pth
+2025-08-10 19:58:21,275 - Rank 0 - Train Loss: 0.2674, Train Accuracy: 0.8819
+2025-08-10 19:58:30,023 - Rank 0 - Validation Loss: 0.2581, Validation Accuracy: 0.8845
+2025-08-10 20:00:25,286 - Rank 0 - Train Loss: 0.2672, Train Accuracy: 0.8819
+2025-08-10 20:00:34,158 - Rank 0 - Validation Loss: 0.2559, Validation Accuracy: 0.8853
+2025-08-10 20:00:34,320 - Rank 0 - Saved best model with val_loss 0.2559 to checkpoints/macformer_best_model.pth
+2025-08-10 20:00:34,424 - Rank 0 - Saved checkpoint at epoch 354 to checkpoints/macformer_checkpoint_epoch_354.pth
+2025-08-10 20:02:29,560 - Rank 0 - Train Loss: 0.2668, Train Accuracy: 0.8820
+2025-08-10 20:02:38,361 - Rank 0 - Validation Loss: 0.2572, Validation Accuracy: 0.8847
+2025-08-10 20:04:33,233 - Rank 0 - Train Loss: 0.2669, Train Accuracy: 0.8822
+2025-08-10 20:04:41,929 - Rank 0 - Validation Loss: 0.2587, Validation Accuracy: 0.8840
+2025-08-10 20:06:35,837 - Rank 0 - Train Loss: 0.2658, Train Accuracy: 0.8826
+2025-08-10 20:06:44,775 - Rank 0 - Validation Loss: 0.2556, Validation Accuracy: 0.8849
+2025-08-10 20:06:44,951 - Rank 0 - Saved best model with val_loss 0.2556 to checkpoints/macformer_best_model.pth
+2025-08-10 20:06:45,054 - Rank 0 - Saved checkpoint at epoch 357 to checkpoints/macformer_checkpoint_epoch_357.pth
+2025-08-10 20:08:39,204 - Rank 0 - Train Loss: 0.2654, Train Accuracy: 0.8828
+2025-08-10 20:08:48,121 - Rank 0 - Validation Loss: 0.2561, Validation Accuracy: 0.8849
+2025-08-10 20:10:39,303 - Rank 0 - Train Loss: 0.2643, Train Accuracy: 0.8830
+2025-08-10 20:10:48,307 - Rank 0 - Validation Loss: 0.2557, Validation Accuracy: 0.8850
+2025-08-10 20:12:41,263 - Rank 0 - Train Loss: 0.2657, Train Accuracy: 0.8825
+2025-08-10 20:12:50,182 - Rank 0 - Validation Loss: 0.2553, Validation Accuracy: 0.8854
+2025-08-10 20:12:50,347 - Rank 0 - Saved best model with val_loss 0.2553 to checkpoints/macformer_best_model.pth
+2025-08-10 20:12:50,450 - Rank 0 - Saved checkpoint at epoch 360 to checkpoints/macformer_checkpoint_epoch_360.pth
+2025-08-10 20:14:44,952 - Rank 0 - Train Loss: 0.2645, Train Accuracy: 0.8829
+2025-08-10 20:14:53,238 - Rank 0 - Validation Loss: 0.2567, Validation Accuracy: 0.8847
+2025-08-10 20:16:56,613 - Rank 0 - Train Loss: 0.2641, Train Accuracy: 0.8831
+2025-08-10 20:17:05,439 - Rank 0 - Validation Loss: 0.2555, Validation Accuracy: 0.8854
+2025-08-10 20:19:06,495 - Rank 0 - Train Loss: 0.2641, Train Accuracy: 0.8830
+2025-08-10 20:19:14,528 - Rank 0 - Validation Loss: 0.2556, Validation Accuracy: 0.8849
+2025-08-10 20:19:14,639 - Rank 0 - Saved checkpoint at epoch 363 to checkpoints/macformer_checkpoint_epoch_363.pth
+2025-08-10 20:21:14,819 - Rank 0 - Train Loss: 0.2636, Train Accuracy: 0.8831
+2025-08-10 20:21:23,255 - Rank 0 - Validation Loss: 0.2557, Validation Accuracy: 0.8849
+2025-08-10 20:23:23,985 - Rank 0 - Train Loss: 0.2633, Train Accuracy: 0.8836
+2025-08-10 20:23:32,844 - Rank 0 - Validation Loss: 0.2567, Validation Accuracy: 0.8849
+2025-08-10 20:25:25,202 - Rank 0 - Train Loss: 0.2634, Train Accuracy: 0.8833
+2025-08-10 20:25:33,759 - Rank 0 - Validation Loss: 0.2541, Validation Accuracy: 0.8854
+2025-08-10 20:25:33,907 - Rank 0 - Saved best model with val_loss 0.2541 to checkpoints/macformer_best_model.pth
+2025-08-10 20:25:34,010 - Rank 0 - Saved checkpoint at epoch 366 to checkpoints/macformer_checkpoint_epoch_366.pth
+2025-08-10 20:27:33,201 - Rank 0 - Train Loss: 0.2635, Train Accuracy: 0.8834
+2025-08-10 20:27:41,725 - Rank 0 - Validation Loss: 0.2540, Validation Accuracy: 0.8854
+2025-08-10 20:27:41,894 - Rank 0 - Saved best model with val_loss 0.2540 to checkpoints/macformer_best_model.pth
+2025-08-10 20:29:42,717 - Rank 0 - Train Loss: 0.2624, Train Accuracy: 0.8836
+2025-08-10 20:29:51,115 - Rank 0 - Validation Loss: 0.2551, Validation Accuracy: 0.8856
+2025-08-10 20:31:50,867 - Rank 0 - Train Loss: 0.2621, Train Accuracy: 0.8839
+2025-08-10 20:31:59,346 - Rank 0 - Validation Loss: 0.2551, Validation Accuracy: 0.8854
+2025-08-10 20:31:59,451 - Rank 0 - Saved checkpoint at epoch 369 to checkpoints/macformer_checkpoint_epoch_369.pth
+2025-08-10 20:33:58,212 - Rank 0 - Train Loss: 0.2615, Train Accuracy: 0.8838
+2025-08-10 20:34:06,767 - Rank 0 - Validation Loss: 0.2537, Validation Accuracy: 0.8861
+2025-08-10 20:34:06,959 - Rank 0 - Saved best model with val_loss 0.2537 to checkpoints/macformer_best_model.pth
+2025-08-10 20:36:06,220 - Rank 0 - Train Loss: 0.2621, Train Accuracy: 0.8839
+2025-08-10 20:36:14,714 - Rank 0 - Validation Loss: 0.2542, Validation Accuracy: 0.8858
+2025-08-10 20:38:15,051 - Rank 0 - Train Loss: 0.2622, Train Accuracy: 0.8836
+2025-08-10 20:38:23,163 - Rank 0 - Validation Loss: 0.2539, Validation Accuracy: 0.8857
+2025-08-10 20:38:23,267 - Rank 0 - Saved checkpoint at epoch 372 to checkpoints/macformer_checkpoint_epoch_372.pth
+2025-08-10 20:40:17,375 - Rank 0 - Train Loss: 0.2607, Train Accuracy: 0.8845
+2025-08-10 20:40:25,652 - Rank 0 - Validation Loss: 0.2529, Validation Accuracy: 0.8862
+2025-08-10 20:40:25,825 - Rank 0 - Saved best model with val_loss 0.2529 to checkpoints/macformer_best_model.pth
+2025-08-10 20:42:24,828 - Rank 0 - Train Loss: 0.2607, Train Accuracy: 0.8845
+2025-08-10 20:42:33,442 - Rank 0 - Validation Loss: 0.2540, Validation Accuracy: 0.8856
+2025-08-10 20:44:32,936 - Rank 0 - Train Loss: 0.2617, Train Accuracy: 0.8837
+2025-08-10 20:44:41,442 - Rank 0 - Validation Loss: 0.2552, Validation Accuracy: 0.8854
+2025-08-10 20:44:41,550 - Rank 0 - Saved checkpoint at epoch 375 to checkpoints/macformer_checkpoint_epoch_375.pth
+2025-08-10 20:46:41,417 - Rank 0 - Train Loss: 0.2599, Train Accuracy: 0.8845
+2025-08-10 20:46:49,747 - Rank 0 - Validation Loss: 0.2540, Validation Accuracy: 0.8857
+2025-08-10 20:48:50,238 - Rank 0 - Train Loss: 0.2592, Train Accuracy: 0.8848
+2025-08-10 20:48:58,246 - Rank 0 - Validation Loss: 0.2546, Validation Accuracy: 0.8851
+2025-08-10 20:50:58,420 - Rank 0 - Train Loss: 0.2599, Train Accuracy: 0.8842
+2025-08-10 20:51:06,934 - Rank 0 - Validation Loss: 0.2517, Validation Accuracy: 0.8865
+2025-08-10 20:51:07,100 - Rank 0 - Saved best model with val_loss 0.2517 to checkpoints/macformer_best_model.pth
+2025-08-10 20:51:07,203 - Rank 0 - Saved checkpoint at epoch 378 to checkpoints/macformer_checkpoint_epoch_378.pth
+2025-08-10 20:53:07,487 - Rank 0 - Train Loss: 0.2595, Train Accuracy: 0.8845
+2025-08-10 20:53:15,685 - Rank 0 - Validation Loss: 0.2527, Validation Accuracy: 0.8862
+2025-08-10 20:55:09,499 - Rank 0 - Train Loss: 0.2602, Train Accuracy: 0.8846
+2025-08-10 20:55:17,897 - Rank 0 - Validation Loss: 0.2533, Validation Accuracy: 0.8861
+2025-08-10 20:57:17,214 - Rank 0 - Train Loss: 0.2579, Train Accuracy: 0.8854
+2025-08-10 20:57:25,181 - Rank 0 - Validation Loss: 0.2535, Validation Accuracy: 0.8860
+2025-08-10 20:57:25,287 - Rank 0 - Saved checkpoint at epoch 381 to checkpoints/macformer_checkpoint_epoch_381.pth
+2025-08-10 20:59:26,214 - Rank 0 - Train Loss: 0.2584, Train Accuracy: 0.8853
+2025-08-10 20:59:34,242 - Rank 0 - Validation Loss: 0.2533, Validation Accuracy: 0.8860
+2025-08-10 21:01:33,503 - Rank 0 - Train Loss: 0.2581, Train Accuracy: 0.8852
+2025-08-10 21:01:41,367 - Rank 0 - Validation Loss: 0.2522, Validation Accuracy: 0.8865
+2025-08-10 21:03:42,764 - Rank 0 - Train Loss: 0.2580, Train Accuracy: 0.8853
+2025-08-10 21:03:50,930 - Rank 0 - Validation Loss: 0.2502, Validation Accuracy: 0.8872
+2025-08-10 21:03:51,106 - Rank 0 - Saved best model with val_loss 0.2502 to checkpoints/macformer_best_model.pth
+2025-08-10 21:03:51,212 - Rank 0 - Saved checkpoint at epoch 384 to checkpoints/macformer_checkpoint_epoch_384.pth
+2025-08-10 21:05:50,601 - Rank 0 - Train Loss: 0.2596, Train Accuracy: 0.8850
+2025-08-10 21:05:58,705 - Rank 0 - Validation Loss: 0.2533, Validation Accuracy: 0.8862
+2025-08-10 21:07:58,837 - Rank 0 - Train Loss: 0.2580, Train Accuracy: 0.8853
+2025-08-10 21:08:07,489 - Rank 0 - Validation Loss: 0.2514, Validation Accuracy: 0.8871
+2025-08-10 21:09:59,895 - Rank 0 - Train Loss: 0.2572, Train Accuracy: 0.8856
+2025-08-10 21:10:07,919 - Rank 0 - Validation Loss: 0.2509, Validation Accuracy: 0.8872
+2025-08-10 21:10:08,032 - Rank 0 - Saved checkpoint at epoch 387 to checkpoints/macformer_checkpoint_epoch_387.pth
+2025-08-10 21:12:07,841 - Rank 0 - Train Loss: 0.2576, Train Accuracy: 0.8851
+2025-08-10 21:12:16,668 - Rank 0 - Validation Loss: 0.2511, Validation Accuracy: 0.8868
+2025-08-10 21:14:15,733 - Rank 0 - Train Loss: 0.2580, Train Accuracy: 0.8853
+2025-08-10 21:14:23,931 - Rank 0 - Validation Loss: 0.2497, Validation Accuracy: 0.8874
+2025-08-10 21:14:24,060 - Rank 0 - Saved best model with val_loss 0.2497 to checkpoints/macformer_best_model.pth
+2025-08-10 21:16:23,088 - Rank 0 - Train Loss: 0.2570, Train Accuracy: 0.8857
+2025-08-10 21:16:31,625 - Rank 0 - Validation Loss: 0.2524, Validation Accuracy: 0.8861
+2025-08-10 21:16:31,730 - Rank 0 - Saved checkpoint at epoch 390 to checkpoints/macformer_checkpoint_epoch_390.pth
+2025-08-10 21:18:31,625 - Rank 0 - Train Loss: 0.2554, Train Accuracy: 0.8862
+2025-08-10 21:18:40,300 - Rank 0 - Validation Loss: 0.2504, Validation Accuracy: 0.8872
+2025-08-10 21:20:39,499 - Rank 0 - Train Loss: 0.2560, Train Accuracy: 0.8858
+2025-08-10 21:20:48,286 - Rank 0 - Validation Loss: 0.2509, Validation Accuracy: 0.8869
+2025-08-10 21:22:44,906 - Rank 0 - Train Loss: 0.2571, Train Accuracy: 0.8854
+2025-08-10 21:22:53,065 - Rank 0 - Validation Loss: 0.2512, Validation Accuracy: 0.8868
+2025-08-10 21:22:53,170 - Rank 0 - Saved checkpoint at epoch 393 to checkpoints/macformer_checkpoint_epoch_393.pth
+2025-08-10 21:24:50,167 - Rank 0 - Train Loss: 0.2559, Train Accuracy: 0.8859
+2025-08-10 21:24:57,703 - Rank 0 - Validation Loss: 0.2511, Validation Accuracy: 0.8869
+2025-08-10 21:26:58,771 - Rank 0 - Train Loss: 0.2545, Train Accuracy: 0.8865
+2025-08-10 21:27:06,849 - Rank 0 - Validation Loss: 0.2506, Validation Accuracy: 0.8866
+2025-08-10 21:29:06,993 - Rank 0 - Train Loss: 0.2554, Train Accuracy: 0.8862
+2025-08-10 21:29:15,159 - Rank 0 - Validation Loss: 0.2521, Validation Accuracy: 0.8864
+2025-08-10 21:29:15,270 - Rank 0 - Saved checkpoint at epoch 396 to checkpoints/macformer_checkpoint_epoch_396.pth
+2025-08-10 21:31:15,414 - Rank 0 - Train Loss: 0.2544, Train Accuracy: 0.8865
+2025-08-10 21:31:23,695 - Rank 0 - Validation Loss: 0.2510, Validation Accuracy: 0.8867
+2025-08-10 21:33:24,582 - Rank 0 - Train Loss: 0.2542, Train Accuracy: 0.8865
+2025-08-10 21:33:32,720 - Rank 0 - Validation Loss: 0.2496, Validation Accuracy: 0.8873
+2025-08-10 21:33:32,856 - Rank 0 - Saved best model with val_loss 0.2496 to checkpoints/macformer_best_model.pth
+2025-08-10 21:35:30,805 - Rank 0 - Train Loss: 0.2551, Train Accuracy: 0.8860
+2025-08-10 21:35:39,091 - Rank 0 - Validation Loss: 0.2509, Validation Accuracy: 0.8872
+2025-08-10 21:35:39,203 - Rank 0 - Saved checkpoint at epoch 399 to checkpoints/macformer_checkpoint_epoch_399.pth
+2025-08-10 21:37:33,644 - Rank 0 - Train Loss: 0.2554, Train Accuracy: 0.8862
+2025-08-10 21:37:41,828 - Rank 0 - Validation Loss: 0.2496, Validation Accuracy: 0.8873
+2025-08-10 21:39:39,890 - Rank 0 - Train Loss: 0.2531, Train Accuracy: 0.8871
+2025-08-10 21:39:48,193 - Rank 0 - Validation Loss: 0.2504, Validation Accuracy: 0.8870
+2025-08-10 21:41:48,230 - Rank 0 - Train Loss: 0.2534, Train Accuracy: 0.8870
+2025-08-10 21:41:56,704 - Rank 0 - Validation Loss: 0.2491, Validation Accuracy: 0.8876
+2025-08-10 21:41:56,913 - Rank 0 - Saved best model with val_loss 0.2491 to checkpoints/macformer_best_model.pth
+2025-08-10 21:41:57,027 - Rank 0 - Saved checkpoint at epoch 402 to checkpoints/macformer_checkpoint_epoch_402.pth
+2025-08-10 21:43:56,264 - Rank 0 - Train Loss: 0.2523, Train Accuracy: 0.8873
+2025-08-10 21:44:04,095 - Rank 0 - Validation Loss: 0.2495, Validation Accuracy: 0.8876
+2025-08-10 21:46:05,432 - Rank 0 - Train Loss: 0.2531, Train Accuracy: 0.8869
+2025-08-10 21:46:13,417 - Rank 0 - Validation Loss: 0.2484, Validation Accuracy: 0.8879
+2025-08-10 21:46:13,584 - Rank 0 - Saved best model with val_loss 0.2484 to checkpoints/macformer_best_model.pth
+2025-08-10 21:48:13,829 - Rank 0 - Train Loss: 0.2534, Train Accuracy: 0.8869
+2025-08-10 21:48:22,197 - Rank 0 - Validation Loss: 0.2491, Validation Accuracy: 0.8874
+2025-08-10 21:48:22,304 - Rank 0 - Saved checkpoint at epoch 405 to checkpoints/macformer_checkpoint_epoch_405.pth
+2025-08-10 21:50:21,665 - Rank 0 - Train Loss: 0.2530, Train Accuracy: 0.8870
+2025-08-10 21:50:30,423 - Rank 0 - Validation Loss: 0.2485, Validation Accuracy: 0.8875
+2025-08-10 21:52:22,907 - Rank 0 - Train Loss: 0.2524, Train Accuracy: 0.8872
+2025-08-10 21:52:30,633 - Rank 0 - Validation Loss: 0.2501, Validation Accuracy: 0.8873
+2025-08-10 21:54:31,644 - Rank 0 - Train Loss: 0.2523, Train Accuracy: 0.8876
+2025-08-10 21:54:40,136 - Rank 0 - Validation Loss: 0.2501, Validation Accuracy: 0.8873
+2025-08-10 21:54:40,240 - Rank 0 - Saved checkpoint at epoch 408 to checkpoints/macformer_checkpoint_epoch_408.pth
+2025-08-10 21:56:40,193 - Rank 0 - Train Loss: 0.2530, Train Accuracy: 0.8871
+2025-08-10 21:56:48,535 - Rank 0 - Validation Loss: 0.2495, Validation Accuracy: 0.8875
+2025-08-10 21:58:47,961 - Rank 0 - Train Loss: 0.2516, Train Accuracy: 0.8876
+2025-08-10 21:58:56,394 - Rank 0 - Validation Loss: 0.2485, Validation Accuracy: 0.8877
+2025-08-10 22:00:54,957 - Rank 0 - Train Loss: 0.2504, Train Accuracy: 0.8880
+2025-08-10 22:01:03,076 - Rank 0 - Validation Loss: 0.2489, Validation Accuracy: 0.8877
+2025-08-10 22:01:03,180 - Rank 0 - Saved checkpoint at epoch 411 to checkpoints/macformer_checkpoint_epoch_411.pth
+2025-08-10 22:03:03,941 - Rank 0 - Train Loss: 0.2517, Train Accuracy: 0.8872
+2025-08-10 22:03:11,763 - Rank 0 - Validation Loss: 0.2476, Validation Accuracy: 0.8879
+2025-08-10 22:03:11,955 - Rank 0 - Saved best model with val_loss 0.2476 to checkpoints/macformer_best_model.pth
+2025-08-10 22:05:11,180 - Rank 0 - Train Loss: 0.2506, Train Accuracy: 0.8878
+2025-08-10 22:05:19,609 - Rank 0 - Validation Loss: 0.2473, Validation Accuracy: 0.8883
+2025-08-10 22:05:19,752 - Rank 0 - Saved best model with val_loss 0.2473 to checkpoints/macformer_best_model.pth
+2025-08-10 22:07:12,463 - Rank 0 - Train Loss: 0.2509, Train Accuracy: 0.8877
+2025-08-10 22:07:20,288 - Rank 0 - Validation Loss: 0.2487, Validation Accuracy: 0.8878
+2025-08-10 22:07:20,393 - Rank 0 - Saved checkpoint at epoch 414 to checkpoints/macformer_checkpoint_epoch_414.pth
+2025-08-10 22:09:20,210 - Rank 0 - Train Loss: 0.2517, Train Accuracy: 0.8878
+2025-08-10 22:09:28,529 - Rank 0 - Validation Loss: 0.2486, Validation Accuracy: 0.8877
+2025-08-10 22:11:26,810 - Rank 0 - Train Loss: 0.2508, Train Accuracy: 0.8880
+2025-08-10 22:11:34,826 - Rank 0 - Validation Loss: 0.2480, Validation Accuracy: 0.8880
+2025-08-10 22:13:34,730 - Rank 0 - Train Loss: 0.2515, Train Accuracy: 0.8876
+2025-08-10 22:13:42,633 - Rank 0 - Validation Loss: 0.2466, Validation Accuracy: 0.8885
+2025-08-10 22:13:42,766 - Rank 0 - Saved best model with val_loss 0.2466 to checkpoints/macformer_best_model.pth
+2025-08-10 22:13:42,871 - Rank 0 - Saved checkpoint at epoch 417 to checkpoints/macformer_checkpoint_epoch_417.pth
+2025-08-10 22:15:42,513 - Rank 0 - Train Loss: 0.2493, Train Accuracy: 0.8883
+2025-08-10 22:15:51,196 - Rank 0 - Validation Loss: 0.2468, Validation Accuracy: 0.8882
+2025-08-10 22:17:51,296 - Rank 0 - Train Loss: 0.2490, Train Accuracy: 0.8886
+2025-08-10 22:18:00,350 - Rank 0 - Validation Loss: 0.2469, Validation Accuracy: 0.8885
+2025-08-10 22:19:58,707 - Rank 0 - Train Loss: 0.2498, Train Accuracy: 0.8885
+2025-08-10 22:20:07,519 - Rank 0 - Validation Loss: 0.2466, Validation Accuracy: 0.8886
+2025-08-10 22:20:07,646 - Rank 0 - Saved best model with val_loss 0.2466 to checkpoints/macformer_best_model.pth
+2025-08-10 22:20:07,761 - Rank 0 - Saved checkpoint at epoch 420 to checkpoints/macformer_checkpoint_epoch_420.pth
+2025-08-10 22:22:00,126 - Rank 0 - Train Loss: 0.2494, Train Accuracy: 0.8883
+2025-08-10 22:22:08,726 - Rank 0 - Validation Loss: 0.2479, Validation Accuracy: 0.8879
+2025-08-10 22:24:08,063 - Rank 0 - Train Loss: 0.2491, Train Accuracy: 0.8885
+2025-08-10 22:24:16,626 - Rank 0 - Validation Loss: 0.2483, Validation Accuracy: 0.8882
+2025-08-10 22:26:16,286 - Rank 0 - Train Loss: 0.2486, Train Accuracy: 0.8886
+2025-08-10 22:26:24,296 - Rank 0 - Validation Loss: 0.2471, Validation Accuracy: 0.8882
+2025-08-10 22:26:24,422 - Rank 0 - Saved checkpoint at epoch 423 to checkpoints/macformer_checkpoint_epoch_423.pth
+2025-08-10 22:28:23,925 - Rank 0 - Train Loss: 0.2490, Train Accuracy: 0.8886
+2025-08-10 22:28:32,300 - Rank 0 - Validation Loss: 0.2477, Validation Accuracy: 0.8880
+2025-08-10 22:30:31,432 - Rank 0 - Train Loss: 0.2485, Train Accuracy: 0.8888
+2025-08-10 22:30:39,975 - Rank 0 - Validation Loss: 0.2460, Validation Accuracy: 0.8885
+2025-08-10 22:30:40,103 - Rank 0 - Saved best model with val_loss 0.2460 to checkpoints/macformer_best_model.pth
+2025-08-10 22:32:39,541 - Rank 0 - Train Loss: 0.2491, Train Accuracy: 0.8883
+2025-08-10 22:32:48,076 - Rank 0 - Validation Loss: 0.2450, Validation Accuracy: 0.8892
+2025-08-10 22:32:48,200 - Rank 0 - Saved best model with val_loss 0.2450 to checkpoints/macformer_best_model.pth
+2025-08-10 22:32:48,301 - Rank 0 - Saved checkpoint at epoch 426 to checkpoints/macformer_checkpoint_epoch_426.pth
+2025-08-10 22:34:47,463 - Rank 0 - Train Loss: 0.2485, Train Accuracy: 0.8884
+2025-08-10 22:34:56,172 - Rank 0 - Validation Loss: 0.2459, Validation Accuracy: 0.8885
+2025-08-10 22:36:49,846 - Rank 0 - Train Loss: 0.2479, Train Accuracy: 0.8889
+2025-08-10 22:36:58,269 - Rank 0 - Validation Loss: 0.2470, Validation Accuracy: 0.8881
+2025-08-10 22:38:56,506 - Rank 0 - Train Loss: 0.2475, Train Accuracy: 0.8891
+2025-08-10 22:39:03,877 - Rank 0 - Validation Loss: 0.2458, Validation Accuracy: 0.8887
+2025-08-10 22:39:03,993 - Rank 0 - Saved checkpoint at epoch 429 to checkpoints/macformer_checkpoint_epoch_429.pth
+2025-08-10 22:41:03,676 - Rank 0 - Train Loss: 0.2474, Train Accuracy: 0.8890
+2025-08-10 22:41:12,183 - Rank 0 - Validation Loss: 0.2454, Validation Accuracy: 0.8887
+2025-08-10 22:43:13,264 - Rank 0 - Train Loss: 0.2472, Train Accuracy: 0.8893
+2025-08-10 22:43:21,310 - Rank 0 - Validation Loss: 0.2451, Validation Accuracy: 0.8891
+2025-08-10 22:45:21,298 - Rank 0 - Train Loss: 0.2458, Train Accuracy: 0.8896
+2025-08-10 22:45:29,475 - Rank 0 - Validation Loss: 0.2454, Validation Accuracy: 0.8887
+2025-08-10 22:45:29,588 - Rank 0 - Saved checkpoint at epoch 432 to checkpoints/macformer_checkpoint_epoch_432.pth
+2025-08-10 22:47:28,291 - Rank 0 - Train Loss: 0.2473, Train Accuracy: 0.8889
+2025-08-10 22:47:36,982 - Rank 0 - Validation Loss: 0.2460, Validation Accuracy: 0.8885
+2025-08-10 22:49:33,423 - Rank 0 - Train Loss: 0.2473, Train Accuracy: 0.8890
+2025-08-10 22:49:41,489 - Rank 0 - Validation Loss: 0.2451, Validation Accuracy: 0.8891
+2025-08-10 22:51:38,554 - Rank 0 - Train Loss: 0.2456, Train Accuracy: 0.8897
+2025-08-10 22:51:46,655 - Rank 0 - Validation Loss: 0.2442, Validation Accuracy: 0.8891
+2025-08-10 22:51:46,865 - Rank 0 - Saved best model with val_loss 0.2442 to checkpoints/macformer_best_model.pth
+2025-08-10 22:51:46,980 - Rank 0 - Saved checkpoint at epoch 435 to checkpoints/macformer_checkpoint_epoch_435.pth
+2025-08-10 22:53:47,883 - Rank 0 - Train Loss: 0.2469, Train Accuracy: 0.8893
+2025-08-10 22:53:56,046 - Rank 0 - Validation Loss: 0.2447, Validation Accuracy: 0.8892
+2025-08-10 22:55:55,262 - Rank 0 - Train Loss: 0.2467, Train Accuracy: 0.8891
+2025-08-10 22:56:03,652 - Rank 0 - Validation Loss: 0.2448, Validation Accuracy: 0.8890
+2025-08-10 22:58:03,225 - Rank 0 - Train Loss: 0.2454, Train Accuracy: 0.8898
+2025-08-10 22:58:11,624 - Rank 0 - Validation Loss: 0.2445, Validation Accuracy: 0.8892
+2025-08-10 22:58:11,730 - Rank 0 - Saved checkpoint at epoch 438 to checkpoints/macformer_checkpoint_epoch_438.pth
+2025-08-10 23:00:12,958 - Rank 0 - Train Loss: 0.2464, Train Accuracy: 0.8892
+2025-08-10 23:00:21,068 - Rank 0 - Validation Loss: 0.2447, Validation Accuracy: 0.8888
+2025-08-10 23:02:22,318 - Rank 0 - Train Loss: 0.2465, Train Accuracy: 0.8894
+2025-08-10 23:02:30,558 - Rank 0 - Validation Loss: 0.2463, Validation Accuracy: 0.8886
+2025-08-10 23:04:25,050 - Rank 0 - Train Loss: 0.2456, Train Accuracy: 0.8897
+2025-08-10 23:04:33,356 - Rank 0 - Validation Loss: 0.2443, Validation Accuracy: 0.8893
+2025-08-10 23:04:33,461 - Rank 0 - Saved checkpoint at epoch 441 to checkpoints/macformer_checkpoint_epoch_441.pth
+2025-08-10 23:06:33,312 - Rank 0 - Train Loss: 0.2448, Train Accuracy: 0.8897
+2025-08-10 23:06:41,854 - Rank 0 - Validation Loss: 0.2439, Validation Accuracy: 0.8892
+2025-08-10 23:06:42,003 - Rank 0 - Saved best model with val_loss 0.2439 to checkpoints/macformer_best_model.pth
+2025-08-10 23:08:41,488 - Rank 0 - Train Loss: 0.2445, Train Accuracy: 0.8900
+2025-08-10 23:08:49,928 - Rank 0 - Validation Loss: 0.2437, Validation Accuracy: 0.8894
+2025-08-10 23:08:50,051 - Rank 0 - Saved best model with val_loss 0.2437 to checkpoints/macformer_best_model.pth
+2025-08-10 23:10:50,173 - Rank 0 - Train Loss: 0.2458, Train Accuracy: 0.8895
+2025-08-10 23:10:58,056 - Rank 0 - Validation Loss: 0.2441, Validation Accuracy: 0.8893
+2025-08-10 23:10:58,166 - Rank 0 - Saved checkpoint at epoch 444 to checkpoints/macformer_checkpoint_epoch_444.pth
+2025-08-10 23:12:59,156 - Rank 0 - Train Loss: 0.2439, Train Accuracy: 0.8903
+2025-08-10 23:13:07,286 - Rank 0 - Validation Loss: 0.2449, Validation Accuracy: 0.8892
+2025-08-10 23:15:08,597 - Rank 0 - Train Loss: 0.2450, Train Accuracy: 0.8896
+2025-08-10 23:15:17,106 - Rank 0 - Validation Loss: 0.2439, Validation Accuracy: 0.8894
+2025-08-10 23:17:16,068 - Rank 0 - Train Loss: 0.2438, Train Accuracy: 0.8904
+2025-08-10 23:17:24,356 - Rank 0 - Validation Loss: 0.2430, Validation Accuracy: 0.8899
+2025-08-10 23:17:24,516 - Rank 0 - Saved best model with val_loss 0.2430 to checkpoints/macformer_best_model.pth
+2025-08-10 23:17:24,619 - Rank 0 - Saved checkpoint at epoch 447 to checkpoints/macformer_checkpoint_epoch_447.pth
+2025-08-10 23:19:19,239 - Rank 0 - Train Loss: 0.2441, Train Accuracy: 0.8901
+2025-08-10 23:19:28,213 - Rank 0 - Validation Loss: 0.2448, Validation Accuracy: 0.8893
+2025-08-10 23:21:28,471 - Rank 0 - Train Loss: 0.2438, Train Accuracy: 0.8904
+2025-08-10 23:21:35,909 - Rank 0 - Validation Loss: 0.2432, Validation Accuracy: 0.8894
+2025-08-10 23:23:38,303 - Rank 0 - Train Loss: 0.2426, Train Accuracy: 0.8906
+2025-08-10 23:23:47,236 - Rank 0 - Validation Loss: 0.2441, Validation Accuracy: 0.8895
+2025-08-10 23:23:47,341 - Rank 0 - Saved checkpoint at epoch 450 to checkpoints/macformer_checkpoint_epoch_450.pth
+2025-08-10 23:25:46,461 - Rank 0 - Train Loss: 0.2429, Train Accuracy: 0.8907
+2025-08-10 23:25:54,590 - Rank 0 - Validation Loss: 0.2430, Validation Accuracy: 0.8901
+2025-08-10 23:27:56,574 - Rank 0 - Train Loss: 0.2425, Train Accuracy: 0.8907
+2025-08-10 23:28:04,932 - Rank 0 - Validation Loss: 0.2431, Validation Accuracy: 0.8893
+2025-08-10 23:30:04,752 - Rank 0 - Train Loss: 0.2428, Train Accuracy: 0.8908
+2025-08-10 23:30:13,167 - Rank 0 - Validation Loss: 0.2428, Validation Accuracy: 0.8900
+2025-08-10 23:30:13,337 - Rank 0 - Saved best model with val_loss 0.2428 to checkpoints/macformer_best_model.pth
+2025-08-10 23:30:13,454 - Rank 0 - Saved checkpoint at epoch 453 to checkpoints/macformer_checkpoint_epoch_453.pth
+2025-08-10 23:32:14,395 - Rank 0 - Train Loss: 0.2421, Train Accuracy: 0.8911
+2025-08-10 23:32:22,496 - Rank 0 - Validation Loss: 0.2449, Validation Accuracy: 0.8893
+2025-08-10 23:34:17,354 - Rank 0 - Train Loss: 0.2425, Train Accuracy: 0.8908
+2025-08-10 23:34:26,280 - Rank 0 - Validation Loss: 0.2423, Validation Accuracy: 0.8900
+2025-08-10 23:34:26,468 - Rank 0 - Saved best model with val_loss 0.2423 to checkpoints/macformer_best_model.pth
+2025-08-10 23:36:27,650 - Rank 0 - Train Loss: 0.2416, Train Accuracy: 0.8913
+2025-08-10 23:36:36,071 - Rank 0 - Validation Loss: 0.2429, Validation Accuracy: 0.8900
+2025-08-10 23:36:36,180 - Rank 0 - Saved checkpoint at epoch 456 to checkpoints/macformer_checkpoint_epoch_456.pth
+2025-08-10 23:38:36,926 - Rank 0 - Train Loss: 0.2418, Train Accuracy: 0.8911
+2025-08-10 23:38:45,514 - Rank 0 - Validation Loss: 0.2428, Validation Accuracy: 0.8897
+2025-08-10 23:40:45,971 - Rank 0 - Train Loss: 0.2413, Train Accuracy: 0.8912
+2025-08-10 23:40:54,367 - Rank 0 - Validation Loss: 0.2439, Validation Accuracy: 0.8890
+2025-08-10 23:42:54,138 - Rank 0 - Train Loss: 0.2416, Train Accuracy: 0.8913
+2025-08-10 23:43:03,143 - Rank 0 - Validation Loss: 0.2436, Validation Accuracy: 0.8898
+2025-08-10 23:43:03,247 - Rank 0 - Saved checkpoint at epoch 459 to checkpoints/macformer_checkpoint_epoch_459.pth
+2025-08-10 23:45:01,833 - Rank 0 - Train Loss: 0.2415, Train Accuracy: 0.8912
+2025-08-10 23:45:10,081 - Rank 0 - Validation Loss: 0.2425, Validation Accuracy: 0.8903
+2025-08-10 23:47:05,036 - Rank 0 - Train Loss: 0.2412, Train Accuracy: 0.8914
+2025-08-10 23:47:12,679 - Rank 0 - Validation Loss: 0.2425, Validation Accuracy: 0.8902
+2025-08-10 23:49:07,383 - Rank 0 - Train Loss: 0.2406, Train Accuracy: 0.8916
+2025-08-10 23:49:15,981 - Rank 0 - Validation Loss: 0.2424, Validation Accuracy: 0.8903
+2025-08-10 23:49:16,087 - Rank 0 - Saved checkpoint at epoch 462 to checkpoints/macformer_checkpoint_epoch_462.pth
+2025-08-10 23:51:13,807 - Rank 0 - Train Loss: 0.2406, Train Accuracy: 0.8913
+2025-08-10 23:51:22,158 - Rank 0 - Validation Loss: 0.2420, Validation Accuracy: 0.8903
+2025-08-10 23:51:22,279 - Rank 0 - Saved best model with val_loss 0.2420 to checkpoints/macformer_best_model.pth
+2025-08-10 23:53:20,391 - Rank 0 - Train Loss: 0.2393, Train Accuracy: 0.8920
+2025-08-10 23:53:29,378 - Rank 0 - Validation Loss: 0.2423, Validation Accuracy: 0.8901
+2025-08-10 23:55:28,464 - Rank 0 - Train Loss: 0.2397, Train Accuracy: 0.8919
+2025-08-10 23:55:37,430 - Rank 0 - Validation Loss: 0.2412, Validation Accuracy: 0.8904
+2025-08-10 23:55:37,587 - Rank 0 - Saved best model with val_loss 0.2412 to checkpoints/macformer_best_model.pth
+2025-08-10 23:55:37,689 - Rank 0 - Saved checkpoint at epoch 465 to checkpoints/macformer_checkpoint_epoch_465.pth
+2025-08-10 23:57:35,652 - Rank 0 - Train Loss: 0.2401, Train Accuracy: 0.8916
+2025-08-10 23:57:43,611 - Rank 0 - Validation Loss: 0.2430, Validation Accuracy: 0.8893
+2025-08-10 23:59:44,455 - Rank 0 - Train Loss: 0.2389, Train Accuracy: 0.8922
+2025-08-10 23:59:52,779 - Rank 0 - Validation Loss: 0.2414, Validation Accuracy: 0.8905
+2025-08-11 00:01:45,834 - Rank 0 - Train Loss: 0.2404, Train Accuracy: 0.8916
+2025-08-11 00:01:54,535 - Rank 0 - Validation Loss: 0.2406, Validation Accuracy: 0.8905
+2025-08-11 00:01:54,696 - Rank 0 - Saved best model with val_loss 0.2406 to checkpoints/macformer_best_model.pth
+2025-08-11 00:01:54,800 - Rank 0 - Saved checkpoint at epoch 468 to checkpoints/macformer_checkpoint_epoch_468.pth
+2025-08-11 00:03:51,800 - Rank 0 - Train Loss: 0.2396, Train Accuracy: 0.8917
+2025-08-11 00:04:00,438 - Rank 0 - Validation Loss: 0.2411, Validation Accuracy: 0.8904
+2025-08-11 00:05:58,496 - Rank 0 - Train Loss: 0.2399, Train Accuracy: 0.8916
+2025-08-11 00:06:07,018 - Rank 0 - Validation Loss: 0.2417, Validation Accuracy: 0.8902
+2025-08-11 00:08:07,169 - Rank 0 - Train Loss: 0.2387, Train Accuracy: 0.8923
+2025-08-11 00:08:15,402 - Rank 0 - Validation Loss: 0.2417, Validation Accuracy: 0.8903
+2025-08-11 00:08:15,509 - Rank 0 - Saved checkpoint at epoch 471 to checkpoints/macformer_checkpoint_epoch_471.pth
+2025-08-11 00:10:14,306 - Rank 0 - Train Loss: 0.2391, Train Accuracy: 0.8919
+2025-08-11 00:10:22,983 - Rank 0 - Validation Loss: 0.2410, Validation Accuracy: 0.8908
+2025-08-11 00:12:20,960 - Rank 0 - Train Loss: 0.2389, Train Accuracy: 0.8922
+2025-08-11 00:12:29,637 - Rank 0 - Validation Loss: 0.2419, Validation Accuracy: 0.8903
+2025-08-11 00:14:27,759 - Rank 0 - Train Loss: 0.2375, Train Accuracy: 0.8925
+2025-08-11 00:14:36,505 - Rank 0 - Validation Loss: 0.2430, Validation Accuracy: 0.8900
+2025-08-11 00:14:36,638 - Rank 0 - Saved checkpoint at epoch 474 to checkpoints/macformer_checkpoint_epoch_474.pth
+2025-08-11 00:16:28,283 - Rank 0 - Train Loss: 0.2383, Train Accuracy: 0.8921
+2025-08-11 00:16:36,824 - Rank 0 - Validation Loss: 0.2415, Validation Accuracy: 0.8902
+2025-08-11 00:18:34,938 - Rank 0 - Train Loss: 0.2379, Train Accuracy: 0.8927
+2025-08-11 00:18:42,898 - Rank 0 - Validation Loss: 0.2413, Validation Accuracy: 0.8904
+2025-08-11 00:20:42,599 - Rank 0 - Train Loss: 0.2367, Train Accuracy: 0.8928
+2025-08-11 00:20:50,584 - Rank 0 - Validation Loss: 0.2404, Validation Accuracy: 0.8906
+2025-08-11 00:20:50,733 - Rank 0 - Saved best model with val_loss 0.2404 to checkpoints/macformer_best_model.pth
+2025-08-11 00:20:50,836 - Rank 0 - Saved checkpoint at epoch 477 to checkpoints/macformer_checkpoint_epoch_477.pth
+2025-08-11 00:22:49,877 - Rank 0 - Train Loss: 0.2367, Train Accuracy: 0.8928
+2025-08-11 00:22:58,083 - Rank 0 - Validation Loss: 0.2396, Validation Accuracy: 0.8906
+2025-08-11 00:22:58,231 - Rank 0 - Saved best model with val_loss 0.2396 to checkpoints/macformer_best_model.pth
+2025-08-11 00:24:59,736 - Rank 0 - Train Loss: 0.2381, Train Accuracy: 0.8924
+2025-08-11 00:25:08,232 - Rank 0 - Validation Loss: 0.2397, Validation Accuracy: 0.8910
+2025-08-11 00:27:08,788 - Rank 0 - Train Loss: 0.2370, Train Accuracy: 0.8928
+2025-08-11 00:27:16,827 - Rank 0 - Validation Loss: 0.2417, Validation Accuracy: 0.8904
+2025-08-11 00:27:16,947 - Rank 0 - Saved checkpoint at epoch 480 to checkpoints/macformer_checkpoint_epoch_480.pth
+2025-08-11 00:29:18,975 - Rank 0 - Train Loss: 0.2379, Train Accuracy: 0.8926
+2025-08-11 00:29:27,417 - Rank 0 - Validation Loss: 0.2410, Validation Accuracy: 0.8902
+2025-08-11 00:31:21,329 - Rank 0 - Train Loss: 0.2364, Train Accuracy: 0.8933
+2025-08-11 00:31:29,649 - Rank 0 - Validation Loss: 0.2416, Validation Accuracy: 0.8901
+2025-08-11 00:33:30,462 - Rank 0 - Train Loss: 0.2364, Train Accuracy: 0.8932
+2025-08-11 00:33:39,239 - Rank 0 - Validation Loss: 0.2415, Validation Accuracy: 0.8902
+2025-08-11 00:33:39,342 - Rank 0 - Saved checkpoint at epoch 483 to checkpoints/macformer_checkpoint_epoch_483.pth
+2025-08-11 00:35:39,596 - Rank 0 - Train Loss: 0.2372, Train Accuracy: 0.8927
+2025-08-11 00:35:48,121 - Rank 0 - Validation Loss: 0.2425, Validation Accuracy: 0.8900
+2025-08-11 00:37:49,323 - Rank 0 - Train Loss: 0.2370, Train Accuracy: 0.8929
+2025-08-11 00:37:57,761 - Rank 0 - Validation Loss: 0.2401, Validation Accuracy: 0.8909
+2025-08-11 00:39:57,699 - Rank 0 - Train Loss: 0.2366, Train Accuracy: 0.8927
+2025-08-11 00:40:06,186 - Rank 0 - Validation Loss: 0.2402, Validation Accuracy: 0.8908
+2025-08-11 00:40:06,289 - Rank 0 - Saved checkpoint at epoch 486 to checkpoints/macformer_checkpoint_epoch_486.pth
+2025-08-11 00:42:06,474 - Rank 0 - Train Loss: 0.2360, Train Accuracy: 0.8932
+2025-08-11 00:42:14,887 - Rank 0 - Validation Loss: 0.2415, Validation Accuracy: 0.8907
+2025-08-11 00:44:14,657 - Rank 0 - Train Loss: 0.2361, Train Accuracy: 0.8931
+2025-08-11 00:44:22,766 - Rank 0 - Validation Loss: 0.2392, Validation Accuracy: 0.8912
+2025-08-11 00:44:22,940 - Rank 0 - Saved best model with val_loss 0.2392 to checkpoints/macformer_best_model.pth
+2025-08-11 00:46:19,748 - Rank 0 - Train Loss: 0.2359, Train Accuracy: 0.8931
+2025-08-11 00:46:27,774 - Rank 0 - Validation Loss: 0.2410, Validation Accuracy: 0.8906
+2025-08-11 00:46:27,878 - Rank 0 - Saved checkpoint at epoch 489 to checkpoints/macformer_checkpoint_epoch_489.pth
+2025-08-11 00:48:28,392 - Rank 0 - Train Loss: 0.2350, Train Accuracy: 0.8935
+2025-08-11 00:48:36,630 - Rank 0 - Validation Loss: 0.2396, Validation Accuracy: 0.8911
+2025-08-11 00:50:37,247 - Rank 0 - Train Loss: 0.2354, Train Accuracy: 0.8935
+2025-08-11 00:50:45,736 - Rank 0 - Validation Loss: 0.2404, Validation Accuracy: 0.8908
+2025-08-11 00:52:45,871 - Rank 0 - Train Loss: 0.2344, Train Accuracy: 0.8937
+2025-08-11 00:52:54,048 - Rank 0 - Validation Loss: 0.2385, Validation Accuracy: 0.8912
+2025-08-11 00:52:54,222 - Rank 0 - Saved best model with val_loss 0.2385 to checkpoints/macformer_best_model.pth
+2025-08-11 00:52:54,325 - Rank 0 - Saved checkpoint at epoch 492 to checkpoints/macformer_checkpoint_epoch_492.pth
+2025-08-11 00:54:55,955 - Rank 0 - Train Loss: 0.2364, Train Accuracy: 0.8932
+2025-08-11 00:55:04,399 - Rank 0 - Validation Loss: 0.2394, Validation Accuracy: 0.8910
+2025-08-11 00:57:05,132 - Rank 0 - Train Loss: 0.2350, Train Accuracy: 0.8933
+2025-08-11 00:57:13,575 - Rank 0 - Validation Loss: 0.2395, Validation Accuracy: 0.8908
+2025-08-11 00:59:07,308 - Rank 0 - Train Loss: 0.2351, Train Accuracy: 0.8935
+2025-08-11 00:59:15,844 - Rank 0 - Validation Loss: 0.2391, Validation Accuracy: 0.8913
+2025-08-11 00:59:15,946 - Rank 0 - Saved checkpoint at epoch 495 to checkpoints/macformer_checkpoint_epoch_495.pth
+2025-08-11 01:01:15,551 - Rank 0 - Train Loss: 0.2345, Train Accuracy: 0.8939
+2025-08-11 01:01:24,615 - Rank 0 - Validation Loss: 0.2394, Validation Accuracy: 0.8907
+2025-08-11 01:03:25,436 - Rank 0 - Train Loss: 0.2347, Train Accuracy: 0.8936
+2025-08-11 01:03:33,782 - Rank 0 - Validation Loss: 0.2400, Validation Accuracy: 0.8910
+2025-08-11 01:05:34,567 - Rank 0 - Train Loss: 0.2358, Train Accuracy: 0.8932
+2025-08-11 01:05:43,299 - Rank 0 - Validation Loss: 0.2397, Validation Accuracy: 0.8909
+2025-08-11 01:05:43,403 - Rank 0 - Saved checkpoint at epoch 498 to checkpoints/macformer_checkpoint_epoch_498.pth
+2025-08-11 01:07:43,210 - Rank 0 - Train Loss: 0.2343, Train Accuracy: 0.8937
+2025-08-11 01:07:51,983 - Rank 0 - Validation Loss: 0.2413, Validation Accuracy: 0.8903
+2025-08-11 01:09:52,234 - Rank 0 - Train Loss: 0.2343, Train Accuracy: 0.8941
+2025-08-11 01:10:00,558 - Rank 0 - Validation Loss: 0.2391, Validation Accuracy: 0.8910
+2025-08-11 01:12:00,491 - Rank 0 - Train Loss: 0.2338, Train Accuracy: 0.8941
+2025-08-11 01:12:09,178 - Rank 0 - Validation Loss: 0.2398, Validation Accuracy: 0.8909
+2025-08-11 01:12:09,283 - Rank 0 - Saved checkpoint at epoch 501 to checkpoints/macformer_checkpoint_epoch_501.pth
+2025-08-11 01:14:01,605 - Rank 0 - Train Loss: 0.2332, Train Accuracy: 0.8941
+2025-08-11 01:14:10,265 - Rank 0 - Validation Loss: 0.2389, Validation Accuracy: 0.8915
+2025-08-11 01:16:09,232 - Rank 0 - Train Loss: 0.2341, Train Accuracy: 0.8938
+2025-08-11 01:16:17,329 - Rank 0 - Validation Loss: 0.2384, Validation Accuracy: 0.8918
+2025-08-11 01:16:17,501 - Rank 0 - Saved best model with val_loss 0.2384 to checkpoints/macformer_best_model.pth
+2025-08-11 01:18:17,704 - Rank 0 - Train Loss: 0.2323, Train Accuracy: 0.8947
+2025-08-11 01:18:26,249 - Rank 0 - Validation Loss: 0.2389, Validation Accuracy: 0.8913
+2025-08-11 01:18:26,352 - Rank 0 - Saved checkpoint at epoch 504 to checkpoints/macformer_checkpoint_epoch_504.pth
+2025-08-11 01:20:26,232 - Rank 0 - Train Loss: 0.2323, Train Accuracy: 0.8945
+2025-08-11 01:20:34,942 - Rank 0 - Validation Loss: 0.2386, Validation Accuracy: 0.8913
+2025-08-11 01:22:34,355 - Rank 0 - Train Loss: 0.2327, Train Accuracy: 0.8944
+2025-08-11 01:22:42,825 - Rank 0 - Validation Loss: 0.2394, Validation Accuracy: 0.8913
+2025-08-11 01:24:43,691 - Rank 0 - Train Loss: 0.2326, Train Accuracy: 0.8944
+2025-08-11 01:24:52,466 - Rank 0 - Validation Loss: 0.2391, Validation Accuracy: 0.8915
+2025-08-11 01:24:52,568 - Rank 0 - Saved checkpoint at epoch 507 to checkpoints/macformer_checkpoint_epoch_507.pth
+2025-08-11 01:26:50,980 - Rank 0 - Train Loss: 0.2333, Train Accuracy: 0.8943
+2025-08-11 01:26:59,195 - Rank 0 - Validation Loss: 0.2385, Validation Accuracy: 0.8916
+2025-08-11 01:28:52,494 - Rank 0 - Train Loss: 0.2331, Train Accuracy: 0.8942
+2025-08-11 01:29:00,862 - Rank 0 - Validation Loss: 0.2376, Validation Accuracy: 0.8917
+2025-08-11 01:29:00,992 - Rank 0 - Saved best model with val_loss 0.2376 to checkpoints/macformer_best_model.pth
+2025-08-11 01:31:00,335 - Rank 0 - Train Loss: 0.2330, Train Accuracy: 0.8944
+2025-08-11 01:31:08,566 - Rank 0 - Validation Loss: 0.2375, Validation Accuracy: 0.8917
+2025-08-11 01:31:08,700 - Rank 0 - Saved best model with val_loss 0.2375 to checkpoints/macformer_best_model.pth
+2025-08-11 01:31:08,813 - Rank 0 - Saved checkpoint at epoch 510 to checkpoints/macformer_checkpoint_epoch_510.pth
+2025-08-11 01:33:07,811 - Rank 0 - Train Loss: 0.2327, Train Accuracy: 0.8944
+2025-08-11 01:33:16,489 - Rank 0 - Validation Loss: 0.2389, Validation Accuracy: 0.8915
+2025-08-11 01:35:16,154 - Rank 0 - Train Loss: 0.2328, Train Accuracy: 0.8943
+2025-08-11 01:35:24,645 - Rank 0 - Validation Loss: 0.2394, Validation Accuracy: 0.8910
+2025-08-11 01:37:23,808 - Rank 0 - Train Loss: 0.2323, Train Accuracy: 0.8947
+2025-08-11 01:37:32,747 - Rank 0 - Validation Loss: 0.2381, Validation Accuracy: 0.8916
+2025-08-11 01:37:32,853 - Rank 0 - Saved checkpoint at epoch 513 to checkpoints/macformer_checkpoint_epoch_513.pth
+2025-08-11 01:39:32,725 - Rank 0 - Train Loss: 0.2316, Train Accuracy: 0.8947
+2025-08-11 01:39:41,744 - Rank 0 - Validation Loss: 0.2389, Validation Accuracy: 0.8913
+2025-08-11 01:41:37,872 - Rank 0 - Train Loss: 0.2321, Train Accuracy: 0.8944
+2025-08-11 01:41:46,526 - Rank 0 - Validation Loss: 0.2385, Validation Accuracy: 0.8911
+2025-08-11 01:43:42,519 - Rank 0 - Train Loss: 0.2310, Train Accuracy: 0.8950
+2025-08-11 01:43:50,960 - Rank 0 - Validation Loss: 0.2372, Validation Accuracy: 0.8920
+2025-08-11 01:43:51,121 - Rank 0 - Saved best model with val_loss 0.2372 to checkpoints/macformer_best_model.pth
+2025-08-11 01:43:51,230 - Rank 0 - Saved checkpoint at epoch 516 to checkpoints/macformer_checkpoint_epoch_516.pth
+2025-08-11 01:45:50,582 - Rank 0 - Train Loss: 0.2314, Train Accuracy: 0.8947
+2025-08-11 01:45:58,912 - Rank 0 - Validation Loss: 0.2398, Validation Accuracy: 0.8912
+2025-08-11 01:47:58,001 - Rank 0 - Train Loss: 0.2305, Train Accuracy: 0.8953
+2025-08-11 01:48:05,816 - Rank 0 - Validation Loss: 0.2384, Validation Accuracy: 0.8914
+2025-08-11 01:50:04,639 - Rank 0 - Train Loss: 0.2311, Train Accuracy: 0.8947
+2025-08-11 01:50:12,977 - Rank 0 - Validation Loss: 0.2379, Validation Accuracy: 0.8917
+2025-08-11 01:50:13,083 - Rank 0 - Saved checkpoint at epoch 519 to checkpoints/macformer_checkpoint_epoch_519.pth
+2025-08-11 01:52:11,251 - Rank 0 - Train Loss: 0.2314, Train Accuracy: 0.8948
+2025-08-11 01:52:19,584 - Rank 0 - Validation Loss: 0.2377, Validation Accuracy: 0.8918
+2025-08-11 01:54:20,016 - Rank 0 - Train Loss: 0.2310, Train Accuracy: 0.8951
+2025-08-11 01:54:28,316 - Rank 0 - Validation Loss: 0.2386, Validation Accuracy: 0.8915
+2025-08-11 01:56:22,672 - Rank 0 - Train Loss: 0.2308, Train Accuracy: 0.8949
+2025-08-11 01:56:31,072 - Rank 0 - Validation Loss: 0.2376, Validation Accuracy: 0.8919
+2025-08-11 01:56:31,178 - Rank 0 - Saved checkpoint at epoch 522 to checkpoints/macformer_checkpoint_epoch_522.pth
+2025-08-11 01:58:29,972 - Rank 0 - Train Loss: 0.2315, Train Accuracy: 0.8948
+2025-08-11 01:58:38,778 - Rank 0 - Validation Loss: 0.2368, Validation Accuracy: 0.8920
+2025-08-11 01:58:38,917 - Rank 0 - Saved best model with val_loss 0.2368 to checkpoints/macformer_best_model.pth
+2025-08-11 02:00:38,953 - Rank 0 - Train Loss: 0.2300, Train Accuracy: 0.8953
+2025-08-11 02:00:47,557 - Rank 0 - Validation Loss: 0.2390, Validation Accuracy: 0.8912
+2025-08-11 02:02:46,342 - Rank 0 - Train Loss: 0.2295, Train Accuracy: 0.8957
+2025-08-11 02:02:54,645 - Rank 0 - Validation Loss: 0.2374, Validation Accuracy: 0.8920
+2025-08-11 02:02:54,753 - Rank 0 - Saved checkpoint at epoch 525 to checkpoints/macformer_checkpoint_epoch_525.pth
+2025-08-11 02:04:55,302 - Rank 0 - Train Loss: 0.2283, Train Accuracy: 0.8961
+2025-08-11 02:05:03,671 - Rank 0 - Validation Loss: 0.2371, Validation Accuracy: 0.8919
+2025-08-11 02:07:03,593 - Rank 0 - Train Loss: 0.2303, Train Accuracy: 0.8951
+2025-08-11 02:07:12,072 - Rank 0 - Validation Loss: 0.2377, Validation Accuracy: 0.8916
+2025-08-11 02:09:11,744 - Rank 0 - Train Loss: 0.2294, Train Accuracy: 0.8956
+2025-08-11 02:09:20,143 - Rank 0 - Validation Loss: 0.2374, Validation Accuracy: 0.8921
+2025-08-11 02:09:20,248 - Rank 0 - Saved checkpoint at epoch 528 to checkpoints/macformer_checkpoint_epoch_528.pth
+2025-08-11 02:11:12,847 - Rank 0 - Train Loss: 0.2284, Train Accuracy: 0.8958
+2025-08-11 02:11:20,903 - Rank 0 - Validation Loss: 0.2369, Validation Accuracy: 0.8921
+2025-08-11 02:13:20,764 - Rank 0 - Train Loss: 0.2283, Train Accuracy: 0.8958
+2025-08-11 02:13:29,289 - Rank 0 - Validation Loss: 0.2378, Validation Accuracy: 0.8918
+2025-08-11 02:15:28,080 - Rank 0 - Train Loss: 0.2300, Train Accuracy: 0.8955
+2025-08-11 02:15:36,570 - Rank 0 - Validation Loss: 0.2370, Validation Accuracy: 0.8919
+2025-08-11 02:15:36,681 - Rank 0 - Saved checkpoint at epoch 531 to checkpoints/macformer_checkpoint_epoch_531.pth
+2025-08-11 02:17:36,108 - Rank 0 - Train Loss: 0.2286, Train Accuracy: 0.8961
+2025-08-11 02:17:44,512 - Rank 0 - Validation Loss: 0.2374, Validation Accuracy: 0.8922
+2025-08-11 02:19:44,783 - Rank 0 - Train Loss: 0.2288, Train Accuracy: 0.8959
+2025-08-11 02:19:53,688 - Rank 0 - Validation Loss: 0.2351, Validation Accuracy: 0.8928
+2025-08-11 02:19:53,852 - Rank 0 - Saved best model with val_loss 0.2351 to checkpoints/macformer_best_model.pth
+2025-08-11 02:21:53,668 - Rank 0 - Train Loss: 0.2289, Train Accuracy: 0.8958
+2025-08-11 02:22:02,053 - Rank 0 - Validation Loss: 0.2370, Validation Accuracy: 0.8919
+2025-08-11 02:22:02,161 - Rank 0 - Saved checkpoint at epoch 534 to checkpoints/macformer_checkpoint_epoch_534.pth
+2025-08-11 02:24:02,534 - Rank 0 - Train Loss: 0.2286, Train Accuracy: 0.8958
+2025-08-11 02:24:10,700 - Rank 0 - Validation Loss: 0.2366, Validation Accuracy: 0.8922
+2025-08-11 02:26:03,500 - Rank 0 - Train Loss: 0.2275, Train Accuracy: 0.8962
+2025-08-11 02:26:11,889 - Rank 0 - Validation Loss: 0.2365, Validation Accuracy: 0.8923
+2025-08-11 02:28:11,999 - Rank 0 - Train Loss: 0.2284, Train Accuracy: 0.8961
+2025-08-11 02:28:20,193 - Rank 0 - Validation Loss: 0.2353, Validation Accuracy: 0.8928
+2025-08-11 02:28:20,306 - Rank 0 - Saved checkpoint at epoch 537 to checkpoints/macformer_checkpoint_epoch_537.pth
+2025-08-11 02:30:19,447 - Rank 0 - Train Loss: 0.2275, Train Accuracy: 0.8966
+2025-08-11 02:30:27,890 - Rank 0 - Validation Loss: 0.2361, Validation Accuracy: 0.8923
+2025-08-11 02:32:27,434 - Rank 0 - Train Loss: 0.2270, Train Accuracy: 0.8962
+2025-08-11 02:32:35,397 - Rank 0 - Validation Loss: 0.2364, Validation Accuracy: 0.8924
+2025-08-11 02:34:35,933 - Rank 0 - Train Loss: 0.2270, Train Accuracy: 0.8968
+2025-08-11 02:34:44,353 - Rank 0 - Validation Loss: 0.2368, Validation Accuracy: 0.8920
+2025-08-11 02:34:44,462 - Rank 0 - Saved checkpoint at epoch 540 to checkpoints/macformer_checkpoint_epoch_540.pth
+2025-08-11 02:36:44,977 - Rank 0 - Train Loss: 0.2276, Train Accuracy: 0.8963
+2025-08-11 02:36:52,977 - Rank 0 - Validation Loss: 0.2370, Validation Accuracy: 0.8922
+2025-08-11 02:38:53,484 - Rank 0 - Train Loss: 0.2287, Train Accuracy: 0.8959
+2025-08-11 02:39:01,810 - Rank 0 - Validation Loss: 0.2365, Validation Accuracy: 0.8923
+2025-08-11 02:40:55,211 - Rank 0 - Train Loss: 0.2268, Train Accuracy: 0.8966
+2025-08-11 02:41:03,399 - Rank 0 - Validation Loss: 0.2372, Validation Accuracy: 0.8923
+2025-08-11 02:41:03,525 - Rank 0 - Saved checkpoint at epoch 543 to checkpoints/macformer_checkpoint_epoch_543.pth
+2025-08-11 02:43:03,404 - Rank 0 - Train Loss: 0.2267, Train Accuracy: 0.8964
+2025-08-11 02:43:11,462 - Rank 0 - Validation Loss: 0.2370, Validation Accuracy: 0.8924
+2025-08-11 02:45:10,956 - Rank 0 - Train Loss: 0.2266, Train Accuracy: 0.8966
+2025-08-11 02:45:19,610 - Rank 0 - Validation Loss: 0.2366, Validation Accuracy: 0.8923
+2025-08-11 02:47:18,882 - Rank 0 - Train Loss: 0.2266, Train Accuracy: 0.8965
+2025-08-11 02:47:27,069 - Rank 0 - Validation Loss: 0.2361, Validation Accuracy: 0.8924
+2025-08-11 02:47:27,183 - Rank 0 - Saved checkpoint at epoch 546 to checkpoints/macformer_checkpoint_epoch_546.pth
+2025-08-11 02:49:27,131 - Rank 0 - Train Loss: 0.2268, Train Accuracy: 0.8965
+2025-08-11 02:49:35,253 - Rank 0 - Validation Loss: 0.2369, Validation Accuracy: 0.8924
+2025-08-11 02:51:35,136 - Rank 0 - Train Loss: 0.2274, Train Accuracy: 0.8963
+2025-08-11 02:51:43,422 - Rank 0 - Validation Loss: 0.2347, Validation Accuracy: 0.8930
+2025-08-11 02:51:43,577 - Rank 0 - Saved best model with val_loss 0.2347 to checkpoints/macformer_best_model.pth
+2025-08-11 02:53:43,320 - Rank 0 - Train Loss: 0.2270, Train Accuracy: 0.8965
+2025-08-11 02:53:51,442 - Rank 0 - Validation Loss: 0.2371, Validation Accuracy: 0.8923
+2025-08-11 02:53:51,551 - Rank 0 - Saved checkpoint at epoch 549 to checkpoints/macformer_checkpoint_epoch_549.pth
+2025-08-11 02:55:46,177 - Rank 0 - Train Loss: 0.2251, Train Accuracy: 0.8972
+2025-08-11 02:55:54,611 - Rank 0 - Validation Loss: 0.2358, Validation Accuracy: 0.8926
+2025-08-11 02:57:55,077 - Rank 0 - Train Loss: 0.2255, Train Accuracy: 0.8969
+2025-08-11 02:58:03,046 - Rank 0 - Validation Loss: 0.2356, Validation Accuracy: 0.8927
+2025-08-11 03:00:03,268 - Rank 0 - Train Loss: 0.2258, Train Accuracy: 0.8973
+2025-08-11 03:00:11,217 - Rank 0 - Validation Loss: 0.2352, Validation Accuracy: 0.8931
+2025-08-11 03:00:11,325 - Rank 0 - Saved checkpoint at epoch 552 to checkpoints/macformer_checkpoint_epoch_552.pth
+2025-08-11 03:02:13,644 - Rank 0 - Train Loss: 0.2250, Train Accuracy: 0.8973
+2025-08-11 03:02:21,810 - Rank 0 - Validation Loss: 0.2362, Validation Accuracy: 0.8925
+2025-08-11 03:04:23,126 - Rank 0 - Train Loss: 0.2257, Train Accuracy: 0.8971
+2025-08-11 03:04:31,495 - Rank 0 - Validation Loss: 0.2350, Validation Accuracy: 0.8929
+2025-08-11 03:06:32,679 - Rank 0 - Train Loss: 0.2252, Train Accuracy: 0.8971
+2025-08-11 03:06:41,233 - Rank 0 - Validation Loss: 0.2376, Validation Accuracy: 0.8921
+2025-08-11 03:06:41,339 - Rank 0 - Saved checkpoint at epoch 555 to checkpoints/macformer_checkpoint_epoch_555.pth
+2025-08-11 03:08:35,969 - Rank 0 - Train Loss: 0.2249, Train Accuracy: 0.8970
+2025-08-11 03:08:44,429 - Rank 0 - Validation Loss: 0.2355, Validation Accuracy: 0.8927
+2025-08-11 03:10:43,568 - Rank 0 - Train Loss: 0.2259, Train Accuracy: 0.8970
+2025-08-11 03:10:51,791 - Rank 0 - Validation Loss: 0.2352, Validation Accuracy: 0.8928
+2025-08-11 03:12:51,880 - Rank 0 - Train Loss: 0.2243, Train Accuracy: 0.8974
+2025-08-11 03:13:00,265 - Rank 0 - Validation Loss: 0.2353, Validation Accuracy: 0.8933
+2025-08-11 03:13:00,378 - Rank 0 - Saved checkpoint at epoch 558 to checkpoints/macformer_checkpoint_epoch_558.pth
+2025-08-11 03:15:00,357 - Rank 0 - Train Loss: 0.2251, Train Accuracy: 0.8972
+2025-08-11 03:15:09,023 - Rank 0 - Validation Loss: 0.2342, Validation Accuracy: 0.8932
+2025-08-11 03:15:09,175 - Rank 0 - Saved best model with val_loss 0.2342 to checkpoints/macformer_best_model.pth
+2025-08-11 03:17:08,280 - Rank 0 - Train Loss: 0.2254, Train Accuracy: 0.8974
+2025-08-11 03:17:16,469 - Rank 0 - Validation Loss: 0.2347, Validation Accuracy: 0.8936
+2025-08-11 03:19:17,296 - Rank 0 - Train Loss: 0.2239, Train Accuracy: 0.8977
+2025-08-11 03:19:25,523 - Rank 0 - Validation Loss: 0.2348, Validation Accuracy: 0.8930
+2025-08-11 03:19:25,627 - Rank 0 - Saved checkpoint at epoch 561 to checkpoints/macformer_checkpoint_epoch_561.pth
+2025-08-11 03:21:26,977 - Rank 0 - Train Loss: 0.2246, Train Accuracy: 0.8973
+2025-08-11 03:21:35,043 - Rank 0 - Validation Loss: 0.2350, Validation Accuracy: 0.8931
+2025-08-11 03:23:28,451 - Rank 0 - Train Loss: 0.2245, Train Accuracy: 0.8975
+2025-08-11 03:23:37,492 - Rank 0 - Validation Loss: 0.2344, Validation Accuracy: 0.8935
+2025-08-11 03:25:37,337 - Rank 0 - Train Loss: 0.2237, Train Accuracy: 0.8977
+2025-08-11 03:25:45,749 - Rank 0 - Validation Loss: 0.2358, Validation Accuracy: 0.8925
+2025-08-11 03:25:45,857 - Rank 0 - Saved checkpoint at epoch 564 to checkpoints/macformer_checkpoint_epoch_564.pth
+2025-08-11 03:27:45,297 - Rank 0 - Train Loss: 0.2239, Train Accuracy: 0.8976
+2025-08-11 03:27:53,741 - Rank 0 - Validation Loss: 0.2361, Validation Accuracy: 0.8925
+2025-08-11 03:29:54,186 - Rank 0 - Train Loss: 0.2237, Train Accuracy: 0.8976
+2025-08-11 03:30:02,526 - Rank 0 - Validation Loss: 0.2362, Validation Accuracy: 0.8924
+2025-08-11 03:32:02,297 - Rank 0 - Train Loss: 0.2248, Train Accuracy: 0.8975
+2025-08-11 03:32:10,761 - Rank 0 - Validation Loss: 0.2338, Validation Accuracy: 0.8932
+2025-08-11 03:32:10,912 - Rank 0 - Saved best model with val_loss 0.2338 to checkpoints/macformer_best_model.pth
+2025-08-11 03:32:11,014 - Rank 0 - Saved checkpoint at epoch 567 to checkpoints/macformer_checkpoint_epoch_567.pth
+2025-08-11 03:34:11,169 - Rank 0 - Train Loss: 0.2237, Train Accuracy: 0.8977
+2025-08-11 03:34:19,457 - Rank 0 - Validation Loss: 0.2346, Validation Accuracy: 0.8932
+2025-08-11 03:36:19,759 - Rank 0 - Train Loss: 0.2230, Train Accuracy: 0.8980
+2025-08-11 03:36:28,332 - Rank 0 - Validation Loss: 0.2353, Validation Accuracy: 0.8931
+2025-08-11 03:38:14,474 - Rank 0 - Train Loss: 0.2233, Train Accuracy: 0.8979
+2025-08-11 03:38:22,726 - Rank 0 - Validation Loss: 0.2355, Validation Accuracy: 0.8930
+2025-08-11 03:38:22,842 - Rank 0 - Saved checkpoint at epoch 570 to checkpoints/macformer_checkpoint_epoch_570.pth
+2025-08-11 03:40:00,053 - Rank 0 - Train Loss: 0.2233, Train Accuracy: 0.8975
+2025-08-11 03:40:08,871 - Rank 0 - Validation Loss: 0.2353, Validation Accuracy: 0.8927
+2025-08-11 03:41:40,591 - Rank 0 - Train Loss: 0.2229, Train Accuracy: 0.8979
+2025-08-11 03:41:48,579 - Rank 0 - Validation Loss: 0.2346, Validation Accuracy: 0.8929
+2025-08-11 03:43:21,958 - Rank 0 - Train Loss: 0.2220, Train Accuracy: 0.8985
+2025-08-11 03:43:30,131 - Rank 0 - Validation Loss: 0.2348, Validation Accuracy: 0.8933
+2025-08-11 03:43:30,296 - Rank 0 - Saved checkpoint at epoch 573 to checkpoints/macformer_checkpoint_epoch_573.pth
+2025-08-11 03:45:02,374 - Rank 0 - Train Loss: 0.2223, Train Accuracy: 0.8983
+2025-08-11 03:45:10,979 - Rank 0 - Validation Loss: 0.2363, Validation Accuracy: 0.8925
+2025-08-11 03:46:42,850 - Rank 0 - Train Loss: 0.2232, Train Accuracy: 0.8979
+2025-08-11 03:46:51,769 - Rank 0 - Validation Loss: 0.2349, Validation Accuracy: 0.8928
+2025-08-11 03:48:24,009 - Rank 0 - Train Loss: 0.2224, Train Accuracy: 0.8981
+2025-08-11 03:48:32,200 - Rank 0 - Validation Loss: 0.2344, Validation Accuracy: 0.8934
+2025-08-11 03:48:32,319 - Rank 0 - Saved checkpoint at epoch 576 to checkpoints/macformer_checkpoint_epoch_576.pth
+2025-08-11 03:50:18,778 - Rank 0 - Train Loss: 0.2218, Train Accuracy: 0.8984
+2025-08-11 03:50:27,254 - Rank 0 - Validation Loss: 0.2335, Validation Accuracy: 0.8936
+2025-08-11 03:50:27,418 - Rank 0 - Saved best model with val_loss 0.2335 to checkpoints/macformer_best_model.pth
+2025-08-11 03:52:17,900 - Rank 0 - Train Loss: 0.2213, Train Accuracy: 0.8982
+2025-08-11 03:52:26,644 - Rank 0 - Validation Loss: 0.2344, Validation Accuracy: 0.8929
+2025-08-11 03:54:25,383 - Rank 0 - Train Loss: 0.2222, Train Accuracy: 0.8984
+2025-08-11 03:54:33,753 - Rank 0 - Validation Loss: 0.2349, Validation Accuracy: 0.8930
+2025-08-11 03:54:33,870 - Rank 0 - Saved checkpoint at epoch 579 to checkpoints/macformer_checkpoint_epoch_579.pth
+2025-08-11 05:11:50,458 - Rank 0 - Starting training
+2025-08-11 05:12:12,929 - Rank 0 - No checkpoint found at checkpoints_dummy/macformer_checkpoint.pth, starting from scratch
+2025-08-11 05:13:47,406 - Rank 0 - Train Loss: 1.6610, Train Accuracy: 0.4847
+2025-08-11 05:14:18,510 - Rank 0 - Starting training
+2025-08-11 05:14:40,162 - Rank 0 - No checkpoint found at checkpoints_dummy/macformer_checkpoint.pth, starting from scratch
+2025-08-11 05:26:56,515 - Rank 0 - Starting training
+2025-08-11 05:27:10,727 - Rank 0 - No checkpoint found at checkpoints_dummy/macformer_checkpoint.pth, starting from scratch

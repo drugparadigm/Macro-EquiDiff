@@ -1,0 +1,2 @@
+[Checkpoint] No checkpoint found at checkpoints/macformer_checkpoint_epoch_0.pth, starting from scratch
+Rank 0 Training Epochs:   0%|                                                                               | 0/1000 [00:00<?, ?it/s]
