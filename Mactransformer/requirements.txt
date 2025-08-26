@@ -7,3 +7,4 @@ tqdm
 pandas
 keras
 tensorflow
+rdkit
