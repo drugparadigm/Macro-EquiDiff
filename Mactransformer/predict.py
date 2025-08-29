@@ -166,14 +166,14 @@ def main(smiles_list):
         return []
 
     # Load vocab
-    vocab_data = torch.load("/home/macrocycles/MacTransformer/vocab.pt")
+    vocab_data = torch.load("vocab.pt")
     src_vocab, tgt_vocab = vocab_data['src_vocab'], vocab_data['tgt_vocab']
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = MacFormer(len(src_vocab), len(tgt_vocab)).to(device)
 
     # Load checkpoint
-    model = load_model_from_checkpoint(model, path="/home/macrocycles/MacTransformer/macformer_checkpoint_epoch_18.pth", device=device)
+    model = load_model_from_checkpoint(model, path="macformer_checkpoint_epoch_18.pth", device=device)
 
     output_file = "/home/macrocycles/drug_sinter/valid_macformer_smiles.txt"
     predictions = []
