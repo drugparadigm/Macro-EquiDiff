@@ -1,1 +1,1 @@
-# Macro-EquiDiff
+# Macro-EquiDiff (MED)
