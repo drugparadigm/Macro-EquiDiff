@@ -1,0 +1,5 @@
+*CC#CCC*
+*CCCN(*)C
+*CC(C*)CC
+*CC(*)N
+*CNC*

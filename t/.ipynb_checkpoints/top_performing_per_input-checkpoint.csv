@@ -1,0 +1,2 @@
+Input_SMILES,SMILES,Linkers,MW,LogP,HBD,HBA,PSA,RotatableBonds,SA,Permeability,hERG_Risk,CYP_Inhibition,Metabolic_Stability,PAINS_Alert,lipinski_violations,QED,Druglikeness_Score
+CCCC(=O)NC(CNC(Cc1ccccc1)C(=O)NC(CCCN=C(N)N)C(=O)NCCc1c[nH]c2ccccc12)Cc1cnc[nH]1,CCCC(=O)NC(CNC(Cc1ccccc1)C(=O)NC1CCC(N=C(N)N)CC#CCCC(Cc2c[nH]c3ccccc23)NC1=O)Cc1cnc[nH]1,*CC#CCC*,720.9230000000002,2.7411000000000048,8,6,208.19999999999996,15,5.398184986562788,High,Low,Low,Moderate,No,2,0.052294149914878844,95

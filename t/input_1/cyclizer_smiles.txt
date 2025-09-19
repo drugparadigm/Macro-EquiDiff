@@ -1,0 +1,2 @@
+*c1c(c2c([nH]1)cccc2)CCNC(=O)C(CCCN=C(N)N)NC(C(Cc1ccccc1)NCC(Cc1[nH]cnc1)NC(=O)C(*)CC)=O
+*C(CCC(NC(=O)C(Cc1ccccc1)NCC(NC(CCC)=O)Cc1cnc[nH]1)C(NC(*)Cc1c[nH]c2ccccc21)=O)N=C(N)N
