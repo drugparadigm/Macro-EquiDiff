@@ -27,7 +27,7 @@ As a case study, MED was used to macrocyclize four acyclic drugs targeting the J
    ```
 
 ---
-## 🛠️ Setup
+## Setup
 
 - **Download the GEOM checkpoint**:  
   Download the pre-trained GEOM checkpoint from [here](https://drive.google.com/drive/folders/1b0kNBtck9VNrLRZxg6mckyVUpJA5rBHh?usp=sharing) and place it in the `edm/models/` folder.
