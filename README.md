@@ -69,22 +69,6 @@ If you use this pipeline in your research, please cite:
 
 ---
 
-## Contributing
-
-Contributions are welcome! To contribute:
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. Commit changes and push:
-   ```bash
-   git commit -m "Add your feature description"
-   git push origin feature/your-feature-name
-   ```
-4. Open a pull request.
-
----
 
 ## License
 
