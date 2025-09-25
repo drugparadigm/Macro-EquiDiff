@@ -20,7 +20,7 @@ As a case study, MED was used to macrocyclize four acyclic drugs targeting the J
    cd Macro-EquiDiff
    ```
 
-2. Create the required environments:
+2. Create the required environments using MacTransformer.yml and EDM.yml:
    ```bash
    conda env create -f MacTransformer.yml
    conda env create -f EDM.yml
