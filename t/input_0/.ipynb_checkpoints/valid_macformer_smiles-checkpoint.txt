@@ -1,4 +1,0 @@
-*C(C)(=Cc1c(O)c(NC=O)cc(O)c1NC(C(C)=O)=O)CC(OC)C(O)C(C=C(COC(N)=O)C(*)CC
-*C(=O)(C)C(=O)Nc1c(O)cc(c(c1C=C(CC(OC)C(C(C)C=C(C)C(*)OC(=O)N)O)C)O)NC=O
-*c1(cc(c(c(C=C(C)CC(OC)C(C(C=C(C)C(*)OC(N)=O)C)O)c1O)NC(C(C)=O)=O)O)NC=O
-*C(C)(=Cc1c(O)c(NC=O)cc(O)c1NC(C(C)=O)=O)CC(OC)C(O)C(C=C(COC(N)=O)C(*)CC
