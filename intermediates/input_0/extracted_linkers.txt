@@ -1,0 +1,10 @@
+*CCC(*)=O
+*CC#CC*
+*C#CCC*
+*C=C=CCC*
+*CCCCC*
+*CC#CC*
+*C=C=CC*
+*CCCCC*
+*CCC(=O)O*
+*C(=C)C(*)O

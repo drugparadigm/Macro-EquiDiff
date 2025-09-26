@@ -123,7 +123,7 @@ def run_macformer_on_smiles_in_memory(smiles, inter_dir):
     vocab_path = "MacTransformer/vocab.pt"
 
     subprocess.run([
-        "conda", "run", "-n", "macformer_env", "--no-capture-output",
+        "conda", "run", "-n", "myenv", "--no-capture-output",
         "python", "MacTransformer/pipeline_predict.py",
         "--checkpoint", "MacTransformer/macformer_checkpoint_epoch_18.pth",
         "--smiles", smiles,  # NEW ARG: pass directly
@@ -406,8 +406,7 @@ def read_valid_smiles(smiles_file):
             mol = Chem.MolFromSmiles(smi)
             if mol is not None and smi.count('*') == 2:
                 valid_smiles.append(smi)
-            else:
-                print(f"❌ Invalid or improper SMILES (needs 2 *): {smi}")
+
     return valid_smiles
 
 from rdkit import Chem
@@ -764,7 +763,7 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
         try:
             # Run EDM
             run_EDM(run_dir)
-
+            print("OOOObbbbbbbbbbbbbbbbbbbB")
             # Step 6: Extract linkers from this input's EDM output
             acyclic_mol = load_mol(user_sdf_path)
             linker_writer = SDWriter(linkers_sdf_path)
@@ -877,8 +876,7 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
             with open(f"{inter_dir}/input_{input_id}/extracted_linkers.txt", 'a') as f:
                 for linker in linkers:
                     f.write(linker + '\n')
-            print(f"✅ Extracted linkers SMILES saved to {inter_dir}/input_{input_id}/extracted_linkers.txt")
-
+            
             valid_smiles = read_valid_smiles(f"{inter_dir}/input_{input_id}/cyclizer_smiles.txt")
 
             # Skip if cyclizer_smiles.txt is empty

@@ -123,7 +123,7 @@ def run_macformer_on_smiles_in_memory(smiles, inter_dir):
     vocab_path = "MacTransformer/vocab.pt"
 
     subprocess.run([
-        "conda", "run", "-n", "macformer_env", "--no-capture-output",
+        "conda", "run", "-n", "myenv", "--no-capture-output",
         "python", "MacTransformer/pipeline_predict.py",
         "--checkpoint", "MacTransformer/macformer_checkpoint_epoch_18.pth",
         "--smiles", smiles,  # NEW ARG: pass directly
@@ -406,8 +406,7 @@ def read_valid_smiles(smiles_file):
             mol = Chem.MolFromSmiles(smi)
             if mol is not None and smi.count('*') == 2:
                 valid_smiles.append(smi)
-            else:
-                print(f"❌ Invalid or improper SMILES (needs 2 *): {smi}")
+
     return valid_smiles
 
 from rdkit import Chem
@@ -760,12 +759,12 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
     valid_linkers_found = False
     macro_linker_pairs = []
 
-    while retry_count <= max_retries and not macro_linker_pairs:
+    while retry_count < max_retries and (not macro_linker_pairs or top_macrocycle is None):
         try:
-            # Run EDM
-            run_EDM(run_dir)
+            # Run DiffLinker
+            run_difflinker(run_dir)
 
-            # Step 6: Extract linkers from this input's EDM output
+            # Step 6: Extract linkers from this input's DiffLinker output
             acyclic_mol = load_mol(user_sdf_path)
             linker_writer = SDWriter(linkers_sdf_path)
 
@@ -903,31 +902,37 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
                 retry_count += 1
                 continue
 
+            # Write macrocycle SMILES to ops.txt
+            with open(f"{inter_dir}/input_{input_id}/ops.txt", 'a') as f_out:
+                for macro_smi, _ in macro_linker_pairs:
+                    f_out.write(macro_smi + '\n')
+        
+            process_ops(f"{inter_dir}/input_{input_id}/ops.txt", f"{inter_dir}/input_{input_id}/final_macros.txt")
+            print(f"Macrocycles generated successfully")
+        
+            # Pass macro_linker_pairs to filter_macrocycles
+            top_macrocycle = filter_macrocycles(
+                f"{inter_dir}/input_{input_id}/final_macros.txt",
+                f"{inter_dir}/input_{input_id}/top_5_macrors.csv",
+                input_smiles=user_smiles,
+                macro_linker_pairs=macro_linker_pairs
+            )
+            if top_macrocycle is None:
+                print(f"⚠ Filter removed all macros for input {input_id}, retrying ({retry_count + 1}/{max_retries})...")
+                retry_count += 1
+                continue
+
+            print("✅ Macrocycles generated successfully")
+
         except Exception as e:
             print(f"⚠ Error during processing: {e}, retrying ({retry_count + 1}/{max_retries})...")
             retry_count += 1
 
-    if not macro_linker_pairs:
+    if top_macrocycle is None:
         print(f"⚠ Skipping input {input_id} (no valid macrocycles after {max_retries} retries)")
         return None
 
-    # Write macrocycle SMILES to ops.txt
-    with open(f"{inter_dir}/input_{input_id}/ops.txt", 'a') as f_out:
-        for macro_smi, _ in macro_linker_pairs:
-            f_out.write(macro_smi + '\n')
-
-    process_ops(f"{inter_dir}/input_{input_id}/ops.txt", f"{inter_dir}/input_{input_id}/final_macros.txt")
-    print(f"Macrocycles generated successfully")
-
-    # Pass macro_linker_pairs to filter_macrocycles
-    top_macrocycle = filter_macrocycles(
-        f"{inter_dir}/input_{input_id}/final_macros.txt",
-        f"{inter_dir}/input_{input_id}/top_5_macrors.csv",
-        input_smiles=user_smiles,
-        macro_linker_pairs=macro_linker_pairs
-    )
-    return {'Input_SMILES': user_smiles, 'Top_Macrocycle': top_macrocycle}
-    
+    return {'Input_SMILES': user_smiles, 'Top_Macrocycle': top_macrocycle}    
 if __name__ == "__main__":
     os.environ["CUDA_VISIBLE_DEVICES"] = "1,2,3,4,5,7"
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

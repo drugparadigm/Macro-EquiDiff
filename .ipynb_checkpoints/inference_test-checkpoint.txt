@@ -1,1 +1,2 @@
+Nc1cc(O)c(N2CCC2)c(C=C(C)CC(OC)C(O)C(C)C=C(C)C(OC(=O)NO)COC)c1O
 CCCC(=O)NC(CNC(Cc1ccccc1)C(=O)NC(CCCN=C(N)N)C(=O)NCCc1c[nH]c2ccccc12)Cc1cnc[nH]1

@@ -1,0 +1,6 @@
+*CCC*
+*CCO*
+*C[C@@H]1C[C@@H]1C*
+*CNCC(*)=O
+*C(*)CC
+*CO*
