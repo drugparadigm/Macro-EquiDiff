@@ -1,2 +1,0 @@
-*C(CC(=O)NC(Cc1cnc[nH]1)CNC(Cc1ccccc1)C(=O)NC(CCCN=C(N)N)C(=O)NC(*)Cc1c[nH]c2ccccc12)C
-*C(CC(=O)NC(Cc1cnc[nH]1)CNC(Cc1ccccc1)C(=O)NC(CCCN=C(N)N)C(=O)NC(*)Cc1c[nH]c2ccccc12)C

@@ -80,14 +80,12 @@ def main(input_path, model, output_dir, n_samples, n_steps, linker_size, anchors
         if len(boundaries) == 2 and boundaries[0].isdigit() and boundaries[1].isdigit():
             left = int(boundaries[0])
             right = int(boundaries[1])
-            print(f'Will generate linkers with numbers of atoms sampled from U({left}, {right})')
 
             def sample_fn(_data):
                 shape = len(_data['positions']),
                 return torch.randint(left, right + 1, shape, device=device, dtype=const.TORCH_INT)
 
         else:
-            print(f'Will generate linkers with sampled numbers of atoms')
             size_nn = SizeClassifier.load_from_checkpoint(linker_size, map_location=device).eval().to(device)
 
             def sample_fn(_data):
@@ -123,7 +121,6 @@ def main(input_path, model, output_dir, n_samples, n_steps, linker_size, anchors
         molecule = read_molecule(input_path)
         molecule = Chem.RemoveAllHs(molecule)
         smiles = Chem.MolToSmiles(molecule)
-        print("SMILES😑:", smiles)
         name = '.'.join(input_path.split('/')[-1].split('.')[:-1])
     except Exception as e:
         return f'Could not read the molecule: {e}'
@@ -151,7 +148,6 @@ def main(input_path, model, output_dir, n_samples, n_steps, linker_size, anchors
     dataloader = get_dataloader(dataset, batch_size=global_batch_size, collate_fn=collate_with_fragment_edges)
 
     # Sampling
-    print('Sampling...')
     for batch_i, data in tqdm(enumerate(dataloader), total=len(dataloader)):
         batch_size = len(data['positions'])
 
@@ -193,12 +189,8 @@ def main(input_path, model, output_dir, n_samples, n_steps, linker_size, anchors
             print(result.stderr)  # will show any obabel error
 
 
-    print(f'Saved {i} generated molecules in .xyz and .sdf format in directory {output_dir}')
-
-
 if __name__ == '__main__':
-    os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3"  # Use only GPU 1
-    print("Using device:", torch.cuda.get_device_name(0))
+    os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3" 
 
     args = parser.parse_args()
     main(

@@ -74,7 +74,6 @@ def main():
     input_mol = Chem.MolFromSmiles(custom_smile)
 
     if input_mol is None:
-        print(f"❌ Invalid input SMILES: {custom_smile}")
         return
 
     # Tokenize & encode
@@ -90,8 +89,6 @@ def main():
     with open(args.output_file, "w") as f_out:
         for smi in predictions:
             f_out.write(smi + "\n")
-
-    print(f"\n✅ Predictions saved to {args.output_file}")
 
 if __name__ == "__main__":
     main()

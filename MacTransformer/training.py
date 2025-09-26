@@ -192,7 +192,7 @@ def main():
     else:
         device = torch.device("cpu")
         print("Using CPU")
-    train_fp = 'datasets/pept_data.csv'
+    train_fp = 'datasets/data/train.csv'
     src_data, tgt_data, src_vocab, tgt_vocab = preprocess_data(train_fp, max_length=512)
     # Save vocabularies to vocab.pt
     torch.save({'src_vocab': src_vocab, 'tgt_vocab': tgt_vocab}, 'vocab_pep.pt')

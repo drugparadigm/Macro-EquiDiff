@@ -17,10 +17,9 @@ INTER_DIR = "intermediates"
 N_AUGMENT = 3
 
 try:
-    from EDM.src.delinker_utils.sascorer import calculateScore as calculate_sa_score
+    from DiffLinker.src.delinker_utils.sascorer import calculateScore as calculate_sa_score
 except ImportError:
     def calculate_sa_score(_):
-        print("NOOOOOOOOOOOOOOOOOOOOOOOOOOOoo")
         return None  
         
 # ========== UTILS ==========
@@ -81,7 +80,6 @@ def remove_radicals(smiles_input):
                 print(f"Atom {atom.GetIdx()+1} ({atom.GetSymbol()}): {r} unpaired electron(s)")
         
         if not radical_atoms:
-            print("No radicals found in the molecule")
             return smiles_input
         
         # Neutralize radicals
@@ -126,7 +124,7 @@ def run_macformer_on_smiles_in_memory(smiles, inter_dir):
         "conda", "run", "-n", "myenv", "--no-capture-output",
         "python", "MacTransformer/pipeline_predict.py",
         "--checkpoint", "MacTransformer/macformer_checkpoint_epoch_18.pth",
-        "--smiles", smiles,  # NEW ARG: pass directly
+        "--smiles", smiles,  
         "--output_file", out_path,
         "--vocab", vocab_path,
         "--beam_width", "1"
@@ -137,24 +135,16 @@ def run_macformer_on_smiles_in_memory(smiles, inter_dir):
 
 def filter_valid_smiles(smiles_list):
     result = []
-    seen = set()   # track unique SMILES
-
+    seen = set()   
     for smile in smiles_list:
-        # clean special tokens
         smile = smile.replace("<s>", "").replace("</s>", "")
-
-        print(smile)
-
         if smile.count("*") == 2:
             mol = Chem.MolFromSmiles(smile)
             if mol:
-                if smile not in seen:   # only add if not seen
+                if smile not in seen:  
                     result.append(smile)
                     seen.add(smile)
-            else:
-                print(f"⚠ Invalid SMILES: {smile}")
     return result
-
 
 def run_EDM(inter_dir):
     subprocess.run([
@@ -189,15 +179,14 @@ def get_heavy_atom_info(mol):
     return heavy_atoms
 
 def find_linker_atom_indices(acyclic_mol, macro_mol):
-    # Find linker atoms by removing the number of heavy atoms in acyclic_mol from macro_mol.
+    """
+    Find linker atoms by removing the number of heavy atoms in acyclic_mol from macro_mol.
+    """
     acyclic_num_heavy_atoms = sum(1 for atom in acyclic_mol.GetAtoms() if atom.GetAtomicNum() != 1)
     macro_num_atoms = macro_mol.GetNumAtoms()
     
-    print(f"📄 Acyclic heavy atoms: {acyclic_num_heavy_atoms}, Macro atoms: {macro_num_atoms}, Potential linker atoms: {macro_num_atoms - acyclic_num_heavy_atoms}", file=sys.stderr)
-    
     if acyclic_num_heavy_atoms >= macro_num_atoms:
-        print(f"❌ Acyclic molecule has {acyclic_num_heavy_atoms} heavy atoms, which is >= macrocycle's {macro_num_atoms} atoms.", file=sys.stderr)
-        return []
+       return []
 
     # Assume the first acyclic_num_heavy_atoms in macro_mol correspond to the acyclic fragment
     linker_atom_indices = list(range(acyclic_num_heavy_atoms, macro_num_atoms))
@@ -205,7 +194,8 @@ def find_linker_atom_indices(acyclic_mol, macro_mol):
 
 
 def find_anchor_points(macro_mol, linker_atom_indices):
-    # Find linker atoms that were connected to non-linker (acyclic) atoms.
+    """ Find linker atoms that were connected to non-linker (acyclic) atoms.
+    """
     linker_set = set(linker_atom_indices)
     anchor_points = set()
     for bond in macro_mol.GetBonds():
@@ -218,7 +208,9 @@ def find_anchor_points(macro_mol, linker_atom_indices):
     return list(anchor_points)
 
 def select_farthest_anchor_points(macro_mol, anchor_points):
-    # Select the two anchor points that are farthest apart, preferring non-ring atoms.
+    """
+    Select the two anchor points that are farthest apart, preferring non-ring atoms.
+    """
     if len(anchor_points) <= 2:
         return anchor_points
 
@@ -247,7 +239,6 @@ def select_farthest_anchor_points(macro_mol, anchor_points):
                     farthest_pair = [idx1, idx2]
     else:
         # If fewer than 2 non-ring anchors, use all anchors and issue warning
-        print(f"⚠  Fewer than 2 non-ring anchor points ({len(non_ring_anchors)}), using ring atoms if necessary", file=sys.stderr)
         for i, idx1 in enumerate(anchor_points):
             pos1 = conf.GetAtomPosition(idx1)
             coord1 = np.array([pos1.x, pos1.y, pos1.z])
@@ -260,7 +251,6 @@ def select_farthest_anchor_points(macro_mol, anchor_points):
                     farthest_pair = [idx1, idx2]
 
     if farthest_pair is None:
-        print(f"⚠  Could not find valid anchor point pair", file=sys.stderr)
         return None
     return farthest_pair
     
@@ -283,7 +273,6 @@ def add_second_attachment_point_and_return_indices(linker_mol):
                         if atom.GetAtomicNum() > 0 and atom_has_free_valence(atom)]
 
     if not attachable_atoms:
-        print("❌ No atoms with available valence to attach new attachment point.")
         return None
 
     # Add second dummy atom
@@ -297,18 +286,12 @@ def add_second_attachment_point_and_return_indices(linker_mol):
 
 def extract_linker_from_macro(macro_mol, linker_atom_indices):
     anchor_points = find_anchor_points(macro_mol, linker_atom_indices)
-    print("🧠",anchor_points)
     if anchor_points is None or len(anchor_points) != 2:
-        print(f"⭕  Expected exactly 2 anchor points, found {len(anchor_points)} after selection", file=sys.stderr)
-
         # Try to fix: Add second dummy if only one present
         if anchor_points is not None and len(anchor_points) == 1:
-            print("🛠  Attempting to add second attachment point...")
             new_anchor_points = add_second_attachment_point_and_return_indices(macro_mol)
             anchor_points.append(new_anchor_points[0])
-            print("##########",anchor_points)
             if new_anchor_points is None or len(new_anchor_points) != 2:
-                print(f"❌  Failed to recover a second anchor point automatically", file=sys.stderr)
                 return None
             else:
                 anchor_points.append(new_anchor_points[0])
@@ -317,7 +300,6 @@ def extract_linker_from_macro(macro_mol, linker_atom_indices):
             return None
     selected_anchors = select_farthest_anchor_points(macro_mol, anchor_points)
     if selected_anchors is None or len(selected_anchors) != 2:
-        print(f"⚠  Expected exactly 2 anchor points, found {len(selected_anchors)} after selection", file=sys.stderr)
         return None
 
     emol = Chem.EditableMol(Chem.Mol())
@@ -353,7 +335,6 @@ def extract_linker_from_macro(macro_mol, linker_atom_indices):
             new_conf.SetAtomPosition(dummy_idx, pos)
         linker.AddConformer(new_conf)
     except Exception as e:
-        print(f"⚠  Could not sanitize linker or set coordinates: {e}", file=sys.stderr)
         return None
     return linker
 
@@ -390,13 +371,9 @@ def find_terminal_atoms(mol):
             break
 
     if left_idx is None or right_idx is None or left_idx == right_idx:
-        print("❌ Could not find 2 suitable anchor atoms with available valence")
         return []
 
-    print("TERMINAL (shifted): ⭕⭕", [left_idx, right_idx])
     return [left_idx, right_idx]
-
-
 
 def read_valid_smiles(smiles_file):
     valid_smiles = []
@@ -406,7 +383,6 @@ def read_valid_smiles(smiles_file):
             mol = Chem.MolFromSmiles(smi)
             if mol is not None and smi.count('*') == 2:
                 valid_smiles.append(smi)
-
     return valid_smiles
 
 from rdkit import Chem
@@ -416,23 +392,19 @@ def read_linkers_from_sdf(sdf_file):
     linkers = []
     for mol in suppl:
         if mol is None:
-            print("❌ Invalid mol: None")
             continue
 
         smiles = Chem.MolToSmiles(mol)
 
         # check for 2 dummy atoms
         if smiles.count('*') != 2:
-            print(f"❌ Invalid linker (must contain 2 * atoms): {smiles}")
             continue
 
         # check for single fragment
         frags = Chem.GetMolFrags(mol, asMols=True)
         if len(frags) > 1:
-            print(f"❌ Invalid linker (disconnected fragments): {smiles}")
             continue
 
-        # ✅ passed all checks
         linkers.append(smiles)
 
     return linkers
@@ -440,10 +412,10 @@ def read_linkers_from_sdf(sdf_file):
 from rdkit import Chem
 
 def move_star_if_needed(mol):
-    
-    # If * atom is connected to an atom whose valency is already full,
-    # try to move the * to a neighboring atom with available valence.
-    
+    """
+    If * atom is connected to an atom whose valency is already full,
+    try to move the * to a neighboring atom with available valence.
+    """
     stars = [a for a in mol.GetAtoms() if a.GetAtomicNum() == 0]  # 0 = Dummy atom (*)
     for star in stars:
         neighbor = star.GetNeighbors()[0] if star.GetNeighbors() else None
@@ -467,13 +439,10 @@ def move_star_if_needed(mol):
 
 
 def connect_fragment_and_linker(fragment_smi, linker_smi):
-    print(fragment_smi)
-    print(linker_smi)
     frag = Chem.MolFromSmiles(fragment_smi)
     linker = Chem.MolFromSmiles(linker_smi)
 
     if frag is None or linker is None:
-        print("Invalid fragment or linker SMILES")
         return None
 
     # Adjust * positions if needed
@@ -535,9 +504,6 @@ def process_ops(input_file, output_file):
     with open(output_file, 'a') as out:
         for smi in sorted(macrocycles):
             out.write(smi + '\n')
-
-    print(f"✅ Found {len(macrocycles)} unique macrocycles.")
-    print(f"📄 Written to: {output_file}")
 
 def calculate_physicochemical_properties(smiles):
     # Calculate physicochemical properties for a given SMILES string.
@@ -670,7 +636,6 @@ def filter_macrocycles(input_file, output_file, input_smiles=None, macro_linker_
         props = calculate_physicochemical_properties(smiles)
         if props is None:
             continue
-        print("YESS\n\n" + smiles)
         mol = Chem.MolFromSmiles(smiles)
         admet = predict_admet_properties(mol)
         score = calculate_druglikeness_score(props, admet)
@@ -690,13 +655,8 @@ def filter_macrocycles(input_file, output_file, input_smiles=None, macro_linker_
         input_df = pd.DataFrame()
         output_df = results_df
     
-    print("#####################################################\n\n" + str(output_df.shape))
-    print(output_df.head(10))
-    
     # Take top 5 based on drug-likeness score only (no filters)
     if output_df.shape[0] <= 5:
-        print(str(output_df.shape) + "########\n\n")
-        print("😭 Less than or equal to 5 macrocycles")
         top_5_df = output_df
     else:
         top_5_df = output_df.sort_values(by='Druglikeness_Score', ascending=False).head(5)
@@ -706,9 +666,6 @@ def filter_macrocycles(input_file, output_file, input_smiles=None, macro_linker_
     
     # Save to output CSV
     final_df.to_csv(output_file, index=False)
-    print(f"Top 5 macrocycles saved to {output_file}")
-    print(f"Top 5 candidates (plus input SMILES if provided):\n{final_df.to_string()}")
-    print(f"Number of macrocycles in final output: {len(top_5_df)}")
     
     # Return the top macrocycle (highest Druglikeness_Score) if any macrocycles exist
     if not output_df.empty:
@@ -726,7 +683,6 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
     smi_to_sdf(user_smiles, user_sdf_path)
 
     augmented = generate_augmented_smiles(user_smiles, N_AUGMENT)
-
     # Step 2: Run Macformer
     all_macformer_outputs = []
     for i, aug_smi in enumerate(augmented):
@@ -739,12 +695,9 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
     # Save predictions
     out_path = os.path.join(run_dir, f"valid_macformer_smiles.txt")
     with open(out_path, "a") as f:
-        # 1️⃣ Write the original SMILES first
-        f.write(user_smiles + "\n")
         # 2️⃣ Then write all predictions
         for pred in all_macformer_outputs:
             f.write(pred + "\n")
-
     # Step 3: Filter valid linkers
     valid_linker_smiles = filter_valid_smiles(all_macformer_outputs)
     
@@ -752,7 +705,7 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
         for smiles in valid_linker_smiles:
             f.write(smiles + "\n")
 
-    # Step 5: Run EDM with retries for empty linkers.sdf or no macro_linker_pairs
+    # Step 5: Run DiffLinker with retries for empty linkers.sdf or no macro_linker_pairs
     max_retries = 5
     retry_count = 0
     linkers_sdf_path = os.path.join(run_dir, "linkers.sdf")
@@ -761,8 +714,7 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
 
     while retry_count < max_retries and (not macro_linker_pairs or top_macrocycle is None):
         try:
-            # Run DiffLinker
-            run_difflinker(run_dir)
+            run_EDM(run_dir)
 
             # Step 6: Extract linkers from this input's DiffLinker output
             acyclic_mol = load_mol(user_sdf_path)
@@ -781,7 +733,6 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
                                 linker_writer.write(linker_mol)
 
             linker_writer.close()
-            print(f"✅ Linkers saved for input {input_id} in {run_dir}/linkers.sdf")
 
             # Check if linkers.sdf is empty or invalid
             try:
@@ -789,18 +740,15 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
                 if any(mol is not None for mol in suppl):
                     valid_linkers_found = True
                 else:
-                    print(f"⚠ linkers.sdf is empty or contains no valid molecules for input {input_id}, retrying ({retry_count + 1}/{max_retries})...")
                     retry_count += 1
                     continue
             except Exception as e:
-                print(f"⚠ Failed to read linkers.sdf: {e}, retrying ({retry_count + 1}/{max_retries})...")
                 retry_count += 1
                 continue
 
             # Step 7: Process linkers from SDF, split multi-fragment linkers, and ensure 2 * atoms
             def process_linker_mol(mol):
                 if mol is None:
-                    print("⚠ Skipping invalid molecule: None")
                     return []
                 # Split into fragments
                 frags = Chem.GetMolFrags(mol, asMols=True)
@@ -817,7 +765,6 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
                         # Get terminal atoms with free valence
                         terminal_indices = find_terminal_atoms(frag_rw)
                         if not terminal_indices:
-                            print(f"⚠ Skipping fragment: no suitable terminal atoms with free valence")
                             continue
                         
                         if dummy_count == 0:
@@ -829,7 +776,6 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
                             # Add one more * atom at a terminal atom with free valence
                             target_idx = [idx for idx in terminal_indices if idx not in dummy_indices]
                             if not target_idx:
-                                print(f"⚠ Skipping fragment: no valid atom to add second *")
                                 continue
                             new_dummy = frag_rw.AddAtom(Chem.Atom(0))
                             frag_rw.AddBond(target_idx[0], new_dummy, Chem.BondType.SINGLE)
@@ -843,7 +789,6 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
                             # Try adding * atoms using add_second_attachment_point_and_return_indices
                             new_dummy_indices = add_second_attachment_point_and_return_indices(frag_rw)
                             if new_dummy_indices is None or len(new_dummy_indices) != 2:
-                                print(f"⚠ Skipping fragment: could not ensure exactly 2 * atoms")
                                 continue
                             dummy_indices = new_dummy_indices
                         
@@ -853,9 +798,6 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
                             linker_smi = Chem.MolToSmiles(frag_rw, canonical=True)
                             if linker_smi.count('*') == 2:
                                 processed_linkers.append(linker_smi)
-                                print(f"✅ Processed fragment: {linker_smi}")
-                            else:
-                                print(f"⚠ Skipping fragment: incorrect number of * atoms: {linker_smi}")
                         except Exception as e:
                             print(f"⚠ Skipping fragment: sanitization failed: {e}")
                     except Exception as e:
@@ -869,20 +811,16 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
                 linkers.extend(process_linker_mol(mol))
 
             if not linkers:
-                print(f"⚠ No valid linkers after processing for input {input_id}, retrying ({retry_count + 1}/{max_retries})...")
                 retry_count += 1
                 continue
 
             with open(f"{inter_dir}/input_{input_id}/extracted_linkers.txt", 'a') as f:
                 for linker in linkers:
                     f.write(linker + '\n')
-            print(f"✅ Extracted linkers SMILES saved to {inter_dir}/input_{input_id}/extracted_linkers.txt")
-
             valid_smiles = read_valid_smiles(f"{inter_dir}/input_{input_id}/cyclizer_smiles.txt")
 
             # Skip if cyclizer_smiles.txt is empty
             if not valid_smiles:
-                print(f"⚠ Skipping input {input_id} (no valid cyclizer smiles), retrying ({retry_count + 1}/{max_retries})...")
                 retry_count += 1
                 continue
 
@@ -895,10 +833,8 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
                         result_smi = Chem.MolToSmiles(Chem.RemoveHs(result))
                         if result_smi:
                             macro_linker_pairs.append((result_smi, linker))
-                            print(f"Generated macrocycle: {result_smi} with linker: {linker}")
 
             if not macro_linker_pairs:
-                print(f"⚠ No valid macrocycles generated for input {input_id}, retrying ({retry_count + 1}/{max_retries})...")
                 retry_count += 1
                 continue
 
@@ -908,7 +844,6 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
                     f_out.write(macro_smi + '\n')
         
             process_ops(f"{inter_dir}/input_{input_id}/ops.txt", f"{inter_dir}/input_{input_id}/final_macros.txt")
-            print(f"Macrocycles generated successfully")
         
             # Pass macro_linker_pairs to filter_macrocycles
             top_macrocycle = filter_macrocycles(
@@ -918,25 +853,21 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
                 macro_linker_pairs=macro_linker_pairs
             )
             if top_macrocycle is None:
-                print(f"⚠ Filter removed all macros for input {input_id}, retrying ({retry_count + 1}/{max_retries})...")
                 retry_count += 1
                 continue
 
-            print("✅ Macrocycles generated successfully")
-
         except Exception as e:
-            print(f"⚠ Error during processing: {e}, retrying ({retry_count + 1}/{max_retries})...")
             retry_count += 1
 
     if top_macrocycle is None:
-        print(f"⚠ Skipping input {input_id} (no valid macrocycles after {max_retries} retries)")
         return None
 
-    return {'Input_SMILES': user_smiles, 'Top_Macrocycle': top_macrocycle}    
+    return {'Input_SMILES': user_smiles, 'Top_Macrocycle': top_macrocycle}
+
+
 if __name__ == "__main__":
     os.environ["CUDA_VISIBLE_DEVICES"] = "1,2,3,4,5,7"
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    print("Using device:", device)
     parser = argparse.ArgumentParser(description="Process multiple SMILES from a file.")
     parser.add_argument("--input_file", default="inference_test.txt", help="Path to the file containing SMILES strings (one per line)")
     args = parser.parse_args()
@@ -949,7 +880,6 @@ if __name__ == "__main__":
 
     for i, user_smiles in enumerate(smiles_list):
         inter_dir = INTER_DIR
-        print(f"Processing SMILES {i}/{len(smiles_list)}: {user_smiles}")
         result = process_single_smiles(user_smiles, inter_dir, i)
         if result is not None and result.get('Top_Macrocycle') is not None:
             # Add input SMILES and linker to the top macrocycle's properties
