@@ -14,7 +14,7 @@ import torch
 
 
 INTER_DIR = "intermediates"
-N_AUGMENT = 3
+N_AUGMENT = 5
 
 try:
     from DiffLinker.src.delinker_utils.sascorer import calculateScore as calculate_sa_score
@@ -52,15 +52,15 @@ def neutralize_radicals(mol):
     return mol
 
 def remove_radicals(smiles_input):
-
-    # Process SMILES with radicals and return neutralized SMILES.
+    """
+    Process SMILES with radicals and return neutralized SMILES.
     
-    # Args:
-    #     smiles_input: Input SMILES string (may contain radicals)
+    Args:
+        smiles_input: Input SMILES string (may contain radicals)
         
-    # Returns:
-    #     str: Output SMILES string with radicals neutralized, or None if error
-
+    Returns:
+        str: Output SMILES string with radicals neutralized, or None if error
+    """
     try:
         # Parse SMILES to molecule (don't sanitize initially)
         mol = Chem.MolFromSmiles(smiles_input, sanitize=False)
@@ -345,7 +345,9 @@ def mol_to_unique_smiles(mol):
         return None
 
 def find_terminal_atoms(mol):
-    # Find two terminal atoms with available valence from both ends of the linker.
+    """
+    Find two terminal atoms with available valence from both ends of the linker.
+    """
     atoms = mol.GetAtoms()
     n = len(atoms)
 
@@ -506,7 +508,9 @@ def process_ops(input_file, output_file):
             out.write(smi + '\n')
 
 def calculate_physicochemical_properties(smiles):
-    # Calculate physicochemical properties for a given SMILES string.
+    """
+    Calculate physicochemical properties for a given SMILES string.
+    """
     try:
         mol = Chem.MolFromSmiles(smiles)
         if mol is None:
@@ -535,7 +539,9 @@ def calculate_physicochemical_properties(smiles):
         return None
 
 def predict_admet_properties(mol):
-    # Predict simplified ADMET properties based on physicochemical properties.
+    """
+    Predict simplified ADMET properties based on physicochemical properties.
+    """
     mw = Descriptors.MolWt(mol)
     logp = Crippen.MolLogP(mol)
     psa = MolSurf.TPSA(mol)
@@ -574,7 +580,9 @@ def predict_admet_properties(mol):
     }
 
 def calculate_druglikeness_score(props, admet):
-   # Calculate a drug-likeness score based on physicochemical and ADMET properties.
+   """
+   Calculate a drug-likeness score based on physicochemical and ADMET properties.
+   """
     score = 0
     
     # Physicochemical scoring
