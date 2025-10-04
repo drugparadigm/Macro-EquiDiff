@@ -580,9 +580,9 @@ def predict_admet_properties(mol):
     }
 
 def calculate_druglikeness_score(props, admet):
-   """
-   Calculate a drug-likeness score based on physicochemical and ADMET properties.
-   """
+    """
+    Calculate a drug-likeness score based on physicochemical and ADMET properties.
+    """
     score = 0
     
     # Physicochemical scoring
