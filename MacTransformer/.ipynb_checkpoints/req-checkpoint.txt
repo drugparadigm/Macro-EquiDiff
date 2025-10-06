@@ -1,0 +1,9 @@
+torch>=2.0.0
+torchvision
+numpy
+scikit-learn
+matplotlib
+tqdm
+pandas
+keras
+tensorflow
