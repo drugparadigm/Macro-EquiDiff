@@ -32,9 +32,6 @@ As a case study, MED was used to macrocyclize four acyclic drugs targeting the J
 - **Download the GEOM checkpoint**:  
   Download the pre-trained GEOM checkpoint from [here](https://zenodo.org/record/7121300/files/geom_difflinker.ckpt?download=1) and place it in the `edm/models/` folder.
 
-- **Alternatively, train your own EDM model**:  
-  Follow the instructions in the [EDM README](edm/README.md) to train your own EDM model. Save the resulting checkpoint to the `edm/models/` folder.
-
 ## Usage
 
 1. **Activate the environment**:
