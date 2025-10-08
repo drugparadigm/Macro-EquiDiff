@@ -1,4 +1,4 @@
-name: mact_git
+name: mact
 channels:
   - defaults
   - conda-forge
@@ -10,6 +10,7 @@ dependencies:
   - tqdm
   - pandas
   - pip
+  - openbabel=3.1.1=py310h154a6b4_3
   - pip:
       - torch>=2.0.0
       - torchvision

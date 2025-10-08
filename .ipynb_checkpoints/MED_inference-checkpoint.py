@@ -121,7 +121,7 @@ def run_macformer_on_smiles_in_memory(smiles, inter_dir):
     vocab_path = "MacTransformer/vocab.pt"
 
     subprocess.run([
-        "conda", "run", "-n", "mact_git", "--no-capture-output",
+        "conda", "run", "-n", "mact", "--no-capture-output",
         "python", "MacTransformer/pipeline_predict.py",
         "--checkpoint", "MacTransformer/macTransformer_checkpoint.pth",
         "--smiles", smiles,  
@@ -148,7 +148,7 @@ def filter_valid_smiles(smiles_list):
 
 def run_EDM(inter_dir):
     subprocess.run([
-        "conda", "run", "-n", "edm_git", "--no-capture-output",
+        "conda", "run", "-n", "edm", "--no-capture-output",
         "python", "-W", "ignore", "EDM/generate.py",
         "--fragments", f"{inter_dir}/user_input.sdf",
         "--model", "EDM/models/geom_EDM.ckpt",

@@ -1,4 +1,4 @@
-name: edm_git
+name: edm
 channels:
   - conda-forge
   - https://repo.anaconda.com/pkgs/main
