@@ -121,9 +121,9 @@ def run_macformer_on_smiles_in_memory(smiles, inter_dir):
     vocab_path = "MacTransformer/vocab.pt"
 
     subprocess.run([
-        "conda", "run", "-n", "myenv", "--no-capture-output",
+        "conda", "run", "-n", "mact_git", "--no-capture-output",
         "python", "MacTransformer/pipeline_predict.py",
-        "--checkpoint", "MacTransformer/macformer_checkpoint_epoch_18.pth",
+        "--checkpoint", "MacTransformer/macTransformer_checkpoint.pth",
         "--smiles", smiles,  
         "--output_file", out_path,
         "--vocab", vocab_path,
@@ -148,7 +148,7 @@ def filter_valid_smiles(smiles_list):
 
 def run_EDM(inter_dir):
     subprocess.run([
-        "conda", "run", "-n", "dl2", "--no-capture-output",
+        "conda", "run", "-n", "edm_git", "--no-capture-output",
         "python", "-W", "ignore", "EDM/generate.py",
         "--fragments", f"{inter_dir}/user_input.sdf",
         "--model", "EDM/models/geom_EDM.ckpt",
@@ -703,7 +703,7 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
     # Save predictions
     out_path = os.path.join(run_dir, f"valid_macformer_smiles.txt")
     with open(out_path, "a") as f:
-        # 2️⃣ Then write all predictions
+        # Then write all predictions
         for pred in all_macformer_outputs:
             f.write(pred + "\n")
     # Step 3: Filter valid linkers
@@ -719,7 +719,8 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
     linkers_sdf_path = os.path.join(run_dir, "linkers.sdf")
     valid_linkers_found = False
     macro_linker_pairs = []
-
+    
+    top_macrocycle=None
     while retry_count < max_retries and (not macro_linker_pairs or top_macrocycle is None):
         try:
             run_EDM(run_dir)
@@ -904,6 +905,6 @@ if __name__ == "__main__":
         # Save to CSV
         output_csv = os.path.join(INTER_DIR, "top_performing_per_input.csv")
         top_macrocycles_df.to_csv(output_csv, index=False)
-        print(f"✅ Top performing macrocycles for each input saved to {output_csv}")
+        print(f"Top performing macrocycles for each input saved to {output_csv}")
     else:
         print("⚠ No valid macrocycles found for any input SMILES")

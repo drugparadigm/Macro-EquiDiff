@@ -1,4 +1,4 @@
-name: dl2
+name: edm_git
 channels:
   - conda-forge
   - https://repo.anaconda.com/pkgs/main

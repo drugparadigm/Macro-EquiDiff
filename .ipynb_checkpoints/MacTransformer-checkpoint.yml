@@ -1,4 +1,4 @@
-name: myenv
+name: mact_git
 channels:
   - defaults
   - conda-forge

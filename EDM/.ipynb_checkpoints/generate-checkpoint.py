@@ -178,7 +178,7 @@ def main(input_path, model, output_dir, n_samples, n_steps, linker_size, anchors
         for i in range(batch_size):
             out_xyz = f'{output_dir}/output_{offset_idx+i}_{name}_.xyz'
             out_sdf = f'{output_dir}/output_{offset_idx+i}_{name}_.sdf'
-            obabel_path = "/home/macrocycles/.conda/envs/myenv/bin/obabel"
+            obabel_path = "obabel"
             result = subprocess.run(
             f'{obabel_path} {out_xyz} -O {out_sdf}',
             shell=True,

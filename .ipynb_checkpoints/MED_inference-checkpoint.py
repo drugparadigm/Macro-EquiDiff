@@ -14,7 +14,7 @@ import torch
 
 
 INTER_DIR = "intermediates"
-N_AUGMENT = 3
+N_AUGMENT = 5
 
 try:
     from DiffLinker.src.delinker_utils.sascorer import calculateScore as calculate_sa_score
@@ -52,15 +52,15 @@ def neutralize_radicals(mol):
     return mol
 
 def remove_radicals(smiles_input):
-
-    # Process SMILES with radicals and return neutralized SMILES.
+    """
+    Process SMILES with radicals and return neutralized SMILES.
     
-    # Args:
-    #     smiles_input: Input SMILES string (may contain radicals)
+    Args:
+        smiles_input: Input SMILES string (may contain radicals)
         
-    # Returns:
-    #     str: Output SMILES string with radicals neutralized, or None if error
-
+    Returns:
+        str: Output SMILES string with radicals neutralized, or None if error
+    """
     try:
         # Parse SMILES to molecule (don't sanitize initially)
         mol = Chem.MolFromSmiles(smiles_input, sanitize=False)
@@ -121,9 +121,9 @@ def run_macformer_on_smiles_in_memory(smiles, inter_dir):
     vocab_path = "MacTransformer/vocab.pt"
 
     subprocess.run([
-        "conda", "run", "-n", "myenv", "--no-capture-output",
+        "conda", "run", "-n", "mact_git", "--no-capture-output",
         "python", "MacTransformer/pipeline_predict.py",
-        "--checkpoint", "MacTransformer/macformer_checkpoint_epoch_18.pth",
+        "--checkpoint", "MacTransformer/macTransformer_checkpoint.pth",
         "--smiles", smiles,  
         "--output_file", out_path,
         "--vocab", vocab_path,
@@ -148,7 +148,7 @@ def filter_valid_smiles(smiles_list):
 
 def run_EDM(inter_dir):
     subprocess.run([
-        "conda", "run", "-n", "dl2", "--no-capture-output",
+        "conda", "run", "-n", "edm_git", "--no-capture-output",
         "python", "-W", "ignore", "EDM/generate.py",
         "--fragments", f"{inter_dir}/user_input.sdf",
         "--model", "EDM/models/geom_EDM.ckpt",
@@ -345,7 +345,9 @@ def mol_to_unique_smiles(mol):
         return None
 
 def find_terminal_atoms(mol):
-    # Find two terminal atoms with available valence from both ends of the linker.
+    """
+    Find two terminal atoms with available valence from both ends of the linker.
+    """
     atoms = mol.GetAtoms()
     n = len(atoms)
 
@@ -506,7 +508,9 @@ def process_ops(input_file, output_file):
             out.write(smi + '\n')
 
 def calculate_physicochemical_properties(smiles):
-    # Calculate physicochemical properties for a given SMILES string.
+    """
+    Calculate physicochemical properties for a given SMILES string.
+    """
     try:
         mol = Chem.MolFromSmiles(smiles)
         if mol is None:
@@ -535,7 +539,9 @@ def calculate_physicochemical_properties(smiles):
         return None
 
 def predict_admet_properties(mol):
-    # Predict simplified ADMET properties based on physicochemical properties.
+    """
+    Predict simplified ADMET properties based on physicochemical properties.
+    """
     mw = Descriptors.MolWt(mol)
     logp = Crippen.MolLogP(mol)
     psa = MolSurf.TPSA(mol)
@@ -574,7 +580,9 @@ def predict_admet_properties(mol):
     }
 
 def calculate_druglikeness_score(props, admet):
-   # Calculate a drug-likeness score based on physicochemical and ADMET properties.
+    """
+    Calculate a drug-likeness score based on physicochemical and ADMET properties.
+    """
     score = 0
     
     # Physicochemical scoring
@@ -695,7 +703,7 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
     # Save predictions
     out_path = os.path.join(run_dir, f"valid_macformer_smiles.txt")
     with open(out_path, "a") as f:
-        # 2️⃣ Then write all predictions
+        # Then write all predictions
         for pred in all_macformer_outputs:
             f.write(pred + "\n")
     # Step 3: Filter valid linkers
@@ -711,7 +719,8 @@ def process_single_smiles(user_smiles, inter_dir, input_id):
     linkers_sdf_path = os.path.join(run_dir, "linkers.sdf")
     valid_linkers_found = False
     macro_linker_pairs = []
-
+    
+    top_macrocycle=None
     while retry_count < max_retries and (not macro_linker_pairs or top_macrocycle is None):
         try:
             run_EDM(run_dir)
@@ -896,6 +905,6 @@ if __name__ == "__main__":
         # Save to CSV
         output_csv = os.path.join(INTER_DIR, "top_performing_per_input.csv")
         top_macrocycles_df.to_csv(output_csv, index=False)
-        print(f"✅ Top performing macrocycles for each input saved to {output_csv}")
+        print(f"Top performing macrocycles for each input saved to {output_csv}")
     else:
         print("⚠ No valid macrocycles found for any input SMILES")
