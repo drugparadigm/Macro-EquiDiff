@@ -1,0 +1,10 @@
+__pycache__/
+.env
+mact_git/
+edm_git/
+*.pth
+*.ckpt
+edm/models/
+MacTransformer/macformer_checkpoint_epoch_*.pth
+*.csv
+intermediates/
