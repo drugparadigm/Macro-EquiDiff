@@ -36,7 +36,7 @@ parser.add_argument(
     help='Directory where sampled molecules will be saved'
 )
 parser.add_argument(
-    '--n_samples', action='store', type=int, required=False, default=10,
+    '--n_samples', action='store', type=int, required=False, default=25,
     help='Number of linkers to generate'
 )
 parser.add_argument(
@@ -178,13 +178,26 @@ def main(input_path, model, output_dir, n_samples, n_steps, linker_size, anchors
         for i in range(batch_size):
             out_xyz = f'{output_dir}/output_{offset_idx+i}_{name}_.xyz'
             out_sdf = f'{output_dir}/output_{offset_idx+i}_{name}_.sdf'
-            obabel_path = "obabel"
+            # obabel_path = "obabel"
+            # result = subprocess.run(
+            # f'{obabel_path} {out_xyz} -O {out_sdf}',
+            # shell=True,
+            # stdout=subprocess.PIPE,
+            # stderr=subprocess.PIPE,
+            # text=True
+            # )
+            env = os.environ.copy()
+            
+            ob_dir = os.path.join(os.environ["CONDA_PREFIX"], "lib", "openbabel")
+            versions = os.listdir(ob_dir)
+            env["BABEL_LIBDIR"] = os.path.join(ob_dir, versions[0])
+            
             result = subprocess.run(
-            f'{obabel_path} {out_xyz} -O {out_sdf}',
-            shell=True,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True
+                ["obabel", out_xyz, "-O", out_sdf],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                text=True,
+                env=env
             )
             print(result.stderr)  # will show any obabel error
 
