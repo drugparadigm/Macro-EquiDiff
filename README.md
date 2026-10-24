@@ -41,12 +41,12 @@ As a case study, MED was used to macrocyclize four acyclic drugs targeting the J
 2. **Prepare input SMILES**:
    Place a list of SMILES strings in a text file named:
    ```
-   inference_text.txt
+   inference_test.txt
    ```
 
 3. **Run the pipeline**:
    ```bash
-   python inference.py
+   python MED_inference.py
    ```
 
 ---
