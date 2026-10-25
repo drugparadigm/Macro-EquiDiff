@@ -205,6 +205,10 @@ for obj in tqdm(data):
     novel_cnt += novel
     total_cnt += 1
 
+novelty = novel_cnt / total_cnt * 100
+print(f'Novelty: {novelty:.3f}%')
+summary['novelty'] = novelty
+
 
 # ----------------- Recovery ---------------- #
 
