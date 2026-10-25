@@ -57,13 +57,13 @@ Macro-EquiDiff/
 ├── MacTransformer/
 │   ├── pipeline_predict.py       # transformer inference
 │   ├── vocab.pt                  # vocabulary (included)
-│   ├── macTransformer_checkpoint.pth   # <-- PUT THE TRANSFORMER CHECKPOINT HERE
+│   ├── macTransformer_checkpoint.pth   # transformer checkpoint (see Setup)
 │   └── datasets/data/            # train.csv, data.csv, zinc_test.txt
 └── EDM/
     ├── generate.py               # diffusion-based linker generation
     ├── compute_metrics.py        # benchmark metrics (validity, uniqueness, novelty, ...)
     ├── configs/geom_EDM.yml
-    └── models/                   # <-- CREATE THIS FOLDER AND PUT THE EDM CHECKPOINTS HERE
+    └── models/                   # model checkpoints (see Setup)
         ├── geom_EDM.ckpt
         └── geom_size_gnn.ckpt
 ```
@@ -96,7 +96,9 @@ Macro-EquiDiff/
 |---|---|---|---|
 | Diffusion model (DiffLinker, GEOM) | Linker generation | [geom_difflinker.ckpt](https://zenodo.org/record/7121300/files/geom_difflinker.ckpt?download=1) | `EDM/models/geom_EDM.ckpt` (rename after download) |
 | Linker-size model | Predicts the linker size | [geom_size_gnn.ckpt](https://zenodo.org/record/7121300/files/geom_size_gnn.ckpt?download=1) | `EDM/models/geom_size_gnn.ckpt` |
-| MacTransformer | Attachment-site prediction | *add the link to your checkpoint file here* | `MacTransformer/macTransformer_checkpoint.pth` |
+| MacTransformer | Attachment-site prediction | Available on request (see below) | `MacTransformer/macTransformer_checkpoint.pth` |
+
+The MacTransformer checkpoint (about 66 MB) is too large to host in this repository. To obtain it, please contact sanjanagogte@drugparadigm.in.
 
 Notes:
 - The two diffusion checkpoints are the pretrained DiffLinker models, used as released. DiffLinker's model archive is also at <https://doi.org/10.5281/zenodo.7775568>.
@@ -222,4 +224,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For questions or support, open an issue on the repository or contact the maintainers at `<your-contact-email>`.
+For questions or support, open an issue on the repository or contact the maintainers at sanjanagogte@drugparadigm.in.
