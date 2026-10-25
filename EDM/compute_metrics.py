@@ -168,10 +168,22 @@ summary['uniqueness'] = uniqueness
 
 # ----------------- Novelty ---------------- #
 
+from rdkit.Chem.MolStandardize import rdMolStandardize
+_taut = rdMolStandardize.TautomerEnumerator()
+
+def clean_linker(smi):
+    mol = Chem.MolFromSmiles(smi)
+    if mol is None:
+        return None
+    Chem.RemoveStereochemistry(mol)
+    return Chem.MolToSmiles(_taut.Canonicalize(mol))
+
 linkers_train = set()
 with open(train_set_path, 'r') as f:
     for line in f:
-        linkers_train.add(line.strip())
+        cleaned = clean_linker(line.strip())      # same cleaning on the training side
+        if cleaned is not None:
+            linkers_train.add(cleaned)
 
 novel_cnt = 0
 total_cnt = 0
@@ -181,11 +193,11 @@ for obj in tqdm(data):
         obj['novel'] = False
         continue
 
-    try:
-        linker = Chem.RemoveStereochemistry(obj['pred_linker'])
-        linker = MolStandardize.canonicalize_tautomer_smiles(Chem.MolToSmiles(linker))
-    except Exception:
-        linker = obj['pred_linker']
+    linker = clean_linker(obj['pred_linker'])
+    if linker is None:
+        obj['pred_linker_clean'] = None
+        obj['novel'] = False
+        continue
 
     novel = linker not in linkers_train
     obj['pred_linker_clean'] = linker
@@ -193,9 +205,6 @@ for obj in tqdm(data):
     novel_cnt += novel
     total_cnt += 1
 
-novelty = novel_cnt / total_cnt * 100
-print(f'Novelty: {novelty:.3f}%')
-summary['novelty'] = novelty
 
 # ----------------- Recovery ---------------- #
 
